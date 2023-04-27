@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-[75%] md:text-[80%] lg:text-[90%] xl:text-[100%] 2xl:text-[110%] box-border duration-200;
+}
+body {
+  @apply font-gilory bg-bg-color text-black-primary max-w-[100vw] overflow-x-hidden;
+}
+.container {
+  @apply max-w-[90%] mx-auto sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+}

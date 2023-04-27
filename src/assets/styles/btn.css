@@ -1,0 +1,13 @@
+.btn {
+  @apply bg-yellowish py-2 px-4 rounded-full relative  duration-200 inline-block;
+}
+.btn:hover {
+  @apply z-10 -translate-x-2 -translate-y-2;
+}
+.btn::before {
+  content: "";
+  @apply absolute w-full h-full border-4 border-yellow-300 rounded-full top-0 left-0 -z-10 duration-200;
+}
+.btn:hover::before {
+  @apply top-3 left-3 -z-50;
+}
