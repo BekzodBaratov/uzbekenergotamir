@@ -1,6 +1,9 @@
 .text-primary {
   @apply text-2xl font-bold pb-3 text-primary-color;
 }
+.text-big {
+  @apply text-3xl font-bold pb-3 text-primary-color;
+}
 .text-secondary {
   @apply text-base font-normal text-secondary-color pb-3;
 }

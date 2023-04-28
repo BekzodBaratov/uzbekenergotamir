@@ -1,13 +1,13 @@
 <template>
-  <header class="header">
+  <header class="header relative">
     <div class="container">
       <ul class="flex justify-between items-center gap-6">
         <li>
           <RouterLink to="/">
-            <img :src="header_logo" alt="header_logo" />
+            <img class="w-20 md:w-32" :src="header_logo" alt="header_logo" />
           </RouterLink>
         </li>
-        <li>
+        <li class="hidden md:block">
           <ul class="flex gap-4">
             <li class="link group" v-for="link in headerNav">
               <RouterLink class="float-left" :to="link.href">
@@ -22,10 +22,24 @@
             </li>
           </ul>
         </li>
-        <li>
+        <li class="hidden md:block">
           <ul class="langMenu">
             <li v-for="lang in languages" :key="lang.id">
               <img :src="lang.image" :alt="lang.name" />
+            </li>
+          </ul>
+        </li>
+        <li @click="mobileMenu = !mobileMenu" class="md:hidden">menu</li>
+      </ul>
+      <ul v-if="mobileMenu" class="absolute top-full z-20 bg-white inset-x-0 border-t gap-4 space-y-2">
+        <li class="group border-b pt-3" v-for="link in headerNav">
+          <RouterLink class="" :to="link.href">
+            {{ link.name }}
+          </RouterLink>
+
+          <ul v-if="link?.submenu" class="submenu">
+            <li v-for="subLink in link.submenu">
+              <RouterLink :to="subLink.href">{{ subLink.name }}</RouterLink>
             </li>
           </ul>
         </li>
@@ -39,6 +53,9 @@ import header_logo from "../assets/images/header/header_logo.png";
 import uz from "../assets/images/header/uz.png";
 import ru from "../assets/images/header/ru.png";
 import uk from "../assets/images/header/uk.png";
+import { ref } from "vue";
+
+const mobileMenu = ref(false);
 
 const headerNav = [
   {
