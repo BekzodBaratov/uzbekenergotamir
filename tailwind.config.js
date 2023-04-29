@@ -11,6 +11,9 @@ export default {
         "black-primary": "#1F1F1F",
         "secondary-color": "#5B5A60",
         "primary-color": "#1E1E1E",
+        "border-color": "#EBEBEB",
+        "input-fill": "#FBFBFB",
+        "input-focus": "#FFC727",
       },
       backgroundImage: {
         yellowish: "linear-gradient(92.63deg, #F3C140 0%, #FBEA74 53.27%, #F6D251 116.73%)",

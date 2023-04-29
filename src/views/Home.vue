@@ -5,6 +5,7 @@
   <Divisions />
   <Local />
   <Partners />
+  <Calculate />
 </template>
 
 <script setup>
@@ -14,4 +15,5 @@ import Banner from "../components/home/Banner.vue";
 import Divisions from "../components/home/Divisions.vue";
 import Local from "../components/home/Local.vue";
 import Partners from "../components/home/Partners.vue";
+import Calculate from "../components/home/Calculate.vue";
 </script>

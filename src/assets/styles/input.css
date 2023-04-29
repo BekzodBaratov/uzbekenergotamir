@@ -1,0 +1,12 @@
+.inp-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.inp-box .calc-input,
+.inp-box select {
+  @apply border w-full border-border-color  focus:outline focus:outline-offset-0 focus:outline-input-focus py-1 px-2 rounded-md bg-input-fill;
+}
+.inp-box label {
+  @apply font-bold;
+}

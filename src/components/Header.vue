@@ -32,8 +32,15 @@
         <li @click="mobileMenu = !mobileMenu" class="md:hidden">menu</li>
       </ul>
       <ul v-if="mobileMenu" class="absolute top-full z-20 bg-white inset-x-0 border-t gap-4 space-y-2">
-        <li class="group border-b pt-3" v-for="link in headerNav">
-          <RouterLink class="" :to="link.href">
+        <li>
+          <ul class="langMenu container md:w-full py-3">
+            <li v-for="lang in languages" :key="lang.id">
+              <img class="w-5" :src="lang.image" :alt="lang.name" />
+            </li>
+          </ul>
+        </li>
+        <li class="group border-b group" v-for="link in headerNav">
+          <RouterLink class="block pt-3 container group-focus-within:bg-yellowish" :to="link.href">
             {{ link.name }}
           </RouterLink>
 
@@ -106,11 +113,12 @@ const languages = [
 .submenu li {
   @apply duration-200 hover:bg-yellowish  py-2 px-3 rounded-md text-black-primary text-start;
 }
-.router-link-active {
+.router-link-active,
+.router-link-active-exact {
   @apply text-blue-primary;
 }
 .langMenu {
-  @apply flex gap-3;
+  @apply flex gap-3 justify-end;
 }
 .langMenu li {
   @apply border  border-gray-400 p-2 rounded-full aspect-square flex justify-center items-center hover:bg-blue-primary duration-200;

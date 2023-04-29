@@ -1,7 +1,21 @@
 <template>
-  <section class="partners">
+  <section class="partners py-12">
     <div class="container">
-      <h1 class="text-big">Наши партнеры</h1>
+      <h1 class="text-big pb-12">Наши партнеры</h1>
+      <div
+        v-if="store.partners.length"
+        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-8"
+      >
+        <PartnersCard v-for="partner in store.partners" :key="partner._id" :partner="partner" />
+      </div>
     </div>
   </section>
 </template>
+
+<script setup>
+import { usePartnerStore } from "../../stores/partners.js";
+import PartnersCard from "../cards/PartnersCard.vue";
+const store = usePartnerStore();
+
+store.getAllPartners();
+</script>

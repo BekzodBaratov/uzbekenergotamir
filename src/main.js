@@ -7,6 +7,9 @@ import App from "./App.vue";
 
 import "./plugins/axios";
 import "./style.css";
+import "./assets/styles/btn.css";
+import "./assets/styles/input.css";
+import "./assets/styles/text.css";
 
 const app = createApp(App);
 
