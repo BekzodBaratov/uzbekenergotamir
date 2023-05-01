@@ -108,7 +108,7 @@ const languages = [
   @apply max-w-[16rem] text-center relative font-medium duration-200 hover:text-blue-primary;
 }
 .submenu {
-  @apply absolute top-full left-0 invisible group-hover:visible shadow-md bg-white rounded-md p-4 min-w-max;
+  @apply absolute top-full left-0 invisible z-50 group-hover:visible shadow-md bg-white rounded-md p-4 min-w-max;
 }
 .submenu li {
   @apply duration-200 hover:bg-yellowish  py-2 px-3 rounded-md text-black-primary text-start;
