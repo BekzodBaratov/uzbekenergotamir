@@ -50,6 +50,6 @@ function handleform() {}
 
 <style scoped>
 .contact-card {
-  @apply bg-white md:flex gap-8;
+  @apply bg-white md:flex gap-8 shadow-xl;
 }
 </style>

@@ -49,7 +49,7 @@
     <div class="absolute right-0 inset-y-0 z-10">
       <img class="" src="../../assets/images/calculate/Rectangle.png" alt="calc_bg_img" />
     </div>
-    <div class="absolute top-1/2 left-1/2 -translate-y-1/2">
+    <div class="absolute top-1/2 left- -translate-y-1/2">
       <img src="../../assets/images/calculate/Rectangle-1.png" alt="calc_bg_img" />
     </div>
   </section>

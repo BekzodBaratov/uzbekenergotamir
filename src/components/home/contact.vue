@@ -87,6 +87,7 @@ const data = [
 <style scoped>
 section.contact {
   position: relative;
+  margin-bottom: 3rem;
 }
 .shape-left {
   position: absolute;

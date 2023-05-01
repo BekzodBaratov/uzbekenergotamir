@@ -16,6 +16,8 @@ export default {
         "border-color": "#EBEBEB",
         "input-fill": "#FBFBFB",
         "input-focus": "#FFC727",
+        "footer-fill": "#1F262D",
+        "footer-text": "#cccccc",
       },
       backgroundImage: {
         yellowish: "linear-gradient(92.63deg, #F3C140 0%, #FBEA74 53.27%, #F6D251 116.73%)",
