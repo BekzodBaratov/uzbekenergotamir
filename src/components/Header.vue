@@ -24,7 +24,7 @@
         </li>
         <li class="hidden md:block">
           <ul class="langMenu">
-            <li v-for="lang in languages" :key="lang.id">
+            <li v-for="lang in languages" :key="lang.id" @click="() => changeLangHandle(lang.name)">
               <img :src="lang.image" :alt="lang.name" />
             </li>
           </ul>
@@ -34,7 +34,7 @@
       <ul v-if="mobileMenu" class="absolute top-full z-20 bg-white inset-x-0 border-t gap-4 space-y-2">
         <li>
           <ul class="langMenu container md:w-full py-3">
-            <li v-for="lang in languages" :key="lang.id">
+            <li v-for="lang in languages" :key="lang.id" @click="() => changeLangHandle(lang.name)">
               <img class="w-5" :src="lang.image" :alt="lang.name" />
             </li>
           </ul>
@@ -56,48 +56,55 @@
 </template>
 
 <script setup>
+import { useI18n } from "vue-i18n";
 import header_logo from "../assets/images/header/header_logo.png";
 import uz from "../assets/images/header/uz.png";
 import ru from "../assets/images/header/ru.png";
 import uk from "../assets/images/header/uk.png";
 import { ref } from "vue";
+const { t, locale } = useI18n();
 
 const mobileMenu = ref(false);
 
 const headerNav = [
   {
-    name: "О нас",
+    name: t("header[0].name"),
     href: "/about",
     submenu: [
-      { name: "Наша история", href: "/about/history" },
-      { name: "Руководители", href: "/about/leaders" },
-      { name: "Финансы и подразделения", href: "/about/finance" },
-      { name: "Мы в новостях", href: "/about/news" },
-      { name: "Афилированные компании", href: "/about/affiliated_companies" },
+      { name: t("header[0].submenu[0]"), href: "/about/history" },
+      { name: t("header[0].submenu[1]"), href: "/about/leaders" },
+      { name: t("header[0].submenu[2]"), href: "/about/finance" },
+      { name: t("header[0].submenu[3]"), href: "/about/news" },
+      { name: t("header[0].submenu[4]"), href: "/about/affiliated_companies" },
     ],
   },
-  { name: "Теплоэнергетика", href: "/thermal_energy" },
+  { name: t("header[1].name"), href: "/thermal_energy" },
   {
-    name: "Каталог",
+    name: t("header[2].name"),
     href: "/catalog",
     submenu: [
-      { name: "Наша история", href: "/about/history" },
-      { name: "Руководители", href: "/about/leaders" },
-      { name: "Финансы и подразделения", href: "/about/finance" },
-      { name: "Мы в новостях", href: "/about/news" },
-      { name: "Афилированные компании", href: "/about/affiliated_companies" },
+      { name: t("header[2].submenu[0]"), href: "/about/history" },
+      { name: t("header[2].submenu[1]"), href: "/about/leaders" },
+      { name: t("header[2].submenu[2]"), href: "/about/finance" },
+      { name: t("header[2].submenu[3]"), href: "/about/news" },
+      { name: t("header[2].submenu[4]"), href: "/about/affiliated_companies" },
     ],
   },
-  { name: "Возобновляемые источники энерги", href: "/" },
-  { name: "Сервисный центр", href: "/service" },
-  { name: "Учебный центр", href: "/educational" },
-  { name: "Контакты", href: "/contact" },
+  { name: t("header[3].name"), href: "/" },
+  { name: t("header[4].name"), href: "/service" },
+  { name: t("header[5].name"), href: "/educational" },
+  { name: t("header[6].name"), href: "/contact" },
 ];
 const languages = [
   { id: 0, image: uz, name: "uz" },
   { id: 1, image: ru, name: "ru" },
-  { id: 2, image: uk, name: "uk" },
+  { id: 2, image: uk, name: "en" },
 ];
+function changeLangHandle(langName) {
+  locale.value = langName;
+  localStorage.setItem("lng", langName);
+  window.location.reload();
+}
 </script>
 
 <style scoped>

@@ -1,8 +1,9 @@
 import { createI18n } from "vue-i18n";
 import uz from "../language/uz.json";
 import ru from "../language/ru.json";
+import en from "../language/en.json";
 
-const locale = localStorage.getItem("locale") || "ru";
+const locale = localStorage.getItem("lng") || "ru";
 
 const i18n = createI18n({
   locale,
@@ -10,7 +11,7 @@ const i18n = createI18n({
   fallbackLocale: "ru",
   silentFallbackWarn: true,
   globalInjection: true,
-  messages: { uz, ru },
+  messages: { uz, ru, en },
 });
 
 export default i18n;

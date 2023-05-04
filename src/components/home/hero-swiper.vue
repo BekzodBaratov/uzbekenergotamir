@@ -1,7 +1,7 @@
 <template>
   <swiper
     :pagination="true"
-    :modules="[Pagination]"
+    :modules="[Pagination, Autoplay]"
     :loop="true"
     :centeredSlides="true"
     :autoplay="{
@@ -30,7 +30,7 @@
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css/bundle";
 import "../../assets/styles/btn.css";
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 const props = defineProps(["content"]);
 console.log(props.content);

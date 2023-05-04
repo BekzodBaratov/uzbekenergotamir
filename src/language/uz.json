@@ -1,3 +1,29 @@
 {
-  "hello": "Assalomu alaykum"
+  "header": [
+    {
+      "name": "Biz Haqimizda",
+      "submenu": [
+        "Bizning Tarix",
+        "Bizning Leaderlar",
+        "Moliya va bo'linmalar",
+        "Bizning yangliklar",
+        "Birlashgan kompaniyalar"
+      ]
+    },
+    { "name": "Issiqlik energetikasi" },
+    {
+      "name": "Katalog",
+      "submenu": [
+        "Bizning Tarix",
+        "Bizning Leaderlar",
+        "Moliya va bo'linmalar",
+        "Bizning yangliklar",
+        "Birlashgan kompaniyalar"
+      ]
+    },
+    { "name": "Qayta tiklanadigan energiya manbalari" },
+    { "name": "Xizmat ko'rsatish markazi" },
+    { "name": "Ta'lim markazi" },
+    { "name": "Kontaktlar" }
+  ]
 }

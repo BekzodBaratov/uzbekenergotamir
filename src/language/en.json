@@ -1,3 +1,17 @@
 {
-  "hello": "hello world"
+  "header": [
+    {
+      "name": "About Us",
+      "submenu": ["Our History", "Leaders", "Finance and divisions", "We're in the news", "Affiliated companies"]
+    },
+    { "name": "Thermal power engineering" },
+    {
+      "name": "Catalog",
+      "submenu": ["Our History", "Leaders", "Finance and divisions", "We're in the news", "Affiliated companies"]
+    },
+    { "name": "Renewable energy sources" },
+    { "name": "Service center" },
+    { "name": "The educational center" },
+    { "name": "Contacts" }
+  ]
 }
