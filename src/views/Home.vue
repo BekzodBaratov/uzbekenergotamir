@@ -6,7 +6,7 @@
   <Local />
   <Partners />
   <Calculate />
-  <Contact />
+  <ContactSection />
 </template>
 
 <script setup>
@@ -17,5 +17,5 @@ import Divisions from "../components/home/Divisions.vue";
 import Local from "../components/home/Local.vue";
 import Partners from "../components/home/Partners.vue";
 import Calculate from "../components/home/Calculate.vue";
-import Contact from "../components/home/Contact.vue";
+import ContactSection from "../components/home/ContactSection.vue";
 </script>
