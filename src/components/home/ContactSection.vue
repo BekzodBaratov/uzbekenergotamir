@@ -66,7 +66,7 @@
 </template>
 
 <script setup>
-import ContactCard from "../cards/contactCard.vue";
+import ContactCard from "../cards/ContactCard.vue";
 import icon1 from "../../assets/images/contact/contact-icon1.svg";
 import icon2 from "../../assets/images/contact/contact-icon-2.svg";
 import icon3 from "../../assets/images/contact/contact-icon3.svg";
