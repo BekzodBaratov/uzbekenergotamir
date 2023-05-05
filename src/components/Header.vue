@@ -7,14 +7,14 @@
             <img class="w-20 md:w-32" :src="header_logo" alt="header_logo" />
           </RouterLink>
         </li>
-        <li class="hidden md:block">
+        <li class="hidden lg:block">
           <ul class="flex gap-4">
             <li class="link group" v-for="link in headerNav">
               <RouterLink class="float-left" :to="link.href">
                 {{ link.name }}
               </RouterLink>
 
-              <ul v-if="link?.submenu" class="submenu">
+              <ul v-if="link?.submenu" class="submenu absolute top-full hidden">
                 <li v-for="subLink in link.submenu">
                   <RouterLink :to="subLink.href">{{ subLink.name }}</RouterLink>
                 </li>
@@ -22,26 +22,25 @@
             </li>
           </ul>
         </li>
-        <li class="hidden md:block">
+        <li class="hidden lg:block">
           <ul class="langMenu">
             <li v-for="lang in languages" :key="lang.id" @click="() => changeLangHandle(lang.name)">
               <img :src="lang.image" :alt="lang.name" />
             </li>
           </ul>
         </li>
-        <li @click="mobileMenu = !mobileMenu" class="md:hidden">menu</li>
-      </ul>
-      <ul v-if="mobileMenu" class="absolute top-full z-20 bg-white inset-x-0 border-t gap-4 space-y-2">
-        <li>
-          <ul class="langMenu container md:w-full py-3">
-            <li v-for="lang in languages" :key="lang.id" @click="() => changeLangHandle(lang.name)">
-              <img class="w-5" :src="lang.image" :alt="lang.name" />
-            </li>
-          </ul>
+        <li @click="mobileMenu = !mobileMenu" class="lg:hidden">
+          <img width="20" src="../assets/images/header/mobile-menu.svg" alt="menu-bar" />
         </li>
-        <li class="group border-b group" v-for="link in headerNav">
-          <RouterLink class="block pt-3 container group-focus-within:bg-yellowish" :to="link.href">
-            {{ link.name }}
+      </ul>
+
+      <ul
+        class="lg:hidden absolute top-0 z-20 inset-x-0 bg-white border-t gap-4 space-y-2 font-medium rounded-b-xl shadow-lg duration-300 py-8"
+        :class="mobileMenu ? 'translate-y-0' : '-translate-y-full'"
+      >
+        <li class="group" v-for="link in headerNav">
+          <RouterLink class="pt-3 container group-focus-within:text-green-primary flex gap-1" :to="link.href">
+            {{ link.name }} <img v-if="link?.submenu" src="../assets/images/header/Arrow-down.svg" alt="Arrow-down" />
           </RouterLink>
 
           <ul v-if="link?.submenu" class="submenu">
@@ -49,6 +48,23 @@
               <RouterLink :to="subLink.href">{{ subLink.name }}</RouterLink>
             </li>
           </ul>
+        </li>
+        <li>
+          <ul class="langMenu container md:w-full py-3">
+            <li v-for="lang in languages" :key="lang.id" @click="() => changeLangHandle(lang.name)">
+              <img class="w-5" :src="lang.image" :alt="lang.name" />
+            </li>
+          </ul>
+        </li>
+        <li class="container">
+          <p>103445, г. Ташкент, ул. Ш.Арипар, 96А</p>
+        </li>
+        <li class="container flex flex-col">
+          <a class="hover:text-green-primary" href="tel:+998-71-778-78-78">+998-71-778-78-78</a>
+          <a class="hover:text-green-primary" href="tel:+998-71-778-78-78">+998-71-778-78-78</a>
+        </li>
+        <li @click="mobileMenu = false" class="absolute top-3 right-3 p-3">
+          <img src="../assets/images/header/xmark.svg" alt="close" />
         </li>
       </ul>
     </div>
@@ -112,22 +128,22 @@ function changeLangHandle(langName) {
   @apply shadow-md py-3;
 }
 .link {
-  @apply max-w-[16rem] text-center relative font-medium duration-200 hover:text-blue-primary;
+  @apply max-w-[16rem] text-center relative font-medium duration-200 hover:text-green-primary;
 }
 .submenu {
-  @apply absolute top-full left-0 invisible z-50 group-hover:visible shadow-md bg-white rounded-md p-4 min-w-max;
+  @apply hidden z-50 group-focus-within:block group-hover:block bg-white rounded-md p-4 min-w-max pl-12;
 }
 .submenu li {
-  @apply duration-200 hover:bg-yellowish  py-2 px-3 rounded-md text-black-primary text-start;
+  @apply duration-200  py-2 px-3 rounded-md text-black-primary text-start;
 }
 .router-link-active,
 .router-link-active-exact {
-  @apply text-blue-primary;
+  @apply text-green-primary;
 }
 .langMenu {
-  @apply flex gap-3 justify-end;
+  @apply flex gap-3 justify-start pt-6;
 }
 .langMenu li {
-  @apply border  border-gray-400 p-2 rounded-full aspect-square flex justify-center items-center hover:bg-blue-primary duration-200;
+  @apply border  border-gray-400 p-2 rounded-full aspect-square flex justify-center items-center hover:bg-green-primary duration-200;
 }
 </style>

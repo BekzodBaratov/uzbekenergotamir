@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  @apply text-[75%] md:text-[80%] lg:text-[90%] xl:text-[100%] 2xl:text-[110%] box-border duration-200;
+  @apply text-[85%] md:text-[90%] lg:text-[95%] xl:text-[100%] 2xl:text-[110%] box-border duration-200;
 }
 body {
   @apply font-gilory bg-bg-color text-black-primary max-w-[100vw] overflow-x-hidden;

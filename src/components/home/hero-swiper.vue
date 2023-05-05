@@ -13,7 +13,7 @@
       <div class="absolute w-full h-full -z-50">
         <img class="w-full h-full object-cover object-center" :src="page.image" alt="" />
       </div>
-      <div class="flex justify-between pt-24 w-4/5 mx-auto">
+      <div class="hidden md:flex justify-between gap-3 pt-24 w-4/5 mx-auto">
         <div class="space-y-10">
           <img class="w-[40rem]" :src="page.logoImg" alt="logo-img" />
           <button class="btn">Связаться с нами</button>
@@ -21,6 +21,13 @@
         <div>
           <img class="w-72" :src="page.subImage" alt="" />
         </div>
+      </div>
+      <div class="w-4/5 mx-auto py-7">
+        <div class="flex flex-col items-center pb-8">
+          <img class="pb-8" :src="page.logoImg" alt="logo-img" />
+          <img :src="page.subImage" alt="sub-image" />
+        </div>
+        <button class="btn w-full">Связаться с нами</button>
       </div>
     </swiper-slide>
   </swiper>
