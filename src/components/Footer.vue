@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container space-y-3">
-      <div class="grid grid-cols-5 gap-6 pb-8">
+      <div class="grid sm:grid-cols-3 md:grid-cols-5 gap-6 pb-8">
         <div v-for="footerCol in footerData" :key="footerCol.id" class="flex flex-col gap-2">
           <img
             v-if="footerCol.id == 0"
@@ -37,7 +37,7 @@
         </div>
       </div>
       <hr />
-      <div class="flex justify-between">
+      <div class="flex justify-between flex-col sm:flex-row text-center">
         <p>{{ year }}. Все права защищены IES.uz</p>
         <p>Создание сайта <a class="footer-link underline" href="https://supersite.uz">Supersite</a></p>
       </div>

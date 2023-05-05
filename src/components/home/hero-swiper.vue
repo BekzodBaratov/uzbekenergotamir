@@ -22,10 +22,11 @@
           <img class="w-72" :src="page.subImage" alt="" />
         </div>
       </div>
-      <div class="w-4/5 mx-auto py-7">
+
+      <div class="md:hidden w-4/5 mx-auto py-7">
         <div class="flex flex-col items-center pb-8">
           <img class="pb-8" :src="page.logoImg" alt="logo-img" />
-          <img :src="page.subImage" alt="sub-image" />
+          <img class="w-80" :src="page.subImage" alt="sub-image" />
         </div>
         <button class="btn w-full">Связаться с нами</button>
       </div>
