@@ -15,7 +15,6 @@ const routes = [
   {
     path: "/about",
     name: "about",
-    component: Home,
     redirect: "/about/history",
     children: [
       {

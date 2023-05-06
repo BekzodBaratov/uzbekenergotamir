@@ -28,18 +28,10 @@
 
 <style scoped>
 section.about {
-  /* background-image: url("../../assets/images/about/about_bg.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* min-height: 120vh; */
 
   padding-top: 6rem;
-}
-@media (max-width: 1024px) {
-  .about {
-    /* background-image: none; */
-    /* background-image: linear-gradient(to bottom, #000, #000); */
-  }
 }
 </style>

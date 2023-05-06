@@ -10,12 +10,12 @@
 </template>
 
 <script setup>
-import Hero from "../components/home/Hero.vue";
-import About from "../components/home/About.vue";
-import Banner from "../components/home/Banner.vue";
-import Divisions from "../components/home/Divisions.vue";
-import Local from "../components/home/Local.vue";
-import Partners from "../components/home/Partners.vue";
-import Calculate from "../components/home/Calculate.vue";
-import ContactSection from "../components/home/ContactSection.vue";
+import Hero from "../components/sections/Hero.vue";
+import About from "../components/sections/About.vue";
+import Banner from "../components/sections/Banner.vue";
+import Divisions from "../components/sections/Divisions.vue";
+import Local from "../components/sections/Local.vue";
+import Partners from "../components/sections/Partners.vue";
+import Calculate from "../components/sections/Calculate.vue";
+import ContactSection from "../components/sections/ContactSection.vue";
 </script>
