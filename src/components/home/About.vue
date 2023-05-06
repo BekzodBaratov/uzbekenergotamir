@@ -1,6 +1,6 @@
 <template>
   <section class="about">
-    <div class="container flex justify-between gap-10">
+    <div class="container flex flex-col lg:flex-row justify-between gap-10">
       <div class="about-left">
         <h2 class="text-primary">О нас</h2>
         <p class="text-secondary">
@@ -11,15 +11,16 @@
         </p>
         <RouterLink to="/" class="btn">Подробнее</RouterLink>
       </div>
-      <div class="rounded-md">
+      <div class="self-center">
         <iframe
-          class="rounded-md"
+          class="rounded-xl"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/V01x63dJITQ"
           title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
       </div>
@@ -27,12 +28,8 @@
   </section>
 </template>
 
-<script setup>
-import "../../assets/styles/text.css";
-</script>
-
 <style scoped>
-.about {
+section.about {
   background-image: url("../../assets/images/about/about_bg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -40,5 +37,11 @@ import "../../assets/styles/text.css";
   min-height: 120vh;
 
   padding-top: 6rem;
+}
+@media (max-width: 1024px) {
+  .about {
+    /* background-image: none; */
+    background-image: linear-gradient(to bottom, #000, #000);
+  }
 }
 </style>
