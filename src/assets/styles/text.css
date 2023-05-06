@@ -1,14 +1,17 @@
 .text-primary {
-  @apply text-2xl font-bold pb-3 text-primary-color;
+  @apply text-xl md:text-2xl font-bold pb-3 text-primary-color;
 }
-.text-big {
-  @apply text-3xl font-bold pb-3 text-primary-color;
-}
-.text-secondary {
-  @apply text-base font-normal text-secondary-color pb-3;
+.text-primary-white {
+  @apply text-xl md:text-2xl font-bold pb-3 text-footer-text;
 }
 .text-primary2 {
   @apply text-xl font-bold pb-3 text-primary-color;
+}
+.text-big {
+  @apply text-xl md:text-3xl font-bold pb-3 text-primary-color;
+}
+.text-secondary {
+  @apply text-base font-normal text-secondary-color pb-3;
 }
 .circle-number {
   @apply cursor-pointer mb-3 relative w-12 aspect-square text-center z-50 font-semibold text-sm flex items-center justify-center;

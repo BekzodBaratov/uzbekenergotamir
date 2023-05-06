@@ -1,13 +1,13 @@
 <template>
   <section class="calculate">
     <div class="container">
-      <CalcCard class="min-w-[60rem]">
+      <CalcCard class="md:min-w-[40rem] lg:min-w-[60rem]">
         <h2 class="text-big text-center">Бесплатный калькулятор</h2>
         <p class="text-secondary text-center">
           So'rovnomani to'ldiring, biz yuk tashish narxini hisoblab chiqamiz va sizga pochta yoki telefon orqali
           ma'lumot yuboramiz
         </p>
-        <div class="grid grid-cols-3 gap-12">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12">
           <div class="inp-box">
             <label for="name">Ismingiz</label>
             <input class="calc-input" type="text" name="name" id="name" />
@@ -46,10 +46,10 @@
         </div>
       </CalcCard>
     </div>
-    <div class="absolute right-0 inset-y-0 z-10">
+    <div class="hidden md:block absolute right-0 inset-y-0 z-10">
       <img class="" src="../../assets/images/calculate/Rectangle.png" alt="calc_bg_img" />
     </div>
-    <div class="absolute top-1/2 left- -translate-y-1/2">
+    <div class="hidden md:block absolute top-1/2 left- -translate-y-1/2">
       <img src="../../assets/images/calculate/Rectangle-1.png" alt="calc_bg_img" />
     </div>
   </section>
@@ -61,7 +61,7 @@ import CalcCard from "../cards/CalculateCard.vue";
 
 <style scoped>
 section.calculate {
-  @apply bg-yellowish relative py-16 overflow-hidden min-h-[80vh];
+  @apply bg-yellowish relative py-16 overflow-hidden md:min-h-[80vh];
 }
 section.calculate .container {
   display: flex;

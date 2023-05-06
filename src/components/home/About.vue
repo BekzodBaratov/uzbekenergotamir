@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="about lg:bg-bgAbout lg:min-h-[120vh]">
     <div class="container flex flex-col lg:flex-row justify-between gap-10">
       <div class="about-left">
         <h2 class="text-primary">О нас</h2>
@@ -13,9 +13,7 @@
       </div>
       <div class="self-center">
         <iframe
-          class="rounded-xl"
-          width="560"
-          height="315"
+          class="rounded-xl w-[27rem] md:w-[40rem] aspect-video"
           src="https://www.youtube.com/embed/V01x63dJITQ"
           title="YouTube video player"
           frameborder="0"
@@ -30,18 +28,18 @@
 
 <style scoped>
 section.about {
-  background-image: url("../../assets/images/about/about_bg.png");
+  /* background-image: url("../../assets/images/about/about_bg.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 120vh;
+  /* min-height: 120vh; */
 
   padding-top: 6rem;
 }
 @media (max-width: 1024px) {
   .about {
     /* background-image: none; */
-    background-image: linear-gradient(to bottom, #000, #000);
+    /* background-image: linear-gradient(to bottom, #000, #000); */
   }
 }
 </style>

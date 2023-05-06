@@ -1,15 +1,15 @@
 <template>
   <section class="contact">
-    <div class="shape-left"></div>
-    <div class="contact1">
-      <div class="flex justify-center py-24">
+    <div class="hidden md:block shape-left"></div>
+    <div class="flex justify-center py-6 md:py-24 bg-bgContact">
+      <div class="container">
         <ContactCard />
       </div>
     </div>
-    <div class="contact2">
+    <div class="contact2 py-6">
       <div class="container">
         <h2 class="text-primary">Наши контакты</h2>
-        <div class="grid gap-6 grid-cols-[1fr_1.5fr]">
+        <div class="grid gap-6 md:grid-cols-[1fr_1.5fr]">
           <div class="grid gap-3">
             <div class="flex gap-4 items-center bg-yellowish rounded-md py-3 px-4 shadow-md">
               <div>

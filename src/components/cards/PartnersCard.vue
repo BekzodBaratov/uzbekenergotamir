@@ -1,7 +1,7 @@
 <template>
   <div class="partner-card">
     <div class="tag">
-      <img :src="props.partner.image.secure_url" alt="partner_img" />
+      <img class="w-3/5 md:w-auto" :src="props.partner.image.secure_url" alt="partner_img" />
     </div>
   </div>
 </template>

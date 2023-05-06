@@ -32,6 +32,6 @@ const divisionsArr = [
   @apply bg-center bg-cover bg-no-repeat py-6 my-16;
 }
 .divisions .cards {
-  @apply grid grid-cols-3 gap-8;
+  @apply grid grid-cols-2 md:grid-cols-3 gap-8;
 }
 </style>

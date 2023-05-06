@@ -9,13 +9,13 @@
             src="../assets/images/footer/ies_logo_footer.png"
             alt="ies_logo"
           />
-          <h3 class="text-primary text-footer-text">{{ footerCol.title }}</h3>
-          <a class="footer-link" v-for="footerLink in footerCol.links" :key="footerLink.id" :href="footerLink.href">{{
-            footerLink.name
-          }}</a>
+          <h3 class="text-primary-white">{{ footerCol.title }}</h3>
+          <a class="footer-link" v-for="footerLink in footerCol.links" :key="footerLink.id" :href="footerLink.href"
+            >{{ footerLink.name }}
+          </a>
         </div>
         <div class="flex flex-col gap-2">
-          <h3 class="text-primary text-footer-text">Наши контакты</h3>
+          <h3 class="text-primary-white">Наши контакты</h3>
           <p>103445, г. Ташкент, ул. Ш.Арипар, 96А</p>
           <a class="footer-link" href="tel:+998-71-778-78-78">+998-71-778-78-78</a>
           <a class="footer-link" href="tel:+998-71-778-78-78">+998-71-778-78-78</a>

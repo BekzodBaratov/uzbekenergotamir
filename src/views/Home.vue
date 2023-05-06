@@ -1,12 +1,12 @@
 <template>
   <Hero />
   <About />
-  <!-- <Banner /> -->
-  <!-- <Divisions /> -->
-  <!-- <Local /> -->
-  <!-- <Partners /> -->
-  <!-- <Calculate /> -->
-  <!-- <ContactSection /> -->
+  <Banner />
+  <Divisions />
+  <Local />
+  <Partners />
+  <Calculate />
+  <ContactSection />
 </template>
 
 <script setup>

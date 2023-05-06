@@ -7,10 +7,10 @@
           получить бесплатную <br />
           консультацию
         </h1>
-        <p class="secondary-color3">Наши специалисты свяжутся с вами в течении дня</p>
+        <p class="text-secondary">Наши специалисты свяжутся с вами в течении дня</p>
       </div>
       <div>
-        <img src="../../assets/images/contact/logo.png" alt="logo-img" />
+        <img class="hidden md:block" src="../../assets/images/contact/logo.png" alt="logo-img" />
       </div>
     </div>
     <div class="hidden md:block w-[1px] rounded-full h-full bg-border-color"></div>
@@ -50,6 +50,6 @@ function handleform() {}
 
 <style scoped>
 .contact-card {
-  @apply bg-white md:flex gap-8 shadow-xl;
+  @apply bg-white md:flex gap-8 shadow-xl px-4;
 }
 </style>

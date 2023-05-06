@@ -8,8 +8,8 @@
             class="duration-200 hover:bg-yellowish py-4 px-4 font-medium cursor-pointer"
             v-for="(product, i) in store.products"
             :key="product._id"
-            @click="defaultProduct = i"
-            :class="i === defaultProduct ? 'bg-yellowish' : ''"
+            @click="selectedProduct = i"
+            :class="i === selectedProduct ? 'bg-yellowish' : ''"
           >
             {{ product.title }}
           </div>
@@ -18,12 +18,12 @@
           <div class="w-96 aspect-square border rounded-md mb-8">
             <img
               class="w-full h-full object-contain object-center"
-              :src="store.products[defaultProduct].image.secure_url"
-              :alt="store.products[defaultProduct].title"
+              :src="store.products[selectedProduct].image.secure_url"
+              :alt="store.products[selectedProduct].title"
             />
           </div>
           <h2 class="text-primary">Описание</h2>
-          <p>{{ store.products[defaultProduct].description }}</p>
+          <p>{{ store.products[selectedProduct].description }}</p>
         </div>
       </div>
     </div>
@@ -38,11 +38,11 @@ import { useProductStore } from "../../stores/localProduct";
 const store = useProductStore();
 store.getAllProducts();
 
-const defaultProduct = ref(0);
+const selectedProduct = ref(0);
 </script>
 
 <style scoped>
 .products {
-  @apply grid md:grid-cols-[1fr_2fr] divide-x bg-white border max-h-screen;
+  @apply grid md:grid-cols-[1fr_2fr] divide-x bg-white border md:max-h-screen;
 }
 </style>

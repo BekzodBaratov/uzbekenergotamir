@@ -17,4 +17,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media (max-width: 768px) {
+  .calc-card {
+    position: static;
+    transform: translate(0, 0);
+    padding: 2rem 2rem;
+  }
+}
 </style>
