@@ -1,1 +1,7 @@
-<template>Catalog</template>
+<template>
+  <LocalProduct />
+</template>
+
+<script setup>
+import LocalProduct from "../../components/sections/Local";
+</script>

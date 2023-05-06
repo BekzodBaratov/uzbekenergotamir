@@ -1,8 +1,8 @@
 <template>
   <section class="contact">
     <div class="hidden md:block shape-left"></div>
-    <div class="flex justify-center py-6 md:py-24 bg-bgContact">
-      <div class="container">
+    <div class="py-6 md:py-24 bg-bgContact md:bg-none">
+      <div class="container flex justify-center">
         <ContactCard />
       </div>
     </div>
