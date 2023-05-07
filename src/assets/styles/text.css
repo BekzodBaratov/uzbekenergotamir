@@ -7,6 +7,9 @@
 .text-primary2 {
   @apply text-xl font-bold pb-3 text-primary-color;
 }
+.text-primary3 {
+  @apply text-base font-bold pb-1 text-primary-color;
+}
 .text-big {
   @apply text-xl md:text-3xl font-bold pb-3 text-primary-color;
 }

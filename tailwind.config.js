@@ -9,6 +9,7 @@ export default {
         "bg-color": "#FCFCFD",
         "green-primary": "#1EB53A",
         "black-primary": "#1F1F1F",
+        "blue-primary": "#079DDB",
         "secondary-color": "#5B5A60",
         "secondary-color2": "#7E868E",
         "secondary-color3": "#11263A",
@@ -22,8 +23,8 @@ export default {
       backgroundImage: {
         yellowish: "linear-gradient(92.63deg, #F3C140 0%, #FBEA74 53.27%, #F6D251 116.73%)",
         bluer: "linear-gradient(95.77deg, #067AF2 -46.87%, #07ABCF 146.46%)",
-        bgAbout: "url('./src/assets/images/about/about_bg.png')",
-        bgContact: "url('./src/assets/images/contact/contact_bg.png')",
+        bgAbout: "url('/src/assets/images/about/about_bg.png')",
+        bgContact: "url('/src/assets/images/contact/contact_bg.png')",
       },
       fontFamily: {
         gilory: ["Gilroy", ...defaultTheme.fontFamily.sans],

@@ -18,27 +18,27 @@ const routes = [
     redirect: "/about/history",
     children: [
       {
-        path: "history",
+        path: "/about/history",
         name: "history",
         component: () => import("../views/about/History.vue"),
       },
       {
-        path: "leaders",
+        path: "/about/leaders",
         name: "leaders",
         component: () => import("../views/about/Leaders.vue"),
       },
       {
-        path: "finance",
+        path: "/about/finance",
         name: "finance",
         component: () => import("../views/about/Finance.vue"),
       },
       {
-        path: "news",
+        path: "/about/news",
         name: "news",
         component: () => import("../views/about/News.vue"),
       },
       {
-        path: "affiliated_companies",
+        path: "/about/affiliated_companies",
         name: "affiliated_companies",
         component: () => import("../views/about/Affiliated.vue"),
       },
@@ -63,6 +63,11 @@ const routes = [
     path: "/contact",
     name: "contact",
     component: () => import("../views/ContactView.vue"),
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "pageNotFound",
+    component: () => import("../views/PageNotFound.vue"),
   },
 ];
 
