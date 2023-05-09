@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-import LocalProduct from "../components/sections/Local.vue";
+import LocalProduct from "../../components/sections/Local.vue";
 </script>

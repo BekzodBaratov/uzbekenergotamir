@@ -14,7 +14,7 @@
                 {{ link.name }}
               </RouterLink>
 
-              <ul v-if="link?.submenu" class="submenu absolute top-full hidden">
+              <ul v-if="link?.submenu" class="submenu absolute top-full hidden shadow-xl">
                 <li v-for="subLink in link.submenu">
                   <RouterLink :to="subLink.href">{{ subLink.name }}</RouterLink>
                 </li>
@@ -43,7 +43,7 @@
             {{ link.name }} <img v-if="link?.submenu" src="../assets/images/header/Arrow-down.svg" alt="Arrow-down" />
           </RouterLink>
 
-          <ul v-if="link?.submenu" class="submenu">
+          <ul v-if="link?.submenu" class="submenu pl-12">
             <li v-for="subLink in link.submenu">
               <RouterLink :to="subLink.href">{{ subLink.name }}</RouterLink>
             </li>
@@ -99,14 +99,20 @@ const headerNav = [
     name: t("header[2].name"),
     href: "/catalog",
     submenu: [
-      { name: t("header[2].submenu[0]"), href: "/about/history" },
-      { name: t("header[2].submenu[1]"), href: "/about/leaders" },
-      { name: t("header[2].submenu[2]"), href: "/about/finance" },
-      { name: t("header[2].submenu[3]"), href: "/about/news" },
-      { name: t("header[2].submenu[4]"), href: "/about/affiliated_companies" },
+      { name: t("header[2].submenu[0]"), href: "/catalog/local-products" },
+      { name: t("header[2].submenu[1]"), href: "/catalog/industrial-products" },
     ],
   },
-  { name: t("header[3].name"), href: "/" },
+  {
+    name: t("header[3].name"),
+    href: "/",
+    submenu: [
+      { name: t("header[3].submenu[0]"), href: "/energies/sources" },
+      { name: t("header[3].submenu[1]"), href: "/energies/waterHeater" },
+      { name: t("header[3].submenu[2]"), href: "/energies/solarPanels" },
+      { name: t("header[3].submenu[3]"), href: "/energies/windEnergy" },
+    ],
+  },
   { name: t("header[4].name"), href: "/service" },
   { name: t("header[5].name"), href: "/educational" },
   { name: t("header[6].name"), href: "/contact" },
@@ -131,10 +137,10 @@ function changeLangHandle(langName) {
   @apply max-w-[16rem] text-center relative font-medium duration-200 hover:text-green-primary;
 }
 .submenu {
-  @apply hidden z-50 group-focus-within:block group-hover:block bg-white rounded-md p-4 min-w-max pl-12;
+  @apply hidden z-50 group-focus-within:block group-hover:block bg-white rounded-md p-4 min-w-max;
 }
 .submenu li {
-  @apply duration-200  py-2 px-3 rounded-md text-black-primary text-start;
+  @apply duration-200  py-2 px-3 rounded-md text-black-primary text-start hover:text-green-600;
 }
 .router-link-active,
 .router-link-active-exact {

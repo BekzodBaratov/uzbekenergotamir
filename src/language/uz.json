@@ -13,15 +13,12 @@
     { "name": "Issiqlik energetikasi" },
     {
       "name": "Katalog",
-      "submenu": [
-        "Bizning Tarix",
-        "Bizning Leaderlar",
-        "Moliya va bo'linmalar",
-        "Bizning yangliklar",
-        "Birlashgan kompaniyalar"
-      ]
+      "submenu": ["Mahalliylashtirilgan mahsulotlar", "Sanoat bazasi"]
     },
-    { "name": "Qayta tiklanadigan energiya manbalari" },
+    {
+      "name": "Qayta tiklanadigan energiya manbalari",
+      "submenu": ["Energiya manbalari", "Quyosh suv isitgichlari", "Quyosh panellari", "Shamol energetikasi"]
+    },
     { "name": "Xizmat ko'rsatish markazi" },
     { "name": "Ta'lim markazi" },
     { "name": "Kontaktlar" }

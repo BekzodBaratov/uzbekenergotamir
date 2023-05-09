@@ -7,9 +7,12 @@
     { "name": "Thermal power engineering" },
     {
       "name": "Catalog",
-      "submenu": ["Our History", "Leaders", "Finance and divisions", "We're in the news", "Affiliated companies"]
+      "submenu": ["Localized Products", "Industrial base"]
     },
-    { "name": "Renewable energy sources" },
+    {
+      "name": "Renewable energy sources",
+      "submenu": ["Energy sources", "Solar water heaters", "Solar panels", "Wind energy"]
+    },
     { "name": "Service center" },
     { "name": "The educational center" },
     { "name": "Contacts" }

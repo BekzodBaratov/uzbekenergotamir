@@ -47,7 +47,46 @@ const routes = [
   {
     path: "/catalog",
     name: "catalog",
-    component: () => import("../views/Catalog.vue"),
+    redirect: "/catalog/local-products",
+    children: [
+      {
+        path: "/catalog/local-products",
+        name: "local-products",
+        component: () => import("../views/catalog/LocalProduct.vue"),
+      },
+      {
+        path: "/catalog/industrial-products",
+        name: "industrial-products",
+        component: () => import("../views/catalog/IndustrialProduct.vue"),
+      },
+    ],
+  },
+  {
+    path: "/energies",
+    name: "energies",
+    redirect: "/energies/sources",
+    children: [
+      {
+        path: "/energies/sources",
+        name: "energies-sources",
+        component: () => import("../views/energies/Sources.vue"),
+      },
+      {
+        path: "/energies/waterHeater",
+        name: "energies-heater",
+        component: () => import("../views/energies/WaterHeaters.vue"),
+      },
+      {
+        path: "/energies/solarPanels",
+        name: "solar-panel",
+        component: () => import("../views/energies/SolarPanels.vue"),
+      },
+      {
+        path: "/energies/windEnergy",
+        name: "wind-energy",
+        component: () => import("../views/energies/WindEnergy.vue"),
+      },
+    ],
   },
   {
     path: "/service",
