@@ -2,7 +2,7 @@
   <Hero />
   <About />
   <Banner />
-  <Divisions />
+  <Divisions class="py-8 md:py-16" />
   <Local />
   <Partners />
   <Calculate />

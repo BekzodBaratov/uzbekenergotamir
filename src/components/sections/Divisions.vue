@@ -29,7 +29,7 @@ const divisionsArr = [
 
 <style scoped>
 .divisions {
-  @apply bg-center bg-cover bg-no-repeat py-6 my-16;
+  @apply bg-center bg-cover bg-no-repeat py-6;
 }
 .divisions .cards {
   @apply grid grid-cols-2 md:grid-cols-3 gap-8;

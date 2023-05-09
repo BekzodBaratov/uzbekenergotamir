@@ -11,6 +11,7 @@ import "./style.css";
 import "./assets/styles/btn.css";
 import "./assets/styles/input.css";
 import "./assets/styles/text.css";
+import "./assets/styles/image.css";
 
 const app = createApp(App);
 

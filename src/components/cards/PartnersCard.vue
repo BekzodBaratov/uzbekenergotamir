@@ -1,7 +1,7 @@
 <template>
   <div class="partner-card">
-    <div class="tag">
-      <img class="w-3/5 md:w-auto" :src="props.partner.image.secure_url" alt="partner_img" />
+    <div class="tag py-4 md:py-6 lg:py-8">
+      <img class="w-32 md:w-48" :src="props.partner.image.secure_url" alt="partner_img" />
     </div>
   </div>
 </template>
@@ -23,7 +23,7 @@ const props = defineProps(["partner"]);
   width: 100%;
   height: 100%;
   z-index: -1;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
   clip-path: polygon(0 0, 100% 0%, 100% 75%, 75% 100%, 0 100%);
 }
 </style>

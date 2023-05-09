@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <h2 class="text-primary">
       <slot name="title"></slot>
     </h2>
