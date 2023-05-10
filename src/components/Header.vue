@@ -9,10 +9,14 @@
         </li>
         <li class="hidden lg:block">
           <ul class="flex gap-4">
-            <li class="link group" v-for="link in headerNav">
+            <li class="link group relative" v-for="link in headerNav" :key="link.id">
               <RouterLink class="float-left" :to="link.href">
                 {{ link.name }}
               </RouterLink>
+
+              <span v-if="link.id == 4" class="absolute bottom-1 left-[85%] xl:left-[63%]">
+                <img src="../assets/images/header/pero.png" alt="pero" />
+              </span>
 
               <ul v-if="link?.submenu" class="submenu absolute top-full hidden shadow-xl">
                 <li v-for="subLink in link.submenu">
@@ -84,6 +88,7 @@ const mobileMenu = ref(false);
 
 const headerNav = [
   {
+    id: 1,
     name: t("header[0].name"),
     href: "/about",
     submenu: [
@@ -94,8 +99,13 @@ const headerNav = [
       { name: t("header[0].submenu[4]"), href: "/about/affiliated_companies" },
     ],
   },
-  { name: t("header[1].name"), href: "/thermal_energy" },
   {
+    id: 2,
+    name: t("header[1].name"),
+    href: "/thermal_energy",
+  },
+  {
+    id: 3,
     name: t("header[2].name"),
     href: "/catalog",
     submenu: [
@@ -104,8 +114,9 @@ const headerNav = [
     ],
   },
   {
+    id: 4,
     name: t("header[3].name"),
-    href: "/",
+    href: "/energies",
     submenu: [
       { name: t("header[3].submenu[0]"), href: "/energies/sources" },
       { name: t("header[3].submenu[1]"), href: "/energies/waterHeater" },
@@ -113,9 +124,21 @@ const headerNav = [
       { name: t("header[3].submenu[3]"), href: "/energies/windEnergy" },
     ],
   },
-  { name: t("header[4].name"), href: "/service" },
-  { name: t("header[5].name"), href: "/educational" },
-  { name: t("header[6].name"), href: "/contact" },
+  {
+    id: 5,
+    name: t("header[4].name"),
+    href: "/service",
+  },
+  {
+    id: 6,
+    name: t("header[5].name"),
+    href: "/educational",
+  },
+  {
+    id: 7,
+    name: t("header[6].name"),
+    href: "/contact",
+  },
 ];
 const languages = [
   { id: 0, image: uz, name: "uz" },

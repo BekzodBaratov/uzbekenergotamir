@@ -6,9 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/assets/font/stylesheet.css" />
     <title>O'zbekenergota`mir</title>
+    <style>
+      #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        backdrop-filter: blur(5px);
+        background-color: #0006;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
+    <div id="loading">
+      <img src="/src/assets/images/loading.svg" alt="loading-image" />
+    </div>
+
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+
+    <script>
+      window.addEventListener("load", function () {
+        var loadingContainer = document.getElementById("loading");
+        loadingContainer.style.display = "none";
+      });
+    </script>
   </body>
 </html>

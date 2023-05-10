@@ -7,9 +7,15 @@
       <h2 class="text-primary">
         <slot name="title"></slot>
       </h2>
+
       <p class="text-secondary">
         <slot name="desc"></slot>
       </p>
+
+      <ul class="text-secondary space-y-4">
+        <slot name="descriptions"></slot>
+      </ul>
+
       <button v-if="hasBtn" class="btn">
         <slot name="btn"></slot>
       </button>

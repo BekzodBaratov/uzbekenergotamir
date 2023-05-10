@@ -25,7 +25,14 @@
         <textarea rows="6" v-model="state.message" placeholder="Ваше примечание"></textarea>
       </div>
       <div class="flex justify-center">
-        <button class="btn" @click="handleform">Отправить</button>
+        <button
+          :disabled="!state.checkbox"
+          class="btn"
+          :class="state.checkbox ? 'opacity-100' : 'opacity-50'"
+          @click.prevent="handleform"
+        >
+          Отправить
+        </button>
       </div>
       <p class="space-x-1 text-secondary-color2 text-sm">
         <input type="checkbox" v-model="state.checkbox" />
@@ -38,6 +45,8 @@
 
 <script setup>
 import { reactive } from "vue";
+import { useContactStore } from "../../stores/contacts";
+const store = useContactStore();
 
 const state = reactive({
   name: "",
@@ -45,7 +54,10 @@ const state = reactive({
   message: "",
   checkbox: false,
 });
-function handleform() {}
+async function handleform() {
+  if (!state.checkbox) return;
+  await store.addContact(state);
+}
 </script>
 
 <style scoped>
