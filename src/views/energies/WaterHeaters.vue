@@ -10,9 +10,9 @@
       <div>
         <ComplatedProjects />
       </div>
-      <div class="py-12 md:py-20">
-        <Certificates />
-      </div>
+    </div>
+    <div class="py-12 md:py-20">
+      <Certificates />
     </div>
     <div>
       <Calculate />

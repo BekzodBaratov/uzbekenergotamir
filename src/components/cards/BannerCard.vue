@@ -22,7 +22,6 @@ const banner = computed(() => props.banner);
 
 <style scoped>
 .card {
-  /* background-image: v-bind(url(banner.bgImg)); */
   @apply grid md:grid-cols-[1.3fr_1fr] items-center gap-6  md:gap-12 lg:gap-32 bg-white rounded-lg bg-center bg-cover bg-no-repeat shadow-xl px-6 py-8;
 }
 </style>
