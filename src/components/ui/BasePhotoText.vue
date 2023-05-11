@@ -1,6 +1,6 @@
 <template>
   <div class="basePhotoText grid md:grid-cols-2 gap-12">
-    <div :class="isReversed ? 'md:order-last' : 'order-first'" class="overflow-hidden rounded-md">
+    <div :class="isReversed ? 'md:order-last' : 'order-first'" class="rounded-md">
       <slot name="image"></slot>
     </div>
     <div>

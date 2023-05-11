@@ -1,7 +1,7 @@
 <template>
   <section class="Banner my-8">
     <div class="container flex flex-col gap-8">
-      <div v-for="banner in bannerArr" :key="banner.id" class="">
+      <div v-for="banner in bannerArr" :key="banner.id">
         <BannerCard :banner="banner" />
       </div>
     </div>
@@ -30,7 +30,7 @@ const bannerArr = reactive([
     desc3:
       "Ведутся переговоры с ведущими производителями основногооборудования по открытию сервис центров на базе УЭТ, с последующейлокализацией запасных частей и комплектующих.",
     btn: "Подробнее",
-    href: "/",
+    href: "/energies/solarPanels",
     img: bannerImg1,
     bgImg: bannerBg1,
   },
@@ -44,7 +44,7 @@ const bannerArr = reactive([
     desc3:
       "Ведутся переговоры с ведущими производителями основногооборудования по открытию сервис центров на базе УЭТ, с последующейлокализацией запасных частей и комплектующих.",
     btn: "Подробнее",
-    href: "/",
+    href: "/energies/waterHeater",
     img: bannerImg2,
     bgImg: bannerBg2,
   },
@@ -58,7 +58,7 @@ const bannerArr = reactive([
     desc3:
       "Ведутся переговоры с ведущими производителями основногооборудования по открытию сервис центров на базе УЭТ, с последующейлокализацией запасных частей и комплектующих.",
     btn: "Подробнее",
-    href: "/",
+    href: "/energies/windEnergy",
     img: bannerImg3,
     bgImg: bannerBg3,
   },

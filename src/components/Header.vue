@@ -14,7 +14,7 @@
                 {{ link.name }}
               </RouterLink>
 
-              <span v-if="link.id == 4" class="absolute bottom-1 left-[85%] xl:left-[63%]">
+              <span v-if="link.id == 4" class="absolute bottom-1 left-[85%] xl:left-[66%]">
                 <img src="../assets/images/header/pero.png" alt="pero" />
               </span>
 

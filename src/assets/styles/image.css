@@ -1,3 +1,9 @@
 .full-image {
   @apply w-full rounded-lg object-cover object-center;
 }
+.imageBgLine-left {
+  @apply relative before:absolute before:inset-0 before:border-4 before:rounded-lg before:border-yellow-500  before:-z-10 before:-translate-x-4 before:-translate-y-4;
+}
+.imageBgLine-right {
+  @apply relative before:absolute before:inset-0 before:border-4 before:rounded-lg before:border-yellow-500  before:-z-10 before:translate-x-4 before:-translate-y-4;
+}

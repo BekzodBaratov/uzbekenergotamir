@@ -78,6 +78,15 @@ const state = reactive({
 
 const handleCalcForm = () => {
   store.addCalculate(state);
+
+  state = {
+    name: "",
+    phone: "",
+    service: "",
+    sendPlace: "",
+    recivePlace: "",
+    loadWeight: "",
+  };
 };
 </script>
 
