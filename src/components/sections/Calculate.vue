@@ -10,15 +10,15 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12">
           <div class="inp-box">
             <label for="name">Ismingiz</label>
-            <input class="calc-input" type="text" name="name" id="name" />
+            <input v-model="state.name" class="calc-input" type="text" name="name" id="name" />
           </div>
           <div class="inp-box">
             <label for="phone">Telefon raqamingiz</label>
-            <input class="calc-input" type="tel" name="phone" id="phone" />
+            <input v-model="state.phone" class="calc-input" type="tel" name="phone" id="phone" />
           </div>
           <div class="inp-box">
             <label for="select">Xizmat turini tanlang</label>
-            <select id="select">
+            <select v-model="state.service" id="select">
               <option value="Руководители">Руководители</option>
               <option value="Руководители">Руководители</option>
               <option value="Руководители">Руководители</option>
@@ -27,22 +27,28 @@
           </div>
           <div class="inp-box">
             <label for="sendPlace">Yuborish joyi</label>
-            <input class="calc-input" type="text" name="sendPlace" id="sendPlace" />
+            <input v-model="state.sendPlace" class="calc-input" type="text" name="sendPlace" id="sendPlace" />
           </div>
           <div class="inp-box">
-            <label for="recivePlace">Yuborish joyi</label>
-            <input class="calc-input" type="text" name="recivePlace" id="recivePlace" />
+            <label for="recivePlace">Qabul qilish joyi</label>
+            <input v-model="state.recivePlace" class="calc-input" type="text" name="recivePlace" id="recivePlace" />
           </div>
           <div class="inp-box">
             <label for="weight">Yuk og’irligi</label>
             <div class="flex items-center relative">
               <span class="absolute pl-2 left-0 z-10">кг</span>
-              <input class="calc-input" style="padding-left: 1.6rem" type="number" name="weight" id="weight" />
+              <input
+                v-model="state.loadWeight"
+                class="calc-input"
+                style="padding-left: 1.6rem"
+                type="number"
+                id="weight"
+              />
             </div>
           </div>
         </div>
         <div class="flex justify-center pt-12">
-          <button class="btn">Рассчитать</button>
+          <button @click.prevent="handleCalcForm" class="btn">Рассчитать</button>
         </div>
       </CalcCard>
     </div>
@@ -56,7 +62,23 @@
 </template>
 
 <script setup>
+import { reactive } from "vue";
 import CalcCard from "../cards/CalculateCard.vue";
+import { useCalculateStore } from "../../stores/calculator";
+const store = useCalculateStore();
+
+const state = reactive({
+  name: "",
+  phone: "",
+  service: "",
+  sendPlace: "",
+  recivePlace: "",
+  loadWeight: "",
+});
+
+const handleCalcForm = () => {
+  store.addCalculate(state);
+};
 </script>
 
 <style scoped>

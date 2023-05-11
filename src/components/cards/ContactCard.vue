@@ -54,9 +54,15 @@ const state = reactive({
   message: "",
   checkbox: false,
 });
-async function handleform() {
+
+function handleform() {
   if (!state.checkbox) return;
-  await store.addContact(state);
+  store.addContact(state);
+
+  state.name = "";
+  state.phone = "";
+  state.message = "";
+  state.checkbox = false;
 }
 </script>
 
