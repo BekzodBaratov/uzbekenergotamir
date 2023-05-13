@@ -70,21 +70,3 @@ const leaders = [
   },
 ];
 </script>
-
-<style scoped>
-.leaders .leadersClipPath1 {
-  clip-path: polygon(0 0, 0 50%, 38% 0);
-}
-.leaders .leadersClipPath2 {
-  clip-path: polygon(100% 100%, 35% 100%, 100% 18%);
-}
-
-@media (max-width: 768px) {
-  .leaders .leadersClipPath1 {
-    clip-path: polygon(0 0, 0 10%, 38% 0);
-  }
-  .leaders .leadersClipPath2 {
-    clip-path: polygon(100% 100%, 35% 100%, 100% 90%);
-  }
-}
-</style>

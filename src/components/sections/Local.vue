@@ -1,29 +1,29 @@
 <template>
-  <section v-if="store.products.length" class="local my-24">
+  <section v-if="store.products.length" class="local py-24">
     <div class="container">
-      <h1 class="text-primary pb-10">Локализованные товары</h1>
+      <h1 class="text-primary pb-10">{{ title ? title : "Локализованные товары" }}</h1>
       <div class="products">
         <div class="prod md:max-h-screen overflow-y-auto">
           <div
             class="duration-200 hover:bg-yellowish py-4 px-4 font-medium cursor-pointer"
-            v-for="(product, i) in store.products"
-            :key="product._id"
+            v-for="(val, i) in data"
+            :key="val._id"
             @click="selectedProduct = i"
             :class="i === selectedProduct ? 'bg-yellowish' : ''"
           >
-            {{ product.title }}
+            {{ val.title }}
           </div>
         </div>
         <div class="desc p-4 md:max-h-screen overflow-y-auto">
-          <div class="w-96 aspect-square border rounded-md mb-8">
+          <div v-if="data[selectedProduct]?.image" class="w-96 aspect-square border rounded-md mb-8">
             <img
               class="w-full h-full object-contain object-center"
-              :src="store.products[selectedProduct].image.secure_url"
-              :alt="store.products[selectedProduct].title"
+              :src="data[selectedProduct].image.secure_url"
+              :alt="data[selectedProduct].title"
             />
           </div>
           <h2 class="text-primary">Описание</h2>
-          <p>{{ store.products[selectedProduct].description }}</p>
+          <p>{{ data[selectedProduct].description }}</p>
         </div>
       </div>
     </div>
@@ -32,13 +32,15 @@
 
 <script setup>
 import { computed, ref } from "vue";
-import img from "../../assets/images/local/product_img.png";
 import { useProductStore } from "../../stores/localProduct";
 
 const store = useProductStore();
 store.getAllProducts();
 
 const selectedProduct = ref(0);
+const props = defineProps(["data", "title"]);
+const data = computed(() => props.data);
+const title = computed(() => props.title);
 </script>
 
 <style scoped>
