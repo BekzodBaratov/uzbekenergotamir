@@ -4,7 +4,7 @@
       <img class="w-full h-full object-cover object-center" :src="division.bgCardImg" :alt="division.title" />
     </div>
 
-    <p class="circle-number2">{{ division.number }}</p>
+    <p class="circle-number">{{ division.number }}</p>
     <p class="text-primary2">{{ division.title }}</p>
   </div>
 </template>
