@@ -13,6 +13,30 @@
 .leadersClipPath2 {
   clip-path: polygon(100% 100%, 35% 100%, 100% 18%);
 }
+
+.circle-number {
+  @apply cursor-pointer mb-3 relative w-12 aspect-square text-center z-50 font-black text-[#000a] text-base  flex items-center justify-center;
+}
+.circle-number::after {
+  content: "";
+  @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-yellowish w-14 aspect-square rounded-full -z-20;
+}
+.circle-number::before {
+  content: "";
+  @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white w-10 aspect-square rounded-full -z-10;
+}
+.circle-number2 {
+  @apply cursor-pointer mb-3 relative w-12 aspect-square text-center z-50 font-bold text-white text-3xl  flex items-center justify-center translate-x-4 translate-y-4;
+}
+.circle-number2::after {
+  content: "";
+  @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white opacity-50 w-20 aspect-square rounded-full -z-20;
+}
+.circle-number2::before {
+  content: "";
+  @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-bluer w-16 aspect-square rounded-full -z-10;
+}
+
 @media (max-width: 768px) {
   .leadersClipPath1 {
     clip-path: polygon(0 0, 0 10%, 38% 0);

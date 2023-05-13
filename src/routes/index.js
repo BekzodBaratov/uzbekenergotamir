@@ -42,6 +42,11 @@ const routes = [
         name: "affiliated_companies",
         component: () => import("../views/about/Affiliated.vue"),
       },
+      {
+        path: "/about/partners",
+        name: "partners",
+        component: () => import("../views/about/Partners.vue"),
+      },
     ],
   },
   {

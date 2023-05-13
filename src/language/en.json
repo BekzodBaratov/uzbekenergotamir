@@ -2,7 +2,14 @@
   "header": [
     {
       "name": "About Us",
-      "submenu": ["Our History", "Leaders", "Finance and divisions", "We're in the news", "Affiliated companies"]
+      "submenu": [
+        "Our History",
+        "Leaders",
+        "Finance and divisions",
+        "We're in the news",
+        "Affiliated companies",
+        "Our partners"
+      ]
     },
     { "name": "Thermal power engineering" },
     {

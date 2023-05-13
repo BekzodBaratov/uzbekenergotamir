@@ -16,14 +16,3 @@
 .text-secondary {
   @apply text-base font-normal text-secondary-color pb-3;
 }
-.circle-number {
-  @apply cursor-pointer mb-3 relative w-12 aspect-square text-center z-50 font-semibold text-sm flex items-center justify-center;
-}
-.circle-number::after {
-  content: "";
-  @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-yellowish w-12 aspect-square rounded-full -z-20;
-}
-.circle-number::before {
-  content: "";
-  @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white w-10 aspect-square rounded-full -z-10;
-}

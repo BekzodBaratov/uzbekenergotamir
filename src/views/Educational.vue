@@ -3,7 +3,7 @@
     <div class="container">
       <h2 class="text-big">Учебный центр</h2>
       <p class="text-primary3 pb-6">Обучение, переподготовка и повышение квалификации персонала</p>
-      <div class="cards grid grid-cols-3 gap-6 py-8">
+      <div class="cards grid grid-cols-2 md:grid-cols-3 gap-6 py-8">
         <EducationalCard v-for="data in eduArr" :key="data.id" :data="data" />
       </div>
     </div>
