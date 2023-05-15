@@ -67,7 +67,7 @@ import CalcCard from "../cards/CalculateCard.vue";
 import { useCalculateStore } from "../../stores/calculator";
 const store = useCalculateStore();
 
-const state = reactive({
+let state = reactive({
   name: "",
   phone: "",
   service: "",

@@ -1,5 +1,5 @@
 <template>
-  <section v-if="store.products.length" class="local py-24">
+  <section v-if="data.length" class="local py-24">
     <div class="container">
       <h1 class="text-primary pb-10">{{ title ? title : "Локализованные товары" }}</h1>
       <div class="products">
@@ -32,10 +32,6 @@
 
 <script setup>
 import { computed, ref } from "vue";
-import { useProductStore } from "../../stores/localProduct";
-
-const store = useProductStore();
-store.getAllProducts();
 
 const selectedProduct = ref(0);
 const props = defineProps(["data", "title"]);

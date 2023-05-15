@@ -1,12 +1,14 @@
 <template>
-  <Hero />
-  <About />
-  <Banner />
-  <Divisions class="py-8 md:py-16" />
-  <Local :data="productStore.products" />
-  <Partners />
-  <Calculate />
-  <ContactSection />
+  <section class="home">
+    <Hero />
+    <About />
+    <Banner />
+    <Divisions class="py-8 md:py-16" />
+    <Local :data="productStore.products" />
+    <Partners />
+    <Calculate />
+    <ContactSection />
+  </section>
 </template>
 
 <script setup>
