@@ -10,12 +10,12 @@
         <li class="hidden lg:block">
           <ul class="flex gap-4">
             <li class="link group relative" v-for="link in headerNav" :key="link.id">
-              <RouterLink class="float-left flex gap-1" :to="link.href">
-                {{ link.name }}
+              <RouterLink class="flex gap-1" :to="link.href">
+                <span :class="link.id == 4 && locale == 'en' ? 'w-44' : ''">{{ link.name }}</span>
                 <img v-if="link?.submenu" src="../assets/images/header/Arrow-down.svg" alt="Arrow-down" />
               </RouterLink>
 
-              <span v-if="link.id == 4" class="absolute bottom-1 left-[85%] xl:left-[66%]">
+              <span v-if="link.id == 4" class="absolute bottom-1 left-[85%] xl:left-[67%]">
                 <img src="../assets/images/header/pero.png" alt="pero" />
               </span>
 

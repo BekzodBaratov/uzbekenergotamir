@@ -5,7 +5,7 @@
       <p class="text-secondary">{{ banner.desc1 }}</p>
       <p class="text-secondary">{{ banner.desc2 }}</p>
       <p class="text-secondary">{{ banner.desc3 }}</p>
-      <RouterLink :to="banner.href" class="btn">{{ banner.btn }}</RouterLink>
+      <RouterLink v-if="banner?.hasBtn" :to="banner.href" class="btn">{{ banner.btn }}</RouterLink>
     </div>
     <div>
       <img class="w-full object-contain object-center" :src="banner.img" :alt="banner.title" />

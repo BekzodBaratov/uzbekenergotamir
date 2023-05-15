@@ -109,6 +109,11 @@ const routes = [
     component: () => import("../views/ContactView.vue"),
   },
   {
+    path: "/product/:id",
+    name: "product",
+    component: () => import("../views/ProductView.vue"),
+  },
+  {
     path: "/:pathMatch(.*)*",
     name: "pageNotFound",
     component: () => import("../views/PageNotFound.vue"),

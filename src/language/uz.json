@@ -23,5 +23,10 @@
     { "name": "Xizmat ko'rsatish markazi" },
     { "name": "Ta'lim markazi" },
     { "name": "Kontaktlar" }
-  ]
+  ],
+  "aboutus": {
+    "title": "Biz haqimizda",
+    "desc": "2001 yilda davlat tasarrufidan chiqarishdan so'ng korxona 'O'ZBEKENERGOTA'MIR' ochiq aksiyadorlik jamiyatiga aylantirildi. “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartish va qo‘shimchalar kiritish haqida”gi O‘zbekiston Respublikasining 2014-yil 6-maydagi O‘RQ-370-son Qonuniga muvofiq korxona “O'ZBEKENERGOTA'MIR” aksiyadorlik jamiyatiga o'zgartirildi.",
+    "btn": "Ko'proq"
+  }
 }

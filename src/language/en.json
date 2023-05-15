@@ -23,5 +23,10 @@
     { "name": "Service center" },
     { "name": "The educational center" },
     { "name": "Contacts" }
-  ]
+  ],
+  "aboutus": {
+    "title": "About Us",
+    "desc": "After denationalization, carried out in 2001, the enterprise was transformed into the Open Joint Stock Company 'O'ZBEKENERGOTA'MIR'. In accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 “On Amendments and Additions to the Law of the Republic of Uzbekistan “On Joint Stock Companies and Protection of Shareholders’ Rights”, the status of the enterprise was changed to Joint Stock Company “O’ZBEKENERGOTA’MIR”.",
+    "btn": "More"
+  }
 }

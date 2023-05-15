@@ -33,6 +33,7 @@ const bannerArr = reactive([
     href: "/energies/solarPanels",
     img: bannerImg1,
     bgImg: bannerBg1,
+    hasBtn: true,
   },
   {
     id: 1,
@@ -47,6 +48,7 @@ const bannerArr = reactive([
     href: "/energies/waterHeater",
     img: bannerImg2,
     bgImg: bannerBg2,
+    hasBtn: true,
   },
   {
     id: 2,
@@ -61,6 +63,7 @@ const bannerArr = reactive([
     href: "/energies/windEnergy",
     img: bannerImg3,
     bgImg: bannerBg3,
+    hasBtn: true,
   },
 ]);
 </script>
