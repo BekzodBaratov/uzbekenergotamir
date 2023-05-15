@@ -1,16 +1,18 @@
 <template>
-  <div>
-    <Partners />
-  </div>
-  <div class="py-16">
-    <ToBePartner />
-  </div>
-  <div class="py-8 md:py-16">
-    <BusinessExpansion />
-  </div>
-  <div>
-    <Contact />
-  </div>
+  <section class="partners">
+    <div>
+      <Partners />
+    </div>
+    <div class="py-16">
+      <ToBePartner />
+    </div>
+    <div class="py-8 md:py-16">
+      <BusinessExpansion />
+    </div>
+    <div>
+      <Contact />
+    </div>
+  </section>
 </template>
 
 <script setup>
