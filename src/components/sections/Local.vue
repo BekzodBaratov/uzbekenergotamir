@@ -1,7 +1,7 @@
 <template>
   <section v-if="data.length" class="local py-24">
     <div class="container">
-      <h1 class="text-primary pb-10">{{ title ? title : "Локализованные товары" }}</h1>
+      <h1 class="text-primary pb-10">{{ title ? title : t("local") }}</h1>
       <div class="products">
         <div class="prod md:max-h-screen overflow-y-auto">
           <div
@@ -32,6 +32,8 @@
 
 <script setup>
 import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 
 const selectedProduct = ref(0);
 const props = defineProps(["data", "title"]);

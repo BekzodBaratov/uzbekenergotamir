@@ -2,22 +2,19 @@
   <section class="calculate">
     <div class="container">
       <CalcCard class="md:min-w-[40rem] lg:min-w-[60rem]">
-        <h2 class="text-big text-center">Бесплатный калькулятор</h2>
-        <p class="text-secondary text-center">
-          So'rovnomani to'ldiring, biz yuk tashish narxini hisoblab chiqamiz va sizga pochta yoki telefon orqali
-          ma'lumot yuboramiz
-        </p>
+        <h2 class="text-big text-center">{{ t("calculate.title") }}</h2>
+        <p class="text-secondary text-center">{{ t("calculate.desc") }}</p>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12">
           <div class="inp-box">
-            <label for="name">Ismingiz</label>
+            <label for="name">{{ t("calculate.name") }}</label>
             <input v-model="state.name" class="calc-input" type="text" name="name" id="name" />
           </div>
           <div class="inp-box">
-            <label for="phone">Telefon raqamingiz</label>
+            <label for="phone">{{ t("calculate.phone") }}</label>
             <input v-model="state.phone" class="calc-input" type="tel" name="phone" id="phone" />
           </div>
           <div class="inp-box">
-            <label for="select">Xizmat turini tanlang</label>
+            <label for="select">{{ t("calculate.service") }}</label>
             <select v-model="state.service" id="select">
               <option value="Руководители">Руководители</option>
               <option value="Руководители">Руководители</option>
@@ -26,15 +23,15 @@
             </select>
           </div>
           <div class="inp-box">
-            <label for="sendPlace">Yuborish joyi</label>
+            <label for="sendPlace">{{ t("calculate.sendPlace") }}</label>
             <input v-model="state.sendPlace" class="calc-input" type="text" name="sendPlace" id="sendPlace" />
           </div>
           <div class="inp-box">
-            <label for="recivePlace">Qabul qilish joyi</label>
+            <label for="recivePlace">{{ t("calculate.recivePlace") }}</label>
             <input v-model="state.recivePlace" class="calc-input" type="text" name="recivePlace" id="recivePlace" />
           </div>
           <div class="inp-box">
-            <label for="weight">Yuk og’irligi</label>
+            <label for="weight">{{ t("calculate.loadWeight") }}</label>
             <div class="flex items-center relative">
               <span class="absolute pl-2 left-0 z-10">кг</span>
               <input
@@ -48,7 +45,7 @@
           </div>
         </div>
         <div class="flex justify-center pt-12">
-          <button @click.prevent="handleCalcForm" class="btn">Рассчитать</button>
+          <button @click.prevent="handleCalcForm" class="btn">{{ t("calculate.btn") }}</button>
         </div>
       </CalcCard>
     </div>
@@ -65,7 +62,9 @@
 import { reactive } from "vue";
 import CalcCard from "../cards/CalculateCard.vue";
 import { useCalculateStore } from "../../stores/calculator";
+import { useI18n } from "vue-i18n";
 const store = useCalculateStore();
+const { t } = useI18n();
 
 let state = reactive({
   name: "",

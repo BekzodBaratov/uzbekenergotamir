@@ -15,8 +15,8 @@
           </a>
         </div>
         <div class="flex flex-col gap-2">
-          <h3 class="text-primary-white">Наши контакты</h3>
-          <p>103445, г. Ташкент, ул. Ш.Арипар, 96А</p>
+          <h3 class="text-primary-white">{{ t("footer[3].title") }}</h3>
+          <p>{{ t("footer[3].arr[0]") }}</p>
           <a class="footer-link" href="tel:+998-71-778-78-78">+998-71-778-78-78</a>
           <a class="footer-link" href="tel:+998-71-778-78-78">+998-71-778-78-78</a>
           <a class="footer-link" href="mailto:info@ies.uz">info@ies.uz</a>
@@ -38,8 +38,8 @@
       </div>
       <hr />
       <div class="flex justify-between flex-col sm:flex-row text-center">
-        <p>{{ year }}. Все права защищены IES.uz</p>
-        <p>Создание сайта <a class="footer-link underline" href="https://supersite.uz">Supersite</a></p>
+        <p>{{ year }}. {{ t("footer[4][0]") }}</p>
+        <p>{{ t("footer[4][1]") }} <a class="footer-link underline" href="https://supersite.uz">Supersite</a></p>
       </div>
     </div>
   </footer>
@@ -47,6 +47,8 @@
 
 <script setup>
 const year = new Date().getFullYear();
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 
 const footerData = [
   {
@@ -63,35 +65,35 @@ const footerData = [
   },
   {
     id: 1,
-    title: "На сайте",
+    title: t("footer[0].title"),
     links: [
-      { id: 0, name: "Наша история", href: "/about/history" },
-      { id: 1, name: "Теплоэнергетика", href: "/thermal_energy" },
-      { id: 2, name: "Возобновляемые источники энергии", href: "/energies/sources" },
-      { id: 3, name: "Каталог", href: "/catalog/local-products" },
-      { id: 4, name: "Учебный центр", href: "/educational" },
-      { id: 5, name: "Сервисный центр", href: "/service" },
-      { id: 6, name: "Наши партнеры", href: "/about/partners" },
-      { id: 7, name: "Контакты", href: "/contact" },
+      { id: 0, name: t("footer[0].arr[0]"), href: "/about/history" },
+      { id: 1, name: t("footer[0].arr[1]"), href: "/thermal_energy" },
+      { id: 2, name: t("footer[0].arr[2]"), href: "/energies/sources" },
+      { id: 3, name: t("footer[0].arr[3]"), href: "/catalog/local-products" },
+      { id: 4, name: t("footer[0].arr[4]"), href: "/educational" },
+      { id: 5, name: t("footer[0].arr[5]"), href: "/service" },
+      { id: 6, name: t("footer[0].arr[6]"), href: "/about/partners" },
+      { id: 7, name: t("footer[0].arr[7]"), href: "/contact" },
     ],
   },
   {
     id: 2,
-    title: "Клиентам",
+    title: t("footer[1].title"),
     links: [
-      { id: 0, name: "Основные подразделения", href: "/about/finance" },
-      { id: 1, name: "Финансовые показатели", href: "/about/finance" },
-      { id: 2, name: "Мы в новостях", href: "/about/news" },
-      { id: 4, name: "Афилированные компании", href: "/about/affiliated_companies" },
+      { id: 0, name: t("footer[1].arr[0]"), href: "/about/finance" },
+      { id: 1, name: t("footer[1].arr[1]"), href: "/about/finance" },
+      { id: 2, name: t("footer[1].arr[2]"), href: "/about/news" },
+      { id: 4, name: t("footer[1].arr[3]"), href: "/about/affiliated_companies" },
     ],
   },
   {
     id: 3,
-    title: "ВИЭ",
+    title: t("footer[2].title"),
     links: [
-      { id: 0, name: "Солнечные панели", href: "/energies/solarPanels" },
-      { id: 1, name: "Солнечные водонагреватели", href: "/energies/waterHeater" },
-      { id: 2, name: "Ветроэнергетика", href: "/energies/windEnergy" },
+      { id: 0, name: t("footer[2].arr[0]"), href: "/energies/solarPanels" },
+      { id: 1, name: t("footer[2].arr[1]"), href: "/energies/waterHeater" },
+      { id: 2, name: t("footer[2].arr[2]"), href: "/energies/windEnergy" },
     ],
   },
 ];

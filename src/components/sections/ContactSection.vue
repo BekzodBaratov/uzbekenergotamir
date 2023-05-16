@@ -8,7 +8,7 @@
     </div>
     <div class="contact2 py-6">
       <div class="container">
-        <h2 class="text-primary">Наши контакты</h2>
+        <h2 class="text-primary">{{ t("contact[1].title") }}</h2>
         <div class="grid gap-6 md:grid-cols-[1fr_1.5fr]">
           <div class="grid gap-3">
             <div class="flex gap-4 items-center bg-yellowish rounded-md py-3 px-4 shadow-md">
@@ -16,8 +16,8 @@
                 <img :src="icon1" alt="Адрес" />
               </div>
               <div>
-                <div class="text-xl font-semibold">Адрес</div>
-                <div class="font-medium">г Ташкент ул Фмпра ИМПпа 432</div>
+                <div class="text-xl font-semibold">{{ t("contact[1].arr[0].title") }}</div>
+                <div class="font-medium">{{ t("contact[1].arr[0].desc") }}</div>
               </div>
             </div>
             <div class="flex gap-4 items-center bg-yellowish rounded-md py-3 px-4 shadow-md">
@@ -26,20 +26,20 @@
               </div>
               <div>
                 <a href="tel:71 818 88 88" class="text-xl font-semibold underline">71 818 88 88</a>
-                <div class="font-medium">Мы всегда рады вам помочь</div>
+                <div class="font-medium">{{ t("contact[1].arr[1].desc") }}</div>
               </div>
             </div>
             <div class="flex gap-4 items-center bg-yellowish rounded-md py-3 px-4 shadow-md">
               <div><img :src="icon3" alt="info@sitename.ru" /></div>
               <div>
                 <a href="mailto:info@sitename.ru" class="text-xl font-semibold underline">info@sitename.ru</a>
-                <div class="font-medium">Альтернативный способ связаться снами</div>
+                <div class="font-medium">{{ t("contact[1].arr[2].desc") }}</div>
               </div>
             </div>
             <div class="flex gap-4 items-center bg-yellowish rounded-md py-3 px-4 shadow-md">
               <div><img :src="icon4" alt="icon" /></div>
               <div>
-                <div class="text-xl font-semibold">Подписывайтесь на нас в соц сетях</div>
+                <div class="text-xl font-semibold">{{ t("contact[1].arr[3].title") }}</div>
                 <div class="flex gap-2">
                   <a v-for="link in data" :key="link.id" :href="link.href" class="font-medium">
                     <img :src="link.image" alt="link icon" />
@@ -67,6 +67,7 @@
 
 <script setup>
 import ContactCard from "../cards/ContactCard.vue";
+import { useI18n } from "vue-i18n";
 import icon1 from "../../assets/images/contact/contact-icon1.svg";
 import icon2 from "../../assets/images/contact/contact-icon-2.svg";
 import icon3 from "../../assets/images/contact/contact-icon3.svg";
@@ -75,6 +76,7 @@ import frame1 from "../../assets/images/contact/Frame1.svg";
 import frame2 from "../../assets/images/contact/Frame2.svg";
 import frame3 from "../../assets/images/contact/Frame3.svg";
 import frame4 from "../../assets/images/contact/Frame4.svg";
+const { t } = useI18n();
 
 const data = [
   { id: 0, image: frame1, href: "https://github.com/BekzodBaratov" },

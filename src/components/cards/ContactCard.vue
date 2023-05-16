@@ -2,12 +2,8 @@
   <div class="contact-card card">
     <div class="flex flex-col justify-between">
       <div>
-        <h1 class="text-big">
-          Оставьте свои данные чтобы <br />
-          получить бесплатную <br />
-          консультацию
-        </h1>
-        <p class="text-secondary">Наши специалисты свяжутся с вами в течении дня</p>
+        <h1 class="text-big max-w-md">{{ t("contact[0].title") }}</h1>
+        <p class="text-secondary">{{ t("contact[0].desc") }}</p>
       </div>
       <div>
         <img class="hidden md:block" src="../../assets/images/contact/logo.png" alt="logo-img" />
@@ -16,13 +12,18 @@
     <div class="hidden md:block w-[1px] rounded-full h-full bg-border-color"></div>
     <form class="flex flex-col gap-4">
       <div class="inp-box">
-        <input type="text" v-model="state.name" class="contact-input" placeholder="Имя" />
+        <input type="text" v-model="state.name" class="contact-input" :placeholder="t('contact[0].placeholderName')" />
       </div>
       <div class="inp-box">
-        <input type="text" v-model="state.phone" class="contact-input" placeholder="Номер телефона" />
+        <input
+          type="text"
+          v-model="state.phone"
+          class="contact-input"
+          :placeholder="t('contact[0].placeholderPhone')"
+        />
       </div>
       <div class="inp-box">
-        <textarea rows="6" v-model="state.message" placeholder="Ваше примечание"></textarea>
+        <textarea rows="6" v-model="state.message" :placeholder="t('contact[0].placeholderMessage')"></textarea>
       </div>
       <div class="flex justify-center">
         <button
@@ -31,13 +32,13 @@
           :class="state.checkbox ? 'opacity-100' : 'opacity-50'"
           @click.prevent="handleform"
         >
-          Отправить
+          {{ t("contact[0].btn") }}
         </button>
       </div>
       <p class="space-x-1 text-secondary-color2 text-sm">
         <input type="checkbox" v-model="state.checkbox" />
-        <span>Соглашаюсь с</span>
-        <a class="underline" href="">условиями передачи данных</a>
+        <span>{{ t("contact[0].confidence[0]") }}</span>
+        <a class="underline" href="#">{{ t("contact[0].confidence[1]") }}</a>
       </p>
     </form>
   </div>
@@ -45,8 +46,10 @@
 
 <script setup>
 import { reactive } from "vue";
+import { useI18n } from "vue-i18n";
 import { useContactStore } from "../../stores/contacts";
 const store = useContactStore();
+const { t } = useI18n();
 
 const state = reactive({
   name: "",

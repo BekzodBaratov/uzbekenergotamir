@@ -28,5 +28,194 @@
     "title": "About Us",
     "desc": "After denationalization, carried out in 2001, the enterprise was transformed into the Open Joint Stock Company 'O'ZBEKENERGOTA'MIR'. In accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 “On Amendments and Additions to the Law of the Republic of Uzbekistan “On Joint Stock Companies and Protection of Shareholders’ Rights”, the status of the enterprise was changed to Joint Stock Company “O’ZBEKENERGOTA’MIR”.",
     "btn": "More"
-  }
+  },
+  "banner": [
+    {
+      "title": "Solar panels",
+      "desc1": "In the context of the rapid development of wind energy in Uzbekistan, UET has begun training personnel to perform maintenance and repair work on wind turbines.",
+      "desc2": "Work has begun on certification of the UET training center for training personnel in the maintenance and operation of wind turbines with the subsequent issuance of a certificate of admission in accordance with GWO standards.",
+      "desc3": "Negotiations are underway with leading manufacturers of basic equipment to open service centers based on UET, with subsequent localization of spare parts and components."
+    },
+    {
+      "title": "Solar water heaters",
+      "desc1": "In the context of the rapid development of wind energy in Uzbekistan, UET has begun training personnel to perform maintenance and repair work on wind turbines.",
+      "desc2": "Work has begun on certification of the UET training center for training personnel in the maintenance and operation of wind turbines with the subsequent issuance of a certificate of admission in accordance with GWO standards.",
+      "desc3": "Negotiations are underway with leading manufacturers of basic equipment to open service centers based on UET, with subsequent localization of spare parts and components."
+    },
+    {
+      "title": "Wind power",
+      "desc1": "In the context of the rapid development of wind energy in Uzbekistan, UET has begun training personnel to perform maintenance and repair work on wind turbines.",
+      "desc2": "Work has begun on certification of the UET training center for training personnel in the maintenance and operation of wind turbines with the subsequent issuance of a certificate of admission in accordance with GWO standards.",
+      "desc3": "Negotiations are underway with leading manufacturers of basic equipment to open service centers based on UET, with subsequent localization of spare parts and components."
+    }
+  ],
+  "divisions": {
+    "title": "Main divisions",
+    "arr": [
+      "5 accredited laboratories",
+      "11 production sites",
+      "9 production shops",
+      "Construction and installation department",
+      "Metrological Service",
+      "The educational center"
+    ]
+  },
+  "local": "Localized Products",
+  "partners": "Our partners",
+  "btn": "More",
+  "calculate": {
+    "title": "Free calculator",
+    "desc": "Fill out the survey, we will calculate the cost of shipping and send you information by mail or phone",
+    "name": "Your name",
+    "phone": "Your phone number",
+    "service": "Select the type of service",
+    "sendPlace": "Place of dispatch",
+    "recivePlace": "Place of reception",
+    "loadWeight": "Cargo weight",
+    "btn": "Calculate"
+  },
+  "contact": [
+    {
+      "title": "Leave your details to get a free consultation",
+      "desc": "Our specialists will contact you during the day",
+      "placeholderName": "Name",
+      "placeholderPhone": "Phone number",
+      "placeholderMessage": "your note",
+      "confidence": ["I agree with", "data transmission conditions"],
+      "btn": "Send"
+    },
+    {
+      "title": "Our contacts",
+      "arr": [
+        { "title": "Address", "desc": "Tashkent city Fmpra IMPpa street 432" },
+        { "title": "71 818 88 88", "desc": "We are always happy to help you" },
+        { "title": "info@sitename.ru", "desc": "An alternative way to contact dreams" },
+        { "title": "Follow us on social networks" }
+      ]
+    }
+  ],
+  "aboutHistory": [
+    [
+      "In 1993, PA 'Sredazremenergo' was renamed into PA 'Uzbekenergotamir', which united around itself almost all enterprises for the repair of equipment of thermal power plants and hydroelectric power plants of the energy system of Uzbekistan.",
+      "In 2001, in pursuance of the Decree of the President of the Republic of Uzbekistan “On deepening economic reforms in the energy sector” and the Decree of the Cabinet of Ministers “On measures to denationalize and privatize enterprises,” the enterprise began to transform into an open joint-stock company “Uzbekenergotamir.",
+      "Since 2021, Energyproject Invest Group LLC has been the owner of a controlling stake in Uzbekenergotamir JSC. Today, the total number of personnel of the holding JSC 'Uzbekenergotamir' is more than 2300 highly qualified specialists and workers with extensive experience in the field of energy and construction.",
+      "Holding JSC 'Uzbekenergotamir' has the necessary certificates and licenses to carry out all types of work in the field of energy and construction"
+    ],
+    {
+      "title": "Our mission",
+      "arr": [
+        "Leading our business to the heights of quality and reliability. Providing a professional and high-quality approach to solving problems, increasing the energy efficiency of equipment, and the reliability of its operation. Training, retraining and advanced training of specialists and working personnel.",
+        "To be a leading provider of services for industrial-technological equipment and units for the energy, construction and environmental industries."
+      ]
+    },
+    {
+      "title": "Our Vision",
+      "arr": [
+        "Ensure a high level of customer satisfaction in the repair, commissioning and operation of power equipment and industrial construction.",
+        "Add value to stakeholders through corporate social responsibility.",
+        "Improve organizational infrastructure and human capital development.",
+        "To be a great place to work where people are motivated and achieve their goals.",
+        "Ensure the possibility of producing works and services at the most competitive and affordable cost.",
+        "Management of the company on a stable financial basis for effective growth."
+      ]
+    },
+    {
+      "title": "Goals",
+      "desc": "We strictly follow our goals, providing customers with high-quality work on the repair, adjustment, testing of power equipment and the construction of industrial enterprises. The management of JSC 'O'zbekenergota'mir' makes every effort to achieve the following goals:",
+      "arr": [
+        "Conducting business aiming at the highest possible standards of ethics",
+        "Compliance with local and international industry standards",
+        "Ensuring the economic benefit of the customer by improving the methods of repair, adjustment and operation of power equipment parts",
+        "Building mutually beneficial long-term business relationships",
+        "Ensuring a safe and accessible work environment and healthy competition",
+        "Guarantees to the company's personnel, continuous career growth and opportunities for improvement"
+      ]
+    }
+  ],
+  "affiliated_companies": {
+    "title": "Affiliates",
+    "arr": [
+      {
+        "title": "Nura group",
+        "desc": "Leading our business to the heights of quality and reliability. Providing a professional and high-quality approach to solving problems, improving the energy efficiency of equipment, the reliability of its operation. Training, retraining and advanced training of specialists and workers."
+      },
+      {
+        "title": "Nura group",
+        "desc": "Leading our business to the heights of quality and reliability. Providing a professional and high-quality approach to solving problems, improving the energy efficiency of equipment, the reliability of its operation. Training, retraining and advanced training of specialists and workers."
+      },
+      {
+        "title": "Nura group",
+        "desc": "Leading our business to the heights of quality and reliability. Providing a professional and high-quality approach to solving problems, improving the energy efficiency of equipment, the reliability of its operation. Training, retraining and advanced training of specialists and workers."
+      },
+      {
+        "title": "Nura group",
+        "desc": "Leading our business to the heights of quality and reliability. Providing a professional and high-quality approach to solving problems, improving the energy efficiency of equipment, the reliability of its operation. Training, retraining and advanced training of specialists and workers."
+      },
+      {
+        "title": "Nura group",
+        "desc": "Leading our business to the heights of quality and reliability. Providing a professional and high-quality approach to solving problems, improving the energy efficiency of equipment, the reliability of its operation. Training, retraining and advanced training of specialists and workers."
+      },
+      {
+        "title": "Nura group",
+        "desc": "Leading our business to the heights of quality and reliability. Providing a professional and high-quality approach to solving problems, improving the energy efficiency of equipment, the reliability of its operation. Training, retraining and advanced training of specialists and workers."
+      }
+    ]
+  },
+  "warmEnergy": [
+    {
+      "title": "Repair of boiler equipment",
+      "desc": "all types of repair of steam and hot water boilers, as well as their reconstruction and modernization, technical re-equipment; - manufacturing, installation and repair of elements of boiler heating surfaces; - repair of the steam separation system, repair of collectors and pipelines for various purposes, repair vessels working under pressure; - repair of rotating mechanisms with vibration diagnostics and balancing; - repair of draft mechanisms; - reconditioning of drums; - ultrasonic examination of welds and the base metal of vessels working under pressure and lifting mechanisms with the issuance of a conclusion; - zonal heat treatment of bends pipes and welds using portable equipment."
+    },
+    {
+      "title": "Repair of turbine equipment",
+      "desc": "repair and adjustment of control and steam distribution systems; - balancing of rotors in their own bearings and on the machine; - shoveling of working stages of any turbine rotors; coupling halves of the rotors of turbine units, generators, pumps directly at the installation site of the units; - repair of pumps of all types and designs."
+    },
+    {
+      "title": "Electrical Equipment Repair",
+      "desc": "- Overhaul of generators; - Complete replacement of the generator stator winding; - Repair of active stator steel; - Repair of generator rotors with partial replacement of the winding; - Repair of high-voltage circuit breakers of any type; - Repair of generator hydrogen seals;- Repair of high-voltage electric motors with replacement of winding insulation, restoration of winding sections from old-year copper, production of winding sections from new copper; - Repair of low-voltage electric motors; - Balancing of rotors of generators and electric motors."
+    }
+  ],
+  "industrialBase": {
+    "title": "Production base",
+    "arr": [
+      "Manufacturing of parts and spare parts for power units; - Manufacture of metal structures for various purposes; - Refilling of bearing shells of any diameter, followed by boring to the required size; - Repair of high-voltage and low-voltage electric motors of any power with replacement of insulation and restoration of stator winding sections. Carrying out post-repair tests windings of stators in the conditions of own certified.",
+      "Electrical laboratories; - Machining of parts, including large-sized rotors with a maximum diameter of 1600 mm, a maximum length of 8000 mm, a maximum weight of 40 tons; - Repair of non-standard equipment; - Reblading of working stages of turbine rotors.",
+      "For post-repair testing, the enterprise has the following laboratories: - Laboratory for measuring equipment and instrumentation; - Laboratory for metals and welding; - Laboratory for testing high-voltage equipment.",
+      "repair and adjustment of control and steam distribution systems; - balancing of rotors in their own bearings and on the machine; - shoveling of working stages of any turbine rotors; - refilling of plain bearing shells with subsequent boring to the required size; - high-precision work on processing holes in the connecting halves of turbine unit rotors , generators, pumps directly at the installation site of the units; - repair of pumps of all types and designs."
+    ]
+  },
+  "energysources": {
+    "title": "Legislation in the field of RES",
+    "desc1": "First of all, you need to deal with the equipment and select the optimal solar power plant. Batteries are not universal, therefore, before buying and installing, we recommend that you seek the advice of a specialist. He will tell you about the pricing of the 'green' tariff (which is fixed by law) and choose the right model for your home.",
+    "desc2": "An equally important role is played by a special meter with a GSM/GPRS communication module, which is designed to calculate the generated / consumed solar energy. With its help, information about your energy turnover will be transmitted to Oblenergo.",
+    "btn": "Download"
+  },
+  "footer": [
+    {
+      "title": "On the site",
+      "arr": [
+        "our history",
+        "Thermal power engineering",
+        "Renewable energy sources",
+        "Catalog",
+        "The educational center",
+        "Service center",
+        "Our partners",
+        "Contacts"
+      ]
+    },
+    {
+      "title": "Clients",
+      "arr": ["Main divisions", "Financial indicators", "We're in the news", "Affiliated companies"]
+    },
+    {
+      "title": "RES",
+      "arr": ["Solar panels", "Solar water heaters", "Wind power"]
+    },
+    {
+      "title": "Our contacts",
+      "arr": ["103445, Tashkent, st. Sh.Aripar, 96A"]
+    },
+    ["All rights reserved by IES.uz", "Creating a ", "Supersite"]
+  ]
 }

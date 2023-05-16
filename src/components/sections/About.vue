@@ -2,14 +2,11 @@
   <section class="about lg:bg-bgAbout lg:min-h-[120vh]">
     <div class="container flex flex-col lg:flex-row justify-between gap-10">
       <div class="about-left">
-        <h2 class="text-primary">О нас</h2>
+        <h2 class="text-primary">{{ t("aboutus.title") }}</h2>
         <p class="text-secondary">
-          После разгосударствления, проведенного в 2001 году, предприятие было преобразовано в Открытое акционерное
-          общество «O’ZBEKENERGOTA’MIR». В соответствии с Законом Республики Узбекистан от 6 мая 2014 года № ЗРУ-370 «О
-          внесении изменений и дополнений в Закон Республики Узбекистан «Об акционерных обществах и защите прав
-          акционеров» статус предприятия изменен на Акционерное общество «O’ZBEKENERGOTA’MIR».
+          {{ t("aboutus.desc") }}
         </p>
-        <RouterLink to="/" class="btn">Подробнее</RouterLink>
+        <RouterLink to="/" class="btn">{{ t("btn") }}</RouterLink>
       </div>
       <div class="self-center">
         <iframe
@@ -25,6 +22,11 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+</script>
 
 <style scoped>
 section.about {

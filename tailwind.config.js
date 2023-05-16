@@ -17,6 +17,7 @@ export default {
         "border-color": "#EBEBEB",
         "input-fill": "#FBFBFB",
         "input-focus": "#FFC727",
+        "btn-primary": "#FBEA74",
         "footer-fill": "#1F262D",
         "footer-text": "#cccccc",
       },

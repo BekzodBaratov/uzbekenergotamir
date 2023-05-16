@@ -2,7 +2,7 @@
   <section class="affiliated py-6 md:py-12">
     <div class="container">
       <div class="pb-12">
-        <h2 class="text-big">affiliated_companies</h2>
+        <h2 class="text-big">Аффилированные компании</h2>
         <div class="cards grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           <PartnersCard v-for="partner in partners" :key="partner.id" :partner="partner" />
         </div>
