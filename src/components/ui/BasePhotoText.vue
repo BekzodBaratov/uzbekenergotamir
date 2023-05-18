@@ -8,7 +8,7 @@
         <slot name="title"></slot>
       </h2>
 
-      <p class="text-secondary">
+      <p class="text-secondary" :class="line_clamp ? `line-clamp-${line_clamp}` : ''">
         <slot name="desc"></slot>
       </p>
 
@@ -26,7 +26,8 @@
 <script setup>
 import { ref } from "vue";
 
-const props = defineProps(["reverse", "btn"]);
+const props = defineProps(["reverse", "btn", "line_clamp"]);
 const hasBtn = ref(props.btn || false);
 const isReversed = ref(props.reverse || false);
+const line_clamp = ref(props.line_clamp || 0);
 </script>
