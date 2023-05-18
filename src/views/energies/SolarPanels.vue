@@ -5,7 +5,7 @@
         <BannerCard v-for="banner in banners" :key="banner.id" :banner="banner" />
       </div>
       <div class="pb-12 md:pb-20">
-        <OfferedProducts />
+        <OfferedProducts :products="store.getSolarPanel" />
       </div>
       <div class="pb-12 md:pb-20">
         <ComplatedProjects />
@@ -31,6 +31,11 @@ import bannerImg1 from "/src/assets/images/banner/banner4.png";
 import bannerImg2 from "/src/assets/images/banner/banner2.png";
 import bannerBg2 from "/src/assets/images/banner/banner_bg2.png";
 import { reactive } from "vue";
+
+import { useEnergyProductStore } from "../../stores/energyProduct";
+const store = useEnergyProductStore();
+
+store.getEnergyProducts();
 
 const banners = reactive([
   {

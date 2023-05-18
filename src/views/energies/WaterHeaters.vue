@@ -5,7 +5,7 @@
         <BannerCard :banner="banner" />
       </div>
       <div class="pb-12 md:pb-20">
-        <OfferedProducts />
+        <OfferedProducts :products="store.getWaterHeater" />
       </div>
       <div>
         <ComplatedProjects />
@@ -34,6 +34,12 @@ import ContactSection from "../../components/sections/ContactSection.vue";
 import bannerImg2 from "/src/assets/images/banner/banner2.png";
 import bannerBg2 from "/src/assets/images/banner/banner_bg2.png";
 import { reactive } from "vue";
+import { useI18n } from "vue-i18n";
+import { useEnergyProductStore } from "../../stores/energyProduct";
+const store = useEnergyProductStore();
+const { t } = useI18n();
+
+store.getEnergyProducts();
 
 const banner = reactive({
   id: 1,
