@@ -25,6 +25,7 @@ export const useEnergyProductStore = defineStore("EnergyProduct", {
         const res = await axios.get("/energyProducts");
         this.energyProducts = res.data.energyProducts;
       } catch (error) {
+        console.log(error);
         toast.error(error.response.data.message);
       } finally {
         store.loading = false;

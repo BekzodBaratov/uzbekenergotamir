@@ -7,7 +7,7 @@
             <img
               class="h-auto max-w-full rounded-lg"
               :src="store.energyProduct.images[activeIamge].secure_url"
-              alt=""
+              alt="image"
             />
           </div>
           <div class="grid grid-cols-4 gap-4">
@@ -51,8 +51,8 @@ const route = useRoute();
 const store = useEnergyProductStore();
 const id = route.params.id;
 
-store.getOneEnergyProduct(id);
-store.getEnergyProducts();
+if (!store.energyProduct?._id) store.getOneEnergyProduct(id);
+if (!store.energyProducts.length) store.getEnergyProducts();
 
 const activeIamge = ref(0);
 const product = computed(() => store.energyProduct);
