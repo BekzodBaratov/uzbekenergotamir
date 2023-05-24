@@ -13,10 +13,11 @@
 
 <script setup>
 import LeaderCard from "../../components/cards/LeaderCard.vue";
+import leaderImg from "/src/assets/images/leader-img1.png";
 const leaders = [
   {
     id: 1,
-    image: "/src/assets/images/leader-img1.png",
+    image: leaderImg,
     name: "Сохибов Журабек Иномжонович",
     job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
     address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
@@ -25,7 +26,7 @@ const leaders = [
   },
   {
     id: 2,
-    image: "/src/assets/images/leader-img1.png",
+    image: leaderImg,
     name: "Сохибов Журабек Иномжонович",
     job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
     address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
@@ -34,7 +35,7 @@ const leaders = [
   },
   {
     id: 3,
-    image: "/src/assets/images/leader-img1.png",
+    image: leaderImg,
     name: "Сохибов Журабек Иномжонович",
     job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
     address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
@@ -43,7 +44,7 @@ const leaders = [
   },
   {
     id: 4,
-    image: "/src/assets/images/leader-img1.png",
+    image: leaderImg,
     name: "Сохибов Журабек Иномжонович",
     job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
     address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
@@ -52,7 +53,7 @@ const leaders = [
   },
   {
     id: 5,
-    image: "/src/assets/images/leader-img1.png",
+    image: leaderImg,
     name: "Сохибов Журабек Иномжонович",
     job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
     address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
@@ -61,7 +62,7 @@ const leaders = [
   },
   {
     id: 6,
-    image: "/src/assets/images/leader-img1.png",
+    image: leaderImg,
     name: "Сохибов Журабек Иномжонович",
     job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
     address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",

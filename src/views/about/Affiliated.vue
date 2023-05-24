@@ -22,72 +22,58 @@
 
 <script setup>
 import PartnersCard from "../../components/cards/PartnersCard.vue";
+import compImg1 from "/src/assets/images/affiliated/img1.png";
+import compImg2 from "/src/assets/images/affiliated/img2.png";
+import compImg3 from "/src/assets/images/affiliated/img3.png";
+import compImg4 from "/src/assets/images/affiliated/img4.png";
+import compImg5 from "/src/assets/images/affiliated/img5.png";
+import compImg6 from "/src/assets/images/affiliated/img6.png";
+import compImg7 from "/src/assets/images/affiliated/img7.png";
 
 const partners = [
-  {
-    id: 1,
-    image: { secure_url: "/src/assets/images/affiliated/img1.png" },
-  },
-  {
-    id: 2,
-    image: { secure_url: "/src/assets/images/affiliated/img2.png" },
-  },
-  {
-    id: 3,
-    image: { secure_url: "/src/assets/images/affiliated/img3.png" },
-  },
-  {
-    id: 4,
-    image: { secure_url: "/src/assets/images/affiliated/img4.png" },
-  },
-  {
-    id: 5,
-    image: { secure_url: "/src/assets/images/affiliated/img5.png" },
-  },
-  {
-    id: 6,
-    image: { secure_url: "/src/assets/images/affiliated/img6.png" },
-  },
-  {
-    id: 7,
-    image: { secure_url: "/src/assets/images/affiliated/img7.png" },
-  },
+  { id: 1, image: { secure_url: compImg1 } },
+  { id: 2, image: { secure_url: compImg2 } },
+  { id: 3, image: { secure_url: compImg3 } },
+  { id: 4, image: { secure_url: compImg4 } },
+  { id: 5, image: { secure_url: compImg5 } },
+  { id: 6, image: { secure_url: compImg6 } },
+  { id: 7, image: { secure_url: compImg7 } },
 ];
 const partnersAbout = [
   {
     id: 1,
     title: "Компания Nura group",
-    image: "/src/assets/images/affiliated/img1.png",
+    image: compImg1,
     desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
   },
   {
     id: 2,
     title: "Компания Nura group",
-    image: "/src/assets/images/affiliated/img2.png",
+    image: compImg1,
     desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
   },
   {
     id: 3,
     title: "Компания Nura group",
-    image: "/src/assets/images/affiliated/img1.png",
+    image: compImg1,
     desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
   },
   {
     id: 4,
     title: "Компания Nura group",
-    image: "/src/assets/images/affiliated/img2.png",
+    image: compImg1,
     desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
   },
   {
     id: 5,
     title: "Компания Nura group",
-    image: "/src/assets/images/affiliated/img1.png",
+    image: compImg1,
     desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
   },
   {
     id: 6,
     title: "Компания Nura group",
-    image: "/src/assets/images/affiliated/img2.png",
+    image: compImg1,
     desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
   },
 ];
