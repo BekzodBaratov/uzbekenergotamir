@@ -39,7 +39,7 @@ import { useEnergyProductStore } from "../../stores/energyProduct";
 const store = useEnergyProductStore();
 const { t } = useI18n();
 
-store.getEnergyProducts();
+if (!store.energyProducts.length) store.getEnergyProducts();
 
 const banner = reactive({
   id: 1,

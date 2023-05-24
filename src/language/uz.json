@@ -61,7 +61,9 @@
     ]
   },
   "local": "Mahalliylashtirilgan mahsulotlar",
+  "description": "Tavsif",
   "partners": "Bizning hamkorlarimiz",
+  "chart_title": "Moliyaviy ko'rsatkichlar",
   "btn": "Ko'proq",
   "calculate": {
     "title": "Bepul kalkulyator",
@@ -189,6 +191,11 @@
     "desc1": "Avvalo, asbob-uskunalar bilan shug'ullanish va optimal quyosh elektr stansiyasini tanlash kerak. Batareyalar universal emas, shuning uchun sotib olish va o'rnatishdan oldin mutaxassis maslahatiga murojaat qilishingizni tavsiya qilamiz. U aytadi. Siz “yashil” tarifning narxi (qonun bilan belgilangan) haqida ma’lumot bering va uyingiz uchun to‘g‘ri modelni tanlang.”",
     "desc2": "GSM/GPRS aloqa moduliga ega maxsus hisoblagich ham xuddi shunday muhim rol o'ynaydi, u ishlab chiqarilgan / iste'mol qilinadigan quyosh energiyasini hisoblash uchun mo'ljallangan. Uning yordami bilan sizning energiya aylanmangiz haqidagi ma'lumotlar Oblenergoga uzatiladi. ",
     "btn": "Yuklab olish"
+  },
+  "ourLeaders": {
+    "job": "Lavozim",
+    "address": "Manzil",
+    "phone": "Telefon"
   },
   "footer": [
     {

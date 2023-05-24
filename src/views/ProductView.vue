@@ -43,7 +43,7 @@
 </template>
 
 <script setup>
-import { computed, ref } from "vue";
+import { computed, ref, watch } from "vue";
 import EnergyCard from "/src/components/cards/EnergyCard.vue";
 import { useRoute } from "vue-router";
 import { useEnergyProductStore } from "../stores/energyProduct";
@@ -51,8 +51,12 @@ const route = useRoute();
 const store = useEnergyProductStore();
 const id = route.params.id;
 
-if (!store.energyProduct?._id) store.getOneEnergyProduct(id);
+if (store.energyProduct?._id !== route.params.id) store.getOneEnergyProduct(id);
 if (!store.energyProducts.length) store.getEnergyProducts();
+watch(
+  () => route.params.id,
+  () => store.getOneEnergyProduct(route.params.id)
+);
 
 const activeIamge = ref(0);
 const product = computed(() => store.energyProduct);

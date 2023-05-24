@@ -35,7 +35,7 @@ import { reactive } from "vue";
 import { useEnergyProductStore } from "../../stores/energyProduct";
 const store = useEnergyProductStore();
 
-store.getEnergyProducts();
+if (!store.energyProducts.length) store.getEnergyProducts();
 
 const banners = reactive([
   {

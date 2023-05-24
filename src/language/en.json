@@ -61,7 +61,9 @@
     ]
   },
   "local": "Localized Products",
+  "description": "Description",
   "partners": "Our partners",
+  "chart_title": "Financial indicators",
   "btn": "More",
   "calculate": {
     "title": "Free calculator",
@@ -189,6 +191,11 @@
     "desc1": "First of all, you need to deal with the equipment and select the optimal solar power plant. Batteries are not universal, therefore, before buying and installing, we recommend that you seek the advice of a specialist. He will tell you about the pricing of the 'green' tariff (which is fixed by law) and choose the right model for your home.",
     "desc2": "An equally important role is played by a special meter with a GSM/GPRS communication module, which is designed to calculate the generated / consumed solar energy. With its help, information about your energy turnover will be transmitted to Oblenergo.",
     "btn": "Download"
+  },
+  "ourLeaders": {
+    "job": "Job title",
+    "address": "Address",
+    "phone": "Phone"
   },
   "footer": [
     {

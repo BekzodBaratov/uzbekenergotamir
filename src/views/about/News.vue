@@ -1,7 +1,6 @@
 <template>
   <section class="news py-8 md:py-12">
     <div v-if="store.news.length" class="container">
-      <pre>{{ store.getOtherNews }}</pre>
       <div class="space-y-6">
         <BasePhotoText
           v-for="(uzbekenergo, i) in store.getUzbekenergo"
@@ -16,7 +15,9 @@
           </template>
           <template #title>{{ uzbekenergo.title }}</template>
           <template #desc>{{ uzbekenergo.description }}</template>
-          <template #btn> <a href="/">Подробнее</a> </template>
+          <template #btn>
+            <a :href="uzbekenergo?.path ? uzbekenergo.path : '/'">{{ t("btn") }}</a>
+          </template>
         </BasePhotoText>
       </div>
       <div>
@@ -38,7 +39,9 @@
 import BasePhotoText from "../../components/ui/BasePhotoText.vue";
 import NewsCard from "/src/components/cards/NewsCard.vue";
 import { useNewsStore } from "../../stores/news";
+import { useI18n } from "vue-i18n";
 const store = useNewsStore();
+const { t } = useI18n();
 
-store.getNews();
+if (!store.news.length) store.getNews();
 </script>

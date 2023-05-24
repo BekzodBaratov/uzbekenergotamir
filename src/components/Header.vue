@@ -4,22 +4,22 @@
       <ul class="flex justify-between items-center gap-6">
         <li>
           <RouterLink to="/">
-            <img class="w-20 md:w-32" :src="header_logo" alt="header_logo" />
+            <img class="w-20 md:w-24" :src="header_logo" alt="header_logo" />
           </RouterLink>
         </li>
         <li class="hidden lg:block">
           <ul class="flex gap-4">
-            <li class="link group relative" v-for="link in headerNav" :key="link.id">
+            <li class="link group relative text-sm font-semibold" v-for="link in headerNav" :key="link.id">
               <RouterLink class="flex gap-1" :to="link.href">
-                <span :class="link.id == 4 && locale == 'en' ? 'w-44' : ''">{{ link.name }}</span>
+                <span :class="link.id == 4 ? (locale == 'en' ? 'w-32' : 'w-48') : ''">{{ link.name }}</span>
                 <img v-if="link?.submenu" src="../assets/images/header/Arrow-down.svg" alt="Arrow-down" />
               </RouterLink>
 
-              <span v-if="link.id == 4" class="absolute bottom-1 left-[85%] xl:left-[67%]">
+              <span v-if="link.id == 4" class="absolute bottom-1 left-[73%]">
                 <img src="../assets/images/header/pero.png" alt="pero" />
               </span>
 
-              <ul v-if="link?.submenu" class="submenu absolute top-full hidden shadow-xl">
+              <ul v-if="link?.submenu" class="submenu absolute top-full hidden shadow-2xl">
                 <li v-for="subLink in link.submenu">
                   <RouterLink :to="subLink.href">{{ subLink.name }}</RouterLink>
                 </li>
@@ -55,7 +55,7 @@
           </ul>
         </li>
         <li>
-          <ul class="langMenu container md:w-full py-3">
+          <ul class="langMenu pt-6 container md:w-full py-3">
             <li v-for="lang in languages" :key="lang.id" @click="() => changeLangHandle(lang.name)">
               <img class="w-5" :src="lang.image" :alt="lang.name" />
             </li>
@@ -166,7 +166,7 @@ function changeLangHandle(langName) {
   @apply text-green-primary;
 }
 .langMenu {
-  @apply flex gap-3 justify-start pt-6;
+  @apply flex gap-3 justify-start;
 }
 .langMenu li {
   @apply border  border-gray-400 p-2 rounded-full aspect-square flex justify-center items-center hover:bg-green-primary duration-200;

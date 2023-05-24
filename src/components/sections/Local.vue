@@ -22,7 +22,7 @@
               :alt="data[selectedProduct].title"
             />
           </div>
-          <h2 class="text-primary">Описание</h2>
+          <h2 class="text-primary">{{ t("description") }}</h2>
           <p>{{ data[selectedProduct].description }}</p>
         </div>
       </div>

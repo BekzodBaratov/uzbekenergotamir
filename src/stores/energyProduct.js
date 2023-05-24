@@ -32,7 +32,6 @@ export const useEnergyProductStore = defineStore("EnergyProduct", {
       }
     },
     async getOneEnergyProduct(id) {
-      if (!id) return;
       let store = useContactStore();
       const toast = useToast();
       store.loading = true;
