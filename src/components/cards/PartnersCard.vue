@@ -1,7 +1,7 @@
 <template>
   <div class="partner-card">
-    <div class="tag py-4 md:py-6 lg:py-8">
-      <img class="w-32 md:w-48" :src="props.partner.image.secure_url" alt="partner_img" />
+    <div class="tag py-8 px-8 aspect-video md:py-6 lg:py-8">
+      <img class="w-full" :src="props.partner.image.secure_url" alt="partner_img" />
     </div>
   </div>
 </template>

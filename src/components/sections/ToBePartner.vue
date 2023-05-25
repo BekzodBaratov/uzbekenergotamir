@@ -1,7 +1,7 @@
 <template>
   <section class="tobepartner py-8 md:py-16">
     <div class="container">
-      <h2 class="text-big text-center">Как стать нашим партнером?</h2>
+      <h2 class="text-big text-center">{{ t("tobePartner.title") }}</h2>
       <div class="py-12">
         <div class="cards grid sm:grid-cols-[1fr_0.2fr_1fr_0.2fr_1fr] content-stretch justify-center gap-6">
           <div class="max-w-sm p-3 md:p-6 rounded-lg bg-bluer">
@@ -12,7 +12,7 @@
               <img src="/src/assets/images/icons/searchDoc.svg" alt="search" />
             </div>
             <h3 class="text-white font-medium">
-              Предоставление доступа к проводимым тендерам для группы компаний D-Solar
+              {{ t("tobePartner.card[0]") }}
             </h3>
           </div>
           <div class="hidden sm:flex items-center">
@@ -25,7 +25,7 @@
               </div>
               <img src="/src/assets/images/icons/writeDoc.svg" alt="search" />
             </div>
-            <h3 class="text-white font-medium">Подписание тендерной заявки от Партнера</h3>
+            <h3 class="text-white font-medium">{{ t("tobePartner.card[1]") }}</h3>
           </div>
           <div class="hidden sm:flex items-center">
             <img class="items-center" src="/src/assets/images/icons/arrow-right3.svg" alt="arrow-right" />
@@ -37,32 +37,24 @@
               </div>
               <img src="/src/assets/images/icons/partnerDoc.svg" alt="search" />
             </div>
-            <h3 class="text-white font-medium">Подписание договора с Партнером</h3>
+            <h3 class="text-white font-medium">{{ t("tobePartner.card[2]") }}</h3>
           </div>
         </div>
       </div>
       <div>
-        <h3 class="text-primary2 sm:text-center">Внимание поставщикам:</h3>
+        <h3 class="text-primary2 sm:text-center">{{ t("tobePartner.danger") }}</h3>
         <p class="text-secondary sm:text-center sm:px-24">
-          Solar Nature оказывает услуги генподряда по строительству солнечных электростанций на поверхности различных
-          сооружений в Узбекистане и по всему миру. Мы выполняем проекты «под ключ», которые включают в себя
-          консультирование, инициацию проекта, проектирование и установку солнечных панелей на крышах предприятий, а
-          также онлайн-мониторинг и техническое обслуживание фотоэлектрической установки. С тех пор, как мы начали
-          работать над проектами всех размеров, от крошечных промышленных солнечных электростанций до небольших
-          коммерческих солнечных электростанций, мы накопили массу опыта. Установкой солнечных панелей на крыше будет
-          заниматься квалифицированный персонал, имеющий более чем пятилетний опыт реализации значимых проектов. Solar
-          Nature оказывает услуги генподряда по строительству солнечных электростанций на поверхности различных
-          сооружений в Узбекистане и по всему миру. Мы выполняем проекты «под ключ», которые включают в себя
-          консультирование, инициацию проекта, проектирование и установку солнечных панелей на крышах предприятий, а
-          также онлайн-мониторинг и техническое обслуживание фотоэлектрической установки. С тех пор, как мы начали
-          работать над проектами всех размеров, от крошечных промышленных солнечных электростанций до небольших
-          коммерческих солнечных электростанций, мы накопили массу опыта. Установкой солнечных панелей на крыше будет
-          заниматься квалифицированный персонал, имеющий более чем пятилетний опыт реализации значимых проектов.
+          {{ t("tobePartner.dangerDesc") }}
         </p>
       </div>
     </div>
   </section>
 </template>
+
+<script setup>
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+</script>
 
 <style scoped>
 .tobepartner {

@@ -6,7 +6,7 @@
         <p class="text-secondary">
           {{ t("aboutus.desc") }}
         </p>
-        <RouterLink to="/" class="btn">{{ t("btn") }}</RouterLink>
+        <RouterLink to="/about/news" class="btn">{{ t("btn") }}</RouterLink>
       </div>
       <div class="self-center">
         <iframe

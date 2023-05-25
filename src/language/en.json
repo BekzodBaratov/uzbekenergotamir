@@ -197,6 +197,52 @@
     "address": "Address",
     "phone": "Phone"
   },
+  "leaders": [
+    {
+      "name": "Radjabov Ilkhomdjon Boltayevich",
+      "job": "\"UZBEKENERGOTAMIR\" JSC ACTING CHIEF DIRECTOR",
+      "address": "HOUSE 296, TASHGRES STREET, FIDOKOR MFY, KIBRAY DISTRICT, TASHKENT REGION, REPUBLIC OF UZBEKISTAN"
+    },
+    {
+      "name": "Sokhibov Jurabek Inomjonovich",
+      "job": "DEPUTY GENERAL DIRECTOR FOR PRODUCTION OF \"UZBEKENERGOTAMIR\" JSC",
+      "address": "REPUBLIC OF UZBEKISTAN, TASHKENT REGION, KIBRAY DISTRICT, SALAR CITY, FIDOKOR MFY"
+    },
+    {
+      "name": "Sorokin Timur Aleksandrovich",
+      "job": "CHIEF ENGINEER OF \"UZBEKENERGOTAMIR\" JSC",
+      "address": "296 TASHGRES STREET, FIDOKOR MFY, KIBRAY DISTRICT, TASHKENT REGION, REPUBLIC OF UZBEKISTAN"
+    },
+    {
+      "name": "Makhmudov Khushnudjon Abdurakhmonovich",
+      "job": "DEPUTY GENERAL DIRECTOR OF FINANCIAL, ECONOMIC AND COMMERCIAL AFFAIRS OF JSC \"UZBEKENERGOTA'MIR\"",
+      "address": "HOUSE 296, TASHGRES STREET, FIDOKOR MFY, KIBRAY DISTRICT, TASHKENT REGION, REPUBLIC OF UZBEKISTAN"
+    },
+    {
+      "name": "Astanov Sevar Ruslanovich",
+      "job": "DEPUTY GENERAL DIRECTOR OF UZBEKENERGOTAMIR JSC FOR LOCALIZATION, INVESTMENTS AND INNOVATIONS",
+      "address": "296 TASHGRES STREET, FIDOKOR MFY, KIBRAY DISTRICT, TASHKENT REGION, REPUBLIC OF UZBEKISTAN"
+    },
+    {
+      "name": "Tashpulatov Tursunpulat Tursunyuldashevich",
+      "job": "DEPUTY GENERAL DIRECTOR OF \"UZBEKENERGOTAMIR\" JSC FOR GENERAL ISSUES",
+      "address": "296 TASHGRES STREET, FIDOKOR MFY, KIBRAY DISTRICT, TASHKENT REGION, REPUBLIC OF UZBEKISTAN"
+    }
+  ],
+  "BusinessExpansion": {
+    "title": "Grow your business with us",
+    "numberDescription": "Customers nationwide"
+  },
+  "tobePartner": {
+    "title": "How to become our partner?",
+    "card": [
+      "Providing access to ongoing tenders for the D-Solar group of companies",
+      "Signing the tender from the Partner",
+      "Signing an agreement with a Partner"
+    ],
+    "danger": "Attention to suppliers:",
+    "dangerDesc": "Solar Nature provides general contracting services for the construction of solar power plants on the surface of various structures in Uzbekistan and around the world. We carry out turnkey projects that include consulting, project initiation, design and installation of solar panels on the roofs of enterprises , as well as online monitoring and maintenance of the PV installation.Since we started working on projects of all sizes, from tiny industrial solar plants to small commercial solar plants, we have accumulated a lot of experience.The installation of solar panels on the roof will be handled by qualified personnel , with more than five years of experience in implementing significant projects.Solar Nature provides general contracting services for the construction of solar power plants on the surface of various structures in Uzbekistan and around the world.We perform turnkey projects, which include consulting, project initiation, design and installation solar panels on the roofs of enterprises, as well as online monitoring and maintenance of a photovoltaic installation. Since we started working on projects of all sizes, from tiny industrial solar power plants to small commercial solar power plants, we have accumulated a wealth of experience. The installation of solar panels on the roof will be carried out by qualified personnel with more than five years of experience in implementing significant projects."
+  },
   "footer": [
     {
       "title": "On the site",

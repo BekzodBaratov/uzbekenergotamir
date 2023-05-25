@@ -197,6 +197,52 @@
     "address": "Manzil",
     "phone": "Telefon"
   },
+  "leaders": [
+    {
+      "name": "Radjabov Ilxomdjon Boltayevich",
+      "job": "\"O'ZBEKENERGOTA'MIR\" AJ BOSH DIREKTOR VAZIFASINI BAJARUVCHISI",
+      "address": "O'ZBEKISTON RESPUBLIKASI, TOSHKENT VILLOYATI, QIBRAY TUMANI, FIDOKOR MFY, TASHGRES KO’CHASI, 296-UY"
+    },
+    {
+      "name": "Сохибов Журабек Иномжонович",
+      "job": "«O‘ZBEKENERGOTA’MIR» AJ BOSH DIREKTORINING ISHLAB CHIQARISH BO'YICHA O'RINBOSARI",
+      "address": "O‘ZBEKISTON RESPUBLIKASI, TOSHKENT VILOYATI, QIBRAY TUMANI, SALAR SHAHARCHASI, FIDOKOR MFY"
+    },
+    {
+      "name": "Sorokin Timur Aleksandrovich",
+      "job": "“O‘ZBEKENERGOTA’MIR” АЖ БОШ МУҲАНДИСИ",
+      "address": "O‘ZBEKISTON RESPUBLIKASI, TOSHKENT VILOYATI, QIBRAY TUMANI, FIDOKOR MFY, TASHGRES KO‘CHASI, 296"
+    },
+    {
+      "name": "Maxmudov Xushnudjon Abduraxmonovich",
+      "job": "«O’ZBEKENERGOTA’MIR» AJ BOSH DIREKTORINING MOLIYA, IQTISOD VA TIJORAT ISHLARI BO'YICHA O'RINBOSARI",
+      "address": "O'ZBEKISTON RESPUBLIKASI, TOSHKENT VILLOYATI, QIBRAY TUMANI, FIDOKOR MFY, TASHGRES KO’CHASI, 296-UY"
+    },
+    {
+      "name": "Astanov Sevar Ruslanovich",
+      "job": "“O‘ZBEKENERGOTA’MIR” AJ BOSH DIREKTORINING MAHALLIYLASHTIRISH, INVESTITSIYALAR VA INNOVATSIYALAR BO‘YICHA O‘RINBOSARI",
+      "address": "O'ZBEKISTON RESPUBLIKASI, TOSHKENT VILOYATI, QIBRAY TUMANI, FIDOKOR MFY, TASHGRES KO‘CHASI, 296"
+    },
+    {
+      "name": "Tashpulatov Tursunpulat Tursunyuldashevich",
+      "job": "“O‘ZBEKENERGOTA’MIR” АЖ БОШ ДИРЕКТОРИНИНГ УМУМИЙ МАСАЛАЛАР БЎЙИЧА ЎРИНБОСАРИ",
+      "address": "O'ZBEKISTON RESPUBLIKASI, TOSHKENT VILOYATI, QIBRAY TUMANI, FIDOKOR MFY, TASHGRES KO‘CHASI, 296"
+    }
+  ],
+  "BusinessExpansion": {
+    "title": "Biz bilan biznesingizni rivojlantiring",
+    "numberDescription": "Mijozlar mamlakat bo'ylab"
+  },
+  "tobePartner": {
+    "title": "Qanday qilib bizning hamkorimiz bo'lish mumkin?",
+    "card": [
+      "D-Solar kompaniyalar guruhi uchun davom etayotgan tenderlarga kirishni ta'minlash",
+      "Hamkordan tenderni imzolash",
+      "Hamkor bilan shartnoma imzolash"
+    ],
+    "danger": "Etkazib beruvchilarga e'tibor:",
+    "dangerDesc": "Solar Nature O'zbekistonda va butun dunyoda turli inshootlar yuzasida quyosh elektr stansiyalarini qurish bo'yicha bosh pudrat xizmatlarini ko'rsatadi. Biz konsalting, loyihani boshlash, quyosh panellarini loyihalash va o'rnatishni o'z ichiga olgan kalit taslim loyihalarni amalga oshiramiz. korxonalarning tomlari, shuningdek, PV o'rnatishni onlayn monitoring va texnik xizmat ko'rsatish. Biz kichik sanoat quyosh zavodlaridan tortib kichik tijorat quyosh stansiyalarigacha bo'lgan barcha o'lchamdagi loyihalar ustida ishlay boshlaganimizdan beri biz juda ko'p tajriba to'pladik. Quyosh energiyasini o'rnatish tomdagi panellar muhim loyihalarni amalga oshirishda besh yildan ortiq tajribaga ega bo'lgan malakali xodimlar tomonidan ishlov beriladi.Solar Nature O'zbekistonda va butun dunyoda turli inshootlar yuzasida quyosh elektr stansiyalarini qurish bo'yicha bosh pudrat xizmatlarini ko'rsatadi.Biz konsalting, loyihani boshlash, korxonalarning tomlariga quyosh panellarini loyihalash va o'rnatish, shuningdek, fotovoltaik o'rnatishni onlayn monitoring qilish va texnik xizmat ko'rsatishni o'z ichiga olgan kalitlarga topshirilgan loyihalarni amalga oshirish. Kichik sanoat quyosh elektr stansiyalaridan tortib kichik tijorat quyosh elektr stansiyalarigacha bo‘lgan barcha hajmdagi loyihalar ustida ishlay boshlaganimizdan beri biz boy tajriba to‘pladik. Tomga quyosh panellarini o‘rnatish muhim loyihalarni amalga oshirishda besh yildan ortiq tajribaga ega bo‘lgan malakali xodimlar tomonidan amalga oshiriladi”."
+  },
   "footer": [
     {
       "title": "Saytda",

@@ -12,62 +12,67 @@
 </template>
 
 <script setup>
+import { useI18n } from "vue-i18n";
 import LeaderCard from "../../components/cards/LeaderCard.vue";
-import leaderImg from "/src/assets/images/leader-img1.png";
+import leaderImg1 from "/src/assets/images/about/leader1.jpg";
+import leaderImg2 from "/src/assets/images/leader-img1.png";
+import leaderImg3 from "/src/assets/images/about/leader2.jpg";
+import leader_def from "/src/assets/images/about/leader_default.png";
+const { t } = useI18n();
 const leaders = [
   {
     id: 1,
-    image: leaderImg,
-    name: "Сохибов Журабек Иномжонович",
-    job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
-    address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
+    image: leaderImg1,
+    name: t("leaders[0].name"),
+    job: t("leaders[0].job"),
+    address: t("leaders[0].address"),
     phone: "+998(71)236-61-43",
-    mail: "jknli@mail.ru",
+    mail: "INFO@UZBEKENERGOTAMIR.UZ",
   },
   {
     id: 2,
-    image: leaderImg,
-    name: "Сохибов Журабек Иномжонович",
-    job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
-    address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
+    image: leaderImg2,
+    name: t("leaders[1].name"),
+    job: t("leaders[1].job"),
+    address: t("leaders[1].address"),
     phone: "+998(71)236-61-43",
-    mail: "jknli@mail.ru",
-  },
-  {
-    id: 3,
-    image: leaderImg,
-    name: "Сохибов Журабек Иномжонович",
-    job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
-    address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
-    phone: "+998(71)236-61-43",
-    mail: "jknli@mail.ru",
+    mail: "SOKHIBOV_0704@MAIL.RU",
   },
   {
     id: 4,
-    image: leaderImg,
-    name: "Сохибов Журабек Иномжонович",
-    job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
-    address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
+    image: leader_def,
+    name: t("leaders[2].name"),
+    job: t("leaders[2].job"),
+    address: t("leaders[2].address"),
     phone: "+998(71)236-61-43",
-    mail: "jknli@mail.ru",
+    mail: "INFO@UZBEKENERGOTAMIR.UZ",
   },
   {
     id: 5,
-    image: leaderImg,
-    name: "Сохибов Журабек Иномжонович",
-    job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
-    address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
-    phone: "+998(71)236-61-43",
-    mail: "jknli@mail.ru",
+    image: leaderImg3,
+    name: t("leaders[3].name"),
+    job: t("leaders[3].job"),
+    address: t("leaders[3].address"),
+    phone: "+998(17)236-61-43",
+    mail: "MAXMUDOV@UZBEKENERGOTAMIR.UZ",
   },
   {
     id: 6,
-    image: leaderImg,
-    name: "Сохибов Журабек Иномжонович",
-    job: "Заместитель генерального директора АО O’ZBEKENERGOTA’MIR по производству",
-    address: "РЕСПУБЛИКА УЗБЕКИСТАН, ТАШКЕНТСКАЯ ОБЛАСТЬ, ҚИБРАЙСКИЙ РАЙОН, ФИДОКОР МФЙ, УЛИЦА ТАШГРЭС, ДОМ296",
+    image: leader_def,
+    name: t("leaders[4].name"),
+    job: t("leaders[4].job"),
+    address: t("leaders[4].address"),
     phone: "+998(71)236-61-43",
-    mail: "jknli@mail.ru",
+    mail: "INFO@UZBEKENERGOTAMIR.UZ",
+  },
+  {
+    id: 7,
+    image: leader_def,
+    name: t("leaders[5].name"),
+    job: t("leaders[5].job"),
+    address: t("leaders[5].address"),
+    phone: "+998(71)236-61-43",
+    mail: "INFO@UZBEKENERGOTAMIR.UZ",
   },
 ];
 </script>
