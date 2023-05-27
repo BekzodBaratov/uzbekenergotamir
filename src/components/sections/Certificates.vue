@@ -3,19 +3,10 @@
     <div class="container">
       <div class="grid lg:grid-cols-2 gap-6">
         <div>
-          <h2 class="text-big">Сертификаты</h2>
-          <p class="pb-4 text-secondary">
-            В условиях стремительного развития ветроэнергетики в Узбекистане,УЭТ приступил к подготовке кадров для
-            выполнения сервисногообслуживания и ремонтных работ ветрогенераторных установок.
-          </p>
-          <p class="pb-4 text-secondary">
-            Начата работа по сертификации учебного центра УЭТ для обученияперсонала по обслуживанию и эксплуатации
-            ветрогенераторов споследующей выдачи сертификата по допуску согласно стандартамGWO.
-          </p>
-          <p class="pb-4 text-secondary">
-            Ведутся переговоры с ведущими производителями основногооборудования по открытию сервис центров на базе УЭТ,
-            с последующейлокализацией запасных частей и комплектующих.
-          </p>
+          <h2 class="text-big">{{ t("certificate.title") }}</h2>
+          <p class="pb-2 text-secondary">{{ t("certificate.descs[0]") }}</p>
+          <p class="pb-2 text-secondary">{{ t("certificate.descs[1]") }}</p>
+          <p class="pb-2 text-secondary">{{ t("certificate.descs[2]") }}</p>
         </div>
         <div class="relative">
           <div class="flex items-end justify-end gap-4 p-8">
@@ -38,3 +29,8 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+</script>

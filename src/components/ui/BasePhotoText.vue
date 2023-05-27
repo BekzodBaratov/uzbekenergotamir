@@ -12,7 +12,7 @@
         <slot name="desc"></slot>
       </p>
 
-      <ul class="text-secondary space-y-4">
+      <ul class="text-secondary space-y-2">
         <slot name="descriptions"></slot>
       </ul>
 

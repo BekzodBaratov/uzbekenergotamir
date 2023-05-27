@@ -21,51 +21,49 @@
 </template>
 
 <script setup>
+import { reactive } from "vue";
+import { useEnergyProductStore } from "../../stores/energyProduct";
 import BannerCard from "/src/components/cards/BannerCard.vue";
 import OfferedProducts from "/src/components/sections/OfferedProducts.vue";
 import ComplatedProjects from "/src/components/sections/ComplatedProjects.vue";
 import Calculate from "../../components/sections/Calculate.vue";
 import ContactSection from "../../components/sections/ContactSection.vue";
+import { useI18n } from "vue-i18n";
 
 import bannerImg1 from "/src/assets/images/banner/banner4.png";
 import bannerImg2 from "/src/assets/images/banner/banner2.png";
 import bannerBg2 from "/src/assets/images/banner/banner_bg2.png";
-import { reactive } from "vue";
-
-import { useEnergyProductStore } from "../../stores/energyProduct";
 const store = useEnergyProductStore();
+const { t } = useI18n();
 
 if (!store.energyProducts.length) store.getEnergyProducts();
 
 const banners = reactive([
   {
-    id: 1,
-    title: "Солнечные водонагреватели",
-    desc1:
-      "В условиях стремительного развития ветроэнергетики в Узбекистане,УЭТ приступил к подготовке кадров для выполнения сервисногообслуживания и ремонтных работ ветрогенераторных установок.",
-    desc2:
-      "Начата работа по сертификации учебного центра УЭТ для обученияперсонала по обслуживанию и эксплуатации ветрогенераторов споследующей выдачи сертификата по допуску согласно стандартамGWO.",
-    desc3:
-      "Ведутся переговоры с ведущими производителями основногооборудования по открытию сервис центров на базе УЭТ, с последующейлокализацией запасных частей и комплектующих.",
-    btn: "Подробнее",
-    href: "/energies/waterHeater",
+    id: 0,
+    title: t("banner[0].title"),
+    desc1: t("banner[0].desc1"),
+    desc2: t("banner[0].desc2"),
+    desc3: t("banner[0].desc3"),
+    btn: t("btn"),
+    href: "/energies/solarPanels",
     img: bannerImg2,
     bgImg: bannerBg2,
+    hasBtn: false,
   },
-
   {
     id: 2,
-    title: "Как мы работаем?",
-    desc1:
-      "Начата работа по сертификации учебного центра УЭТ для обученияперсонала по обслуживанию и эксплуатации ветрогенераторов споследующей выдачи сертификата по допуску согласно стандартамGWO.",
-    desc2:
-      "Начата работа по сертификации учебного центра УЭТ для обученияперсонала по обслуживанию и эксплуатации ветрогенераторов споследующей выдачи сертификата по допуску согласно стандартамGWO.",
-    desc3:
-      "Ведутся переговоры с ведущими производителями основногооборудования по открытию сервис центров на базе УЭТ, с последующейлокализацией запасных частей и комплектующих.",
-    btn: "Подробнее",
+    title: t("banner[3].title"),
+    desc1: t("banner[3].desc1"),
+    desc2: t("banner[3].desc2"),
+    desc3: t("banner[3].desc3"),
+    desc3: t("banner[3].desc4"),
+    desc3: t("banner[3].desc5"),
+    btn: t("btn"),
     href: "/energies/waterHeater",
     img: bannerImg1,
     bgImg: bannerBg2,
+    hasBtn: false,
   },
 ]);
 </script>

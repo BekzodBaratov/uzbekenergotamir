@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-big mb-8">Выполненные объекты</h2>
+    <h2 class="text-big mb-8">{{ t("complatedProd.title") }}</h2>
     <div class="space-y-8">
       <BasePhotoText v-for="pr in ComplatedProjects" :key="pr.id" :reverse="pr.reverse">
         <template #image>
@@ -31,27 +31,29 @@
 
 <script setup>
 import BasePhotoText from "/src/components/ui/BasePhotoText.vue";
+import { useI18n } from "vue-i18n";
 import DescIcon1 from "/src/assets/images/icons/wallet.svg";
 import DescIcon2 from "/src/assets/images/icons/energy_power.svg";
 import DescIcon3 from "/src/assets/images/icons/location.svg";
+const { t } = useI18n();
 
 const ComplatedProjects = [
   {
     id: 1,
     image: "/src/assets/images/thermalEnergy/img1.png",
-    title: "Солнечная электростанция",
+    title: t("complatedProd.products[0].title"),
     titleKw: "15 кВт",
     descs: [
       {
-        desc: "Адрес: г. Ташкент. Мирзо-Улугбекский район",
+        desc: t("complatedProd.products[0].descs[0]"),
         descIcon: DescIcon1,
       },
       {
-        desc: "Окупаемость: 4 года",
+        desc: t("complatedProd.products[0].descs[1]"),
         descIcon: DescIcon2,
       },
       {
-        desc: "Подняли мощность за 30 дней",
+        desc: t("complatedProd.products[0].descs[2]"),
         descIcon: DescIcon3,
       },
     ],
@@ -60,19 +62,19 @@ const ComplatedProjects = [
   {
     id: 2,
     image: "/src/assets/images/thermalEnergy/img1.png",
-    title: "Солнечная электростанция",
+    title: t("complatedProd.products[1].title"),
     titleKw: "30 кВт",
     descs: [
       {
-        desc: "Адрес: г. Ташкент. Мирзо-Улугбекский район",
+        desc: t("complatedProd.products[1].descs[0]"),
         descIcon: DescIcon1,
       },
       {
-        desc: "Окупаемость: 4 года",
+        desc: t("complatedProd.products[1].descs[1]"),
         descIcon: DescIcon2,
       },
       {
-        desc: "Подняли мощность за 30 дней",
+        desc: t("complatedProd.products[1].descs[2]"),
         descIcon: DescIcon3,
       },
     ],
@@ -81,19 +83,19 @@ const ComplatedProjects = [
   {
     id: 3,
     image: "/src/assets/images/thermalEnergy/img1.png",
-    title: "Солнечная электростанция",
+    title: t("complatedProd.products[2].title"),
     titleKw: "120 кВт",
     descs: [
       {
-        desc: "Адрес: г. Ташкент. Мирзо-Улугбекский район",
+        desc: t("complatedProd.products[2].descs[0]"),
         descIcon: DescIcon1,
       },
       {
-        desc: "Окупаемость: 4 года",
+        desc: t("complatedProd.products[2].descs[1]"),
         descIcon: DescIcon2,
       },
       {
-        desc: "Подняли мощность за 30 дней",
+        desc: t("complatedProd.products[2].descs[2]"),
         descIcon: DescIcon3,
       },
     ],

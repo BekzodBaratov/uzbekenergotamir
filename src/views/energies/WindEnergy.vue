@@ -16,23 +16,23 @@ import ContactSection from "/src/components/sections/ContactSection.vue";
 import Calculate from "/src/components/sections/Calculate.vue";
 import Certificates from "/src/components/sections/Certificates.vue";
 import Faq from "/src/components/sections/Faq.vue";
+import { useI18n } from "vue-i18n";
 
 import bannerImg3 from "../../assets/images/banner/banner3.png";
 import bannerBg3 from "../../assets/images/banner/banner_bg3.png";
 import { reactive } from "vue";
+const { t } = useI18n();
 
 const banner = reactive({
-  id: 2,
-  title: "Ветроэнергетика",
-  desc1:
-    "В условиях стремительного развития ветроэнергетики в Узбекистане,УЭТ приступил к подготовке кадров для выполнения сервисногообслуживания и ремонтных работ ветрогенераторных установок.",
-  desc2:
-    "Начата работа по сертификации учебного центра УЭТ для обученияперсонала по обслуживанию и эксплуатации ветрогенераторов споследующей выдачи сертификата по допуску согласно стандартамGWO.",
-  desc3:
-    "Ведутся переговоры с ведущими производителями основногооборудования по открытию сервис центров на базе УЭТ, с последующейлокализацией запасных частей и комплектующих.",
-  btn: "Подробнее",
-  href: "/energies/windEnergy",
+  id: 1,
+  title: t("banner[2].title"),
+  desc1: t("banner[2].desc1"),
+  desc2: t("banner[2].desc2"),
+  desc3: t("banner[2].desc3"),
+  btn: t("btn"),
+  href: "/energies/waterHeater",
   img: bannerImg3,
   bgImg: bannerBg3,
+  hasBtn: false,
 });
 </script>

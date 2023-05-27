@@ -32,21 +32,29 @@
   "banner": [
     {
       "title": "Quyosh panellari",
-      "desc1": "O‘zbekistonda shamol energetikasining jadal rivojlanishi sharoitida UET shamol turbinalariga texnik xizmat ko‘rsatish va ta’mirlash ishlarini bajarish uchun kadrlar tayyorlashni boshladi.",
-      "desc2": "Shamol turbinalariga texnik xizmat ko'rsatish va ulardan foydalanish bo'yicha kadrlarni tayyorlash bo'yicha UET o'quv markazini keyinchalik GWO standartlariga muvofiq qabul qilish sertifikatini berish bilan sertifikatlash bo'yicha ishlar boshlandi.",
-      "desc3": "Asosiy uskunalarning yetakchi ishlab chiqaruvchilari bilan UET negizida xizmat ko‘rsatish markazlarini ochish, keyinchalik ehtiyot qismlar va butlovchi qismlarni mahalliylashtirish bo‘yicha muzokaralar olib borilmoqda."
+      "desc1": "Biz O'zbekistonda quyosh panellarini ishlab chiqarish va o'rnatish sohasida yetakchi kompaniyamiz. Bizning vazifamiz kelajak uchun toza va barqaror energiya yaratishdir. ",
+      "desc2": "Biz yuqori sifatli quyosh panellari va sanoat, tijorat va turar-joy kabi turli sohalar uchun to'liq echimlarni taklif etamiz.",
+      "desc3": "2022-yilda quyosh fotoelektr stansiyalarini ishlab chiqarish yoʻlga qoʻyildi va 10 MVt quvvatni oʻrnatish tugallandi. 2023 yilda 110 MVt quvvatga ega quyosh fotoelektr stansiyalarini oʻrnatish rejalashtirilgan"
     },
     {
       "title": "Quyosh suv isitgichlari",
-      "desc1": "O‘zbekistonda shamol energetikasining jadal rivojlanishi sharoitida UET shamol turbinalariga texnik xizmat ko‘rsatish va ta’mirlash ishlarini bajarish uchun kadrlar tayyorlashni boshladi.",
-      "desc2": "Shamol turbinalariga texnik xizmat ko'rsatish va ulardan foydalanish bo'yicha kadrlarni tayyorlash bo'yicha UET o'quv markazini keyinchalik GWO standartlariga muvofiq qabul qilish sertifikatini berish bilan sertifikatlash bo'yicha ishlar boshlandi.",
-      "desc3": "Asosiy uskunalarning yetakchi ishlab chiqaruvchilari bilan UET negizida xizmat ko‘rsatish markazlarini ochish, keyinchalik ehtiyot qismlar va butlovchi qismlarni mahalliylashtirish bo‘yicha muzokaralar olib borilmoqda."
+      "desc1": "100, 150 va 200 litrli 3 xil hajmdagi quyosh issiq suv qozonlarini ishlab chiqarish yo‘lga qo‘yildi.",
+      "desc2": "Bizning quyosh issiq suv qozonlarimiz uylar, ofislar, mehmonxonalar, basseynlar va boshqalarni issiq suv bilan ta'minlash uchun ishonchli va energiya tejamkor yechimdir.",
+      "desc3": "Ular quyosh energiyasidan samarali foydalanish va elektr yoki gaz bilan isitish xarajatlarini sezilarli darajada kamaytirish imkonini beruvchi ilg'or texnologiyalar bilan jihozlangan."
     },
     {
-      "title": "Shamol kuchi",
-      "desc1": "O‘zbekistonda shamol energetikasining jadal rivojlanishi sharoitida UET shamol turbinalariga texnik xizmat ko‘rsatish va ta’mirlash ishlarini bajarish uchun kadrlar tayyorlashni boshladi.",
-      "desc2": "Shamol turbinalariga texnik xizmat ko'rsatish va ulardan foydalanish bo'yicha kadrlarni tayyorlash bo'yicha UET o'quv markazini keyinchalik GWO standartlariga muvofiq qabul qilish sertifikatini berish bilan sertifikatlash bo'yicha ishlar boshlandi.",
-      "desc3": "Asosiy uskunalarning yetakchi ishlab chiqaruvchilari bilan UET negizida xizmat ko‘rsatish markazlarini ochish, keyinchalik ehtiyot qismlar va butlovchi qismlarni mahalliylashtirish bo‘yicha muzokaralar olib borilmoqda."
+      "title": "Shamol energiyasi",
+      "desc1": "O'zbekistonda shamol energetikasining jadal rivojlanishi sharoitida \"O'ZBEKENERGOTA'MIR\" AJ shamol turbinalariga texnik xizmat ko'rsatish va ta'mirlash ishlarini bajarish uchun kadrlar tayyorlashni boshladi.",
+      "desc2": "\"OʻZBEKENERGOTA’MIR\" AJning shamol turbinalariga texnik xizmat koʻrsatish va ulardan foydalanish boʻyicha kadrlar tayyorlash boʻyicha oʻquv markazini keyinchalik GWO standartlari boʻyicha sertifikat berish bilan sertifikatlash boʻyicha ishlar boshlandi.",
+      "desc3": "“OʻZBEKENERGOTA’MIR” AJ negizida asosiy uskunalarning yetakchi ishlab chiqaruvchilari bilan xizmat koʻrsatish markazlarini ochish, keyinchalik ehtiyot qismlar va butlovchi qismlarni mahalliylashtirish boʻyicha muzokaralar olib borilmoqda”."
+    },
+    {
+      "title": "Bizni nima o'ziga xos qiladi?",
+      "desc1": "Innovatsion texnologiya: Biz doimiy ravishda quyosh energetikasi sohasidagi so'nggi tendentsiyalar va yangiliklardan xabardor bo'lib turamiz. Bizning quyosh panellarimiz maksimal samaradorlik va ishonchlilikni ta'minlash uchun ilg'or texnologiyalar bilan jihozlangan.",
+      "desc2": "Yuqori sifat: Mahsulotlarimizda eng yuqori sifatga intilamiz. Bizning barcha quyosh panellarimiz mustahkam va vaqt o'tishi bilan yaxshi ishlashini ta'minlash uchun qattiq sifat nazoratidan o'tkaziladi.",
+      "desc3": "Kompleks yechimlar: Biz nafaqat quyosh panellarini yetkazib berishni, balki quyosh energiyasi tizimlarini ishlab chiqish va o'rnatishni ham taklif qilamiz. Bizning mutaxassislarimiz sizning ehtiyojlaringiz va aniq loyihangizni hisobga olgan holda eng yaxshi yechimni tanlashingizga yordam beradi. .",
+      "desc4": "Barqarorlik: Biz barqaror rivojlanish va atrof-muhitga g'amxo'rlik qilishga sodiqmiz. Quyosh energiyasidan foydalanib, biz issiqxona gazlari chiqindilarini kamaytirish va tabiiy resurslarni tejashga yordam beramiz.",
+      "desc5": "Mijozlarga yo'naltirilgan yondashuv: Biz har bir mijozimizni qadrlaymiz va individual e'tibor va yuqori darajadagi xizmat ko'rsatishga intilamiz. Biz sizga quyosh energiyasi bilan bog'liq har qanday savollarda yordam berishga va ehtiyojlaringiz uchun eng yaxshi yechimni taklif qilishga tayyormiz. "
     }
   ],
   "divisions": {
@@ -63,6 +71,7 @@
   "local": "Mahalliylashtirilgan mahsulotlar",
   "description": "Tavsif",
   "partners": "Bizning hamkorlarimiz",
+  "btnDownload": "Yuklab olish",
   "chart_title": "Moliyaviy ko'rsatkichlar",
   "btn": "Ko'proq",
   "calculate": {
@@ -98,20 +107,20 @@
   ],
   "aboutHistory": [
     [
-      "1993-yilda “Sredazremenergo” AK “Oʻzbekenergotamir” AK deb qayta nomlandi, u oʻz atrofida Oʻzbekiston energetika tizimining issiqlik elektr stansiyalari va gidroelektr stansiyalari uskunalarini taʼmirlash boʻyicha deyarli barcha korxonalarni birlashtirdi.",
-      "2001 yilda O'zbekiston Respublikasi Prezidentining 'Energetika sohasidagi iqtisodiy islohotlarni chuqurlashtirish to'g'risida' va 'Vazirlar Mahkamasining iqtisodiy islohotlarini chuqurlashtirish to'g'risida' Farmonga binoan 'Korxonalarni xususiylashtirish chora-tadbirlari', Korxonaga aylana boshladi “O‘zbekenergotamir” ochiq aksiyadorlik jamiyati.",
-      "2021-yildan boshlab “Energyproject Invest Group” MChJ “O‘zbekenergota’mir” AJ aksiyalarining nazorat paketiga egalik qiladi. Bugungi kunda “O‘zbekenergotamir” xolding xodimlarining umumiy soni 2300 dan ortiq yuqori malakali mutaxassis va energetika va qurilish sohasida katta tajribaga ega ishchilarni tashkil etadi.",
-      "“O‘zbekenergotamir” xoldingi energetika va qurilish sohasida barcha turdagi ishlarni amalga oshirish uchun zarur sertifikat va litsenziyalarga ega."
+      "1993 yilda “Sredazremenergo” PO “O‘zbekenergotamir” AK deb o‘zgartirildi, u o‘z atrofida O‘zbekiston energetika tizimining issiqlik elektr stansiyalari va gidroelektr stansiyalari uskunalarini ta’mirlash bo‘yicha deyarli barcha korxonalarni birlashtirdi”.",
+      "2001-yilda O‘zbekiston Respublikasi Prezidentining 2001-yil 22-fevraldagi 25-sonli “Energetika sohasida iqtisodiy islohotlarni chuqurlashtirish to‘g‘risida”gi Farmoni hamda Vazirlar Mahkamasining “Davlat tasarrufidan chiqarish va davlat tasarrufidan chiqarish chora-tadbirlari to‘g‘risida”gi qarorini bajarish maqsadida korxonalarni xususiylashtirish”, korxonani “O‘zbekenergotamir” ochiq aksiyadorlik jamiyatiga aylantirish",
+      "“2021-yildan boshlab “O‘zbekenergota’mir” AJ aksiyalarining nazorat paketi egasi “Energyproject Invest Group” MChJ hisoblanadi. “O‘zbekenergota’mir” aksiyadorlik jamiyati 2300 dan ortiq yuqori malakali mutaxassislar va sohada katta tajribaga ega ishchilardan iborat. energetika va energetika ob'ektlarini qurish.",
+      "– “O‘zbekenergotamir xolding” aksiyadorlik jamiyati energetika sohasida barcha turdagi ishlarni amalga oshirish va energetika obyektlarini qurish uchun zarur sertifikat va litsenziyalarga ega."
     ],
     {
       "title": "Bizning vazifamiz",
       "arr": [
         "Bizning biznesimizni sifat va ishonchlilik cho'qqilariga olib chiqish. Muammolarni hal qilishda professional va sifatli yondashuvni ta'minlash, asbob-uskunalarning energiya samaradorligini va uning ishlashining ishonchliligini oshirish. Mutaxassislar va ishchi kadrlarni tayyorlash, qayta tayyorlash va malakasini oshirish.",
-        "Energetika, qurilish va atrof-muhitni muhofaza qilish sanoati uchun sanoat-texnologik asbob-uskunalar va jihozlar bo'yicha xizmatlar ko'rsatuvchi yetakchi provayder bo'lish."
+        "Energetika, qurilish va atrof-muhitni muhofaza qilish sanoatida sanoat texnologik uskunalari bo'yicha xizmatlar ko'rsatuvchi yetakchi provayder bo'lish."
       ]
     },
     {
-      "title": "Bizning Vizyonimiz",
+      "title": "Bizning maqsadimiz",
       "arr": [
         "Energetika uskunalarini ta'mirlash, ishga tushirish va ishlatishda mijozlarning yuqori darajadagi qoniqishini ta'minlash va sanoat qurilishi",
         "Korporativ ijtimoiy mas'uliyat orqali manfaatdor tomonlarga qiymat qo'shing.",
@@ -125,8 +134,8 @@
       "title": "Maqsadlar",
       "desc": "Biz o'z oldimizga qo'ygan maqsadlarga qat'iy amal qilamiz, mijozlarga energiya uskunalarini sifatli ta'mirlash, sozlash, sinovdan o'tkazish va sanoat korxonalarini qurishni ta'minlaymiz. 'O'zbekenergota'mir' AK rahbariyati quyidagi maqsadlarga erishish uchun barcha sa'y-harakatlarni amalga oshiradi:",
       "arr": [
-        "Etikaning eng yuqori standartlariga yo'naltirilgan biznes yuritish",
-        "Mahalliy va xalqaro sanoat standartlariga muvofiqlik",
+        "Biznesni eng yuqori axloqiy me'yorlarga muvofiq qilish",
+        "Mahalliy va xalqaro ishlab chiqarish standartlariga muvofiqligi",
         "Energetika uskunalari qismlarini ta'mirlash, sozlash va ishlatish usullarini takomillashtirish orqali mijozning iqtisodiy foydasini ta'minlash",
         "O'zaro manfaatli uzoq muddatli biznes aloqalarini o'rnatish",
         "Xavfsiz va qulay mehnat muhitini va sog'lom raqobatni ta'minlash",
@@ -165,27 +174,70 @@
   },
   "warmEnergy": [
     {
-      "title": "Qozon uskunasini ta'mirlash",
-      "desc": "bug' va issiq suv qozonlarini ta'mirlashning barcha turlari, shuningdek ularni rekonstruksiya qilish va modernizatsiya qilish, texnik qayta jihozlash; - qozon isitish yuzalarining elementlarini ishlab chiqarish, o'rnatish va ta'mirlash; - bug' ajratish tizimini ta'mirlash, turli maqsadlardagi kollektorlar va quvurlarni ta'mirlash, bosim ostida ishlaydigan idishlarni ta'mirlash; - tebranish diagnostikasi va balansi bilan aylanadigan mexanizmlarni ta'mirlash; - tortishish mexanizmlarini ta'mirlash; - barabanlarni qayta ishlash; - choklarni va ishlaydigan idishlarning asosiy metallini ultratovush tekshiruvi xulosa chiqarish bilan bosim va ko'tarish mexanizmlari; - portativ uskunalar yordamida bukilgan quvurlar va payvand choklarini zonal issiqlik bilan ishlov berish."
+      "title": "Qozon uskunalarini ta'mirlash",
+      "desc": "Bug' va issiq suv qozonlarini ta'mirlashning barcha turlari, shuningdek ularni rekonstruksiya qilish va modernizatsiya qilish, texnik qayta jihozlash;",
+      "descArr": [
+        "- qozon isitish sirt elementlarini ishlab chiqarish, o'rnatish va ta'mirlash;",
+        "- bug' ajratish tizimini ta'mirlash, turli maqsadlar uchun kollektorlar va quvurlarni ta'mirlash, bosimli idishlarni ta'mirlash;",
+        "- payvand choklarini va bosimli idishlar va ko'tarish mexanizmlarining asosiy metallarini xulosa berish bilan ultratovush tekshiruvi;",
+        "- qoralama mexanizmlarni ta'mirlash;",
+        "- portativ asbob-uskunalar yordamida quvur burmalari va choklarini zonal issiqlik bilan ishlov berish.",
+        "- tebranish diagnostikasi va balanslash bilan aylanuvchi mexanizmlarini ta'mirlash;",
+        "- barabanlarni qayta tiklash;"
+      ]
     },
     {
-      "title": "Turbinali uskunani ta'mirlash",
-      "desc": "boshqaruv va bug' taqsimlash tizimlarini ta'mirlash va sozlash; - o'z podshipniklarida va mashinada rotorlarni muvozanatlash; - har qanday turbinali rotorlarning ish bosqichlarini belkuraklash; turbinalar, generatorlar, nasoslar rotorlarining yarmini ulash. to'g'ridan-to'g'ri agregatlarni o'rnatish joyida; - barcha turdagi va dizayndagi nasoslarni ta'mirlash."
+      "title": "Turbinali uskunalarni ta'mirlash",
+      "desc": "Boshqaruv va bug' taqsimlash tizimlarini ta'mirlash va sozlash;",
+      "descArr": [
+        "- o'z podshipniklarida va mashinada rotorlarni muvozanatlash;",
+        "- har qanday turbinali rotorlarning ish bosqichlarini belkurak bilan tozalash;",
+        "- oddiy rulmanli qobiqlarni keyinchalik burg'ulash bilan kerakli hajmga to'ldirish;",
+        "- turbinali bloklar, turbogeneratorlar, nasoslar rotorlarining birlashtiruvchi yarmidagi teshiklarni to'g'ridan-to'g'ri agregatlarni o'rnatish joyida qayta ishlash bo'yicha yuqori aniqlikdagi ishlar;",
+        "- barcha turdagi va dizayndagi nasoslarni ta'mirlash."
+      ]
     },
     {
       "title": "Elektr jihozlarini ta'mirlash",
-      "desc": "- Generatorlarni kapital ta'mirlash; - generator stator o'rashini to'liq almashtirish; - faol stator po'latini ta'mirlash; - o'rashni qisman almashtirgan holda generator rotorlarini ta'mirlash; - har qanday turdagi yuqori kuchlanishli o'chirgichlarni ta'mirlash; - generatorning vodorod qistirmalarini ta'mirlash;- o'rash izolyatsiyasini almashtirish bilan yuqori voltli elektr dvigatellarini ta'mirlash, eski misdan o'rash uchastkalarini tiklash, yangi misdan o'rash qismlarini ishlab chiqarish; - past kuchlanishli elektr motorlarini ta'mirlash; - balanslash. generatorlar va elektr motorlarining rotorlari."
+      "descArr": [
+        "- generatorlarni kapital ta'mirlash;",
+        "- generator stator o'rashini to'liq almashtirish;",
+        "- stator faol po'latini ta'mirlash; - qisman o'rash bilan generator rotorlarini ta'mirlash;",
+        "- har qanday turdagi yuqori voltli o'chirgichlarni ta'mirlash;",
+        "- generator vodorod muhrlarini ta'mirlash;",
+        "- o'rash izolyatsiyasini almashtirgan holda yuqori voltli elektr dvigatellarini ta'mirlash, eski misdan o'rash qismlarini tiklash, yangi misdan o'rash qismlarini ishlab chiqarish;",
+        "- past kuchlanishli elektr motorlarini ta'mirlash;",
+        "- generatorlar va elektr motorlarning rotorlarini muvozanatlash."
+      ]
     }
   ],
-  "industrialBase": {
-    "title": "ishlab chiqarish bazasi",
-    "arr": [
-      "Energetika bloklari uchun ehtiyot qismlar va ehtiyot qismlarni ishlab chiqarish; - turli maqsadlar uchun metall konstruksiyalarni ishlab chiqarish; - istalgan diametrdagi podshipniklarni qayta to'ldirish, keyinchalik kerakli o'lchamdagi burg'ulash; - yuqori voltli va past kuchlanishli elektr motorlarini ta'mirlash. izolyatsiyasini almashtirish va stator o'rash qismlarini tiklash bilan har qanday quvvat. O'z sertifikatlangan sharoitlarda stator sarg'ishlarining ta'mirdan keyingi sinovlarini o'tkazish.",
-      "Elektr laboratoriyalari; - qismlarga ishlov berish, shu jumladan maksimal diametri 1600 mm, maksimal uzunligi 8000 mm, maksimal og'irligi 40 tonna bo'lgan katta o'lchamli rotorlar; - nostandart uskunalarni ta'mirlash; - ish bosqichlarini qayta ishlash. turbinali rotorlar.",
-      "Ta'mirdan keyingi sinovlarni o'tkazish uchun korxonada quyidagi laboratoriyalar mavjud: - o'lchash asbob-uskunalari va asbob-uskunalar laboratoriyasi; - metallar va payvandlash laboratoriyasi; - yuqori voltli uskunalarni sinovdan o'tkazish laboratoriyasi.",
-      "nazorat qilish va bug 'tarqatish tizimlarini ta'mirlash va sozlash; - o'z podshipniklarida va dastgohda rotorlarni muvozanatlash; - har qanday turbinali rotorlarning ish bosqichlarini belkuraklash; - tekis podshipnikli qobiqlarni keyinchalik burg'ulash bilan kerakli hajmga to'ldirish; - yuqori -turbinali bloklarning rotorlari, generatorlari, nasoslarining birlashtiruvchi yarmidagi teshiklarni to'g'ridan-to'g'ri agregatlarni o'rnatish joyida qayta ishlash bo'yicha aniq ishlar; - barcha turdagi va dizayndagi nasoslarni ta'mirlash."
-    ]
-  },
+  "industrialBase": [
+    {
+      "title": "Ishlab chiqarish bazasi",
+      "descs": [
+        "- energiya bloklari uchun ehtiyot qismlar va ehtiyot qismlar ishlab chiqarish;",
+        " - turli maqsadlar uchun metall konstruksiyalarni ishlab chiqarish;",
+        "- Har qanday diametrdagi tekis rulmanli qobiqlarni to'ldirish, so'ngra kerakli o'lchamda burg'ulash;",
+        "- Har qanday quvvatdagi yuqori kuchlanishli va past kuchlanishli elektr motorlarini izolyatsiyani almashtirish va stator o'rashining uchastkalarini tiklash bilan ta'mirlash. O'zimizning sertifikatlangan sharoitlarda stator sarg'ishlarining ta'mirdan keyingi sinovlarini o'tkazish."
+      ]
+    },
+    {
+      "title": "Elektrolaboratoriyalar",
+      "descs": [
+        " - maksimal diametri 1600 mm, maksimal uzunligi 8000 mm, maksimal og'irligi 40 tonna bo'lgan katta rotorlarni o'z ichiga olgan qismlarga ishlov berish; ",
+        "- nostandart uskunalarni ta'mirlash;",
+        "- Turbina rotorlarining ish bosqichlarini qayta ishlash."
+      ]
+    },
+    {
+      "title": "Ta'mirdan keyingi sinov uchun korxonada quyidagi laboratoriyalar mavjud:",
+      "descs": [
+        "- o'lchov uskunalari va asboblari laboratoriyasi;",
+        "- Metallar va payvandlash laboratoriyasi;",
+        "- Yuqori kuchlanishli uskunalarni sinovdan o'tkazish laboratoriyasi."
+      ]
+    }
+  ],
   "energySources": {
     "title": "RES sohasidagi qonunchilik",
     "desc1": "Avvalo, asbob-uskunalar bilan shug'ullanish va optimal quyosh elektr stansiyasini tanlash kerak. Batareyalar universal emas, shuning uchun sotib olish va o'rnatishdan oldin mutaxassis maslahatiga murojaat qilishingizni tavsiya qilamiz. U aytadi. Siz “yashil” tarifning narxi (qonun bilan belgilangan) haqida ma’lumot bering va uyingiz uchun to‘g‘ri modelni tanlang.”",
@@ -242,6 +294,70 @@
     ],
     "danger": "Etkazib beruvchilarga e'tibor:",
     "dangerDesc": "Solar Nature O'zbekistonda va butun dunyoda turli inshootlar yuzasida quyosh elektr stansiyalarini qurish bo'yicha bosh pudrat xizmatlarini ko'rsatadi. Biz konsalting, loyihani boshlash, quyosh panellarini loyihalash va o'rnatishni o'z ichiga olgan kalit taslim loyihalarni amalga oshiramiz. korxonalarning tomlari, shuningdek, PV o'rnatishni onlayn monitoring va texnik xizmat ko'rsatish. Biz kichik sanoat quyosh zavodlaridan tortib kichik tijorat quyosh stansiyalarigacha bo'lgan barcha o'lchamdagi loyihalar ustida ishlay boshlaganimizdan beri biz juda ko'p tajriba to'pladik. Quyosh energiyasini o'rnatish tomdagi panellar muhim loyihalarni amalga oshirishda besh yildan ortiq tajribaga ega bo'lgan malakali xodimlar tomonidan ishlov beriladi.Solar Nature O'zbekistonda va butun dunyoda turli inshootlar yuzasida quyosh elektr stansiyalarini qurish bo'yicha bosh pudrat xizmatlarini ko'rsatadi.Biz konsalting, loyihani boshlash, korxonalarning tomlariga quyosh panellarini loyihalash va o'rnatish, shuningdek, fotovoltaik o'rnatishni onlayn monitoring qilish va texnik xizmat ko'rsatishni o'z ichiga olgan kalitlarga topshirilgan loyihalarni amalga oshirish. Kichik sanoat quyosh elektr stansiyalaridan tortib kichik tijorat quyosh elektr stansiyalarigacha bo‘lgan barcha hajmdagi loyihalar ustida ishlay boshlaganimizdan beri biz boy tajriba to‘pladik. Tomga quyosh panellarini o‘rnatish muhim loyihalarni amalga oshirishda besh yildan ortiq tajribaga ega bo‘lgan malakali xodimlar tomonidan amalga oshiriladi”."
+  },
+  "renewable": {
+    "title": "RES sohasidagi talablar",
+    "desc1": "Avvalo, siz jihozlar bilan shug'ullanishingiz va optimal quyosh elektr stansiyasini tanlashingiz kerak. Batareyalar universal emas, shuning uchun sotib olish va o'rnatishdan oldin mutaxassisdan maslahat so'rashingizni tavsiya qilamiz. U aytadi. Siz \"yashil \" tarifining narxi haqida (qonun bilan belgilanadi) va o'zingizga mos modelni tanlang.",
+    "desc2": "GSM/GPRS aloqa moduliga ega maxsus hisoblagich ham xuddi shunday muhim rol o'ynaydi, u ishlab chiqarilgan iste'mol qilinadigan quyosh energiyasini hisoblash uchun mo'ljallangan. Uning yordami bilan energiya aylanmangiz haqidagi ma'lumotlar Tashoffelektrosetga uzatiladi."
+  },
+  "certificate": {
+    "title": "Sertifikatlar",
+    "descs": [
+      "O‘zbekistonda shamol energetikasining jadal rivojlanishi sharoitida UET shamol turbinalariga texnik xizmat ko‘rsatish va ta’mirlash ishlarini bajarish uchun kadrlar tayyorlashni boshladi.",
+      "UET o'quv markazini shamol turbinalariga texnik xizmat ko'rsatish va ulardan foydalanish bo'yicha kadrlar tayyorlash bo'yicha sertifikatlash, keyinchalik GWO standartlariga muvofiq qabul qilish sertifikatini berish bo'yicha ishlar boshlandi.",
+      "Asosiy asbob-uskunalar ishlab chiqaruvchi yetakchi kompaniyalar bilan UET negizida xizmat ko‘rsatish markazlarini ochish, keyinchalik ehtiyot qismlar va butlovchi qismlarni mahalliylashtirish bo‘yicha muzokaralar olib borilmoqda."
+    ]
+  },
+  "complatedProd": {
+    "title": "Bajarilgan ob'ektlar",
+    "products": [
+      {
+        "title": "Quyosh elektr stansiyasi",
+        "descs": ["Manzil: Toshkent shahri. Mirzo-Ulug'bek tumani", "To'lov: 4 yil", "30 kunda ishga tushiriladi"]
+      },
+      {
+        "title": "Quyosh elektr stansiyasi",
+        "descs": ["Manzil: Toshkent shahri. Mirzo-Ulug'bek tumani", "To'lov: 4 yil", "30 kunda ishga tushiriladi"]
+      },
+      {
+        "title": "Quyosh elektr stansiyasi",
+        "descs": ["Manzil: Toshkent shahri. Mirzo-Ulug'bek tumani", "To'lov: 4 yil", "30 kunda ishga tushiriladi"]
+      }
+    ]
+  },
+  "services": [
+    {
+      "title": "O'rni himoyasi qurilmalarini ishga tushirish",
+      "description": "2001 yilda o'tkazilgan davlat tasarrufidan chiqarishdan so'ng korxona \"O'ZBEKENERGOTA'MIR\" ochiq aksiyadorlik jamiyatiga aylantirildi. O'zbekiston Respublikasining 2014 yil 6 maydagi 6-sonli Qonuniga muvofiq O‘zbekiston Respublikasining “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori O‘zbekiston Respublikasining 2014-yil 6-maydagi O‘RQ-son Qonuniga muvofiq korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyatiga o‘zgartirildi. -370-sonli “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartish va qo‘shimchalar kiritish haqida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati deb o‘zgartirildi.Davlat tasarrufidan chiqarilgach, 2001-yilda oʻtkazilgan korxona Oʻzbekiston Respublikasining 2014-yil 6-maydagi OʻRQ-370-son “Oʻzbekiston Respublikasi Qonuniga oʻzgartish va qoʻshimchalar kiritish toʻgʻrisida”gi Qonuniga muvofiq “OʻZBEKENERGOTAʼMIR” ochiq aksiyadorlik jamiyatiga aylantirildi. O‘zbekiston Respublikasi “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati etib o‘zgartirildi."
+    },
+    {
+      "title": "Qurilish maydonlarida bajarilgan geodeziya ishlari",
+      "description": "2001 yilda o'tkazilgan davlat tasarrufidan chiqarishdan so'ng korxona \"O'ZBEKENERGOTA'MIR\" ochiq aksiyadorlik jamiyatiga aylantirildi. O'zbekiston Respublikasining 2014 yil 6 maydagi 6-sonli Qonuniga muvofiq O‘zbekiston Respublikasining “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori O‘zbekiston Respublikasining 2014-yil 6-maydagi O‘RQ-son Qonuniga muvofiq korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyatiga o‘zgartirildi. -370-sonli “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartish va qo‘shimchalar kiritish haqida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati deb o‘zgartirildi.Davlat tasarrufidan chiqarilgach, 2001-yilda oʻtkazilgan korxona Oʻzbekiston Respublikasining 2014-yil 6-maydagi OʻRQ-370-son “Oʻzbekiston Respublikasi Qonuniga oʻzgartish va qoʻshimchalar kiritish toʻgʻrisida”gi Qonuniga muvofiq “OʻZBEKENERGOTAʼMIR” ochiq aksiyadorlik jamiyatiga aylantirildi. O‘zbekiston Respublikasi “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati etib o‘zgartirildi."
+    },
+    {
+      "title": "O'rnatish ishlari",
+      "description": "2001 yilda o'tkazilgan davlat tasarrufidan chiqarishdan so'ng korxona \"O'ZBEKENERGOTA'MIR\" ochiq aksiyadorlik jamiyatiga aylantirildi. O'zbekiston Respublikasining 2014 yil 6 maydagi 6-sonli Qonuniga muvofiq O‘zbekiston Respublikasining “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori O‘zbekiston Respublikasining 2014-yil 6-maydagi O‘RQ-son Qonuniga muvofiq korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyatiga o‘zgartirildi. -370-sonli “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartish va qo‘shimchalar kiritish haqida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati deb o‘zgartirildi.Davlat tasarrufidan chiqarilgach, 2001-yilda oʻtkazilgan korxona Oʻzbekiston Respublikasining 2014-yil 6-maydagi OʻRQ-370-son “Oʻzbekiston Respublikasi Qonuniga oʻzgartish va qoʻshimchalar kiritish toʻgʻrisida”gi Qonuniga muvofiq “OʻZBEKENERGOTAʼMIR” ochiq aksiyadorlik jamiyatiga aylantirildi. O‘zbekiston Respublikasi “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati etib o‘zgartirildi."
+    },
+    {
+      "title": "Neft va gaz sanoati ob'ektlarini tartibga solish",
+      "description": "2001 yilda o'tkazilgan davlat tasarrufidan chiqarishdan so'ng korxona \"O'ZBEKENERGOTA'MIR\" ochiq aksiyadorlik jamiyatiga aylantirildi. O'zbekiston Respublikasining 2014 yil 6 maydagi 6-sonli Qonuniga muvofiq O‘zbekiston Respublikasining “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori O‘zbekiston Respublikasining 2014-yil 6-maydagi O‘RQ-son Qonuniga muvofiq korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyatiga o‘zgartirildi. -370-sonli “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartish va qo‘shimchalar kiritish haqida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati deb o‘zgartirildi.Davlat tasarrufidan chiqarilgach, 2001-yilda oʻtkazilgan korxona Oʻzbekiston Respublikasining 2014-yil 6-maydagi OʻRQ-370-son “Oʻzbekiston Respublikasi Qonuniga oʻzgartish va qoʻshimchalar kiritish toʻgʻrisida”gi Qonuniga muvofiq “OʻZBEKENERGOTAʼMIR” ochiq aksiyadorlik jamiyatiga aylantirildi. O‘zbekiston Respublikasi “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati etib o‘zgartirildi."
+    }
+  ],
+  "education": {
+    "title": "O'quv markaz",
+    "desc": "Kadrlarni o'qitish, qayta tayyorlash va malakasini oshirish",
+    "descs": [
+      "Elektr va gazli payvandchi (qo'lda payvandlash, himoya gaz argon muhitida)",
+      "Elektr jihozlarini ta'mirlash bo'yicha elektromontyor",
+      "Elektr mashinasi elementini o'rash",
+      "Issiqlik elektr stansiyalari qozonxonalari va chang va gaz tozalash sexlarini ta'mirlash mexanigi",
+      "Issiqlik elektr stansiyalarining bug 'turbinasi uskunalarini ta'mirlash mexanigi",
+      "Keng profilli mashinist",
+      "Asboblar va avtomatlashtirish mexanikasi",
+      "Motor",
+      "CNC mashinasi operatori",
+      "Energetika uskunalari bo'yicha texnik"
+    ]
   },
   "footer": [
     {

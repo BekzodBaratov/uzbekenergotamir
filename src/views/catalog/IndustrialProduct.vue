@@ -2,12 +2,14 @@
   <section class="IndustrialProduct py-6 md:py-12">
     <div class="container">
       <div class="space-y-32 pb-12">
-        <BasePhotoText v-for="ip in industralProduct" :key="id" :reverse="ip.reverce">
+        <BasePhotoText v-for="ip in industralProduct" :key="ip.id" :reverse="ip.reverce">
           <template #image>
-            <img :src="ip.image" :alt="ip.title" />
+            <img class="rounded-lg" :src="ip.image" :alt="ip.title" />
           </template>
           <template #title>{{ ip.title }}</template>
-          <template #desc> {{ ip.desc }} </template>
+          <template #descriptions>
+            <li v-for="el in ip.descs">{{ el }}</li>
+          </template>
         </BasePhotoText>
       </div>
     </div>
@@ -18,26 +20,38 @@
 <script setup>
 import BasePhotoText from "../../components/ui/BasePhotoText.vue";
 import ContactSection from "../../components/sections/ContactSection.vue";
-import img1 from "/src/assets/images/thermalEnergy/img1.png";
+import img1 from "/src/assets/images/thermalEnergy/4.png";
+import img2 from "/src/assets/images/thermalEnergy/5.png";
+import img3 from "/src/assets/images/thermalEnergy/6.png";
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 
 const industralProduct = [
   {
     id: 1,
     reverce: true,
-    title: "Производственная база",
+    title: t("industrialBase[0].title"),
     image: img1,
-    desc: `Изготовление деталей и запасных частей к энергоагрегатам; - Изготовление металлоконструкций различного назначения; - Перезаливка вкладышей подшипников скольжения любых диаметров, с последующей расточкой под требуемый размер;
-- Ремонт высоковольтных и низковольтных электродвигателей любой мощности с заменой изоляции и восстановлением секций статорной обмотки. Проведение послеремонтных испытаний обмоток статоров в условиях собственной аттестованной.
-Электролаборатории; - Механическая обработка деталей, в том числе крупногабаритных роторов с максимальным диаметром 1600 mm, максимальной длиной 8000 mm, максимальной массой 40 т.; - Ремонт нестандартного оборудования; - Переоблопачивание рабочих ступеней роторов турбин.
-Для проведения послеремонтных испытаний предприятие располагает следующими лабораториями: - Лаборатория измерительной техники и КИПиА; - Лаборатория металлов и сварки; - Лаборатория испытания высоковольтной аппаратуры.
-`,
+    descs: [
+      t("industrialBase[0].descs[0]"),
+      t("industrialBase[0].descs[1]"),
+      t("industrialBase[0].descs[2]"),
+      t("industrialBase[0].descs[3]"),
+    ],
   },
   {
     id: 2,
     reverce: false,
-    title: "Производственная база",
-    image: img1,
-    desc: "ремонт и наладка систем регулирования и парораспределения;- балансировка роторов в собственных подшипниках и на станке;- перелопачивание рабочих ступеней любых роторов турбин;- перезаливка вкладышей подшипников скольжения с последующей расточкой под требуемый размер; - высокоточные работы по обработке отверстий в соединительных полумуфтах роторов турбоагрегатов, генераторов, насосов непосредственно на месте установки агрегатов; - ремонт насосов всех типов и исполнений.",
+    title: t("industrialBase[1].title"),
+    image: img2,
+    descs: [t("industrialBase[1].descs[0]"), t("industrialBase[1].descs[1]"), t("industrialBase[1].descs[2]")],
+  },
+  {
+    id: 3,
+    reverce: true,
+    title: t("industrialBase[2].title"),
+    image: img3,
+    descs: [t("industrialBase[2].descs[0]"), t("industrialBase[2].descs[1]"), t("industrialBase[2].descs[2]")],
   },
 ];
 </script>

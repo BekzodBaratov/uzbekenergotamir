@@ -31,7 +31,7 @@ import Certificates from "../../components/sections/Certificates.vue";
 import Calculate from "../../components/sections/Calculate.vue";
 import ContactSection from "../../components/sections/ContactSection.vue";
 
-import bannerImg2 from "/src/assets/images/banner/banner2.png";
+import bannerImg2 from "/src/assets/images/banner/banner1.png";
 import bannerBg2 from "/src/assets/images/banner/banner_bg2.png";
 import { reactive } from "vue";
 import { useI18n } from "vue-i18n";

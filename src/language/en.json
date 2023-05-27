@@ -32,21 +32,29 @@
   "banner": [
     {
       "title": "Solar panels",
-      "desc1": "In the context of the rapid development of wind energy in Uzbekistan, UET has begun training personnel to perform maintenance and repair work on wind turbines.",
-      "desc2": "Work has begun on certification of the UET training center for training personnel in the maintenance and operation of wind turbines with the subsequent issuance of a certificate of admission in accordance with GWO standards.",
-      "desc3": "Negotiations are underway with leading manufacturers of basic equipment to open service centers based on UET, with subsequent localization of spare parts and components."
+      "desc1": "We are the leading company in the field of production and installation of solar panels in Uzbekistan. Our mission is to create clean and sustainable energy for the future. ",
+      "desc2": "We offer high quality solar panels and complete solutions for various sectors including industry, commercial and residential.",
+      "desc3": "In 2022, the production of solar photovoltaic power plants was launched and the installation of 10 MW was completed. In 2023, the installation of solar photovoltaic power plants of 110 MW is planned"
     },
     {
       "title": "Solar water heaters",
-      "desc1": "In the context of the rapid development of wind energy in Uzbekistan, UET has begun training personnel to perform maintenance and repair work on wind turbines.",
-      "desc2": "Work has begun on certification of the UET training center for training personnel in the maintenance and operation of wind turbines with the subsequent issuance of a certificate of admission in accordance with GWO standards.",
-      "desc3": "Negotiations are underway with leading manufacturers of basic equipment to open service centers based on UET, with subsequent localization of spare parts and components."
+      "desc1": "The production of solar hot water boilers of 3 different volumes for 100, 150 and 200 liters has been launched.",
+      "desc2": "Our solar hot water boilers are a reliable and energy efficient solution for providing hot water to homes, offices, hotels, swimming pools and more.",
+      "desc3": "They are equipped with advanced technologies that allow efficient use of solar energy and significantly reduce the cost of electric or gas heating."
     },
     {
-      "title": "Wind power",
-      "desc1": "In the context of the rapid development of wind energy in Uzbekistan, UET has begun training personnel to perform maintenance and repair work on wind turbines.",
-      "desc2": "Work has begun on certification of the UET training center for training personnel in the maintenance and operation of wind turbines with the subsequent issuance of a certificate of admission in accordance with GWO standards.",
-      "desc3": "Negotiations are underway with leading manufacturers of basic equipment to open service centers based on UET, with subsequent localization of spare parts and components."
+      "title": "Wind Energy",
+      "desc1": "In the context of the rapid development of wind energy in Uzbekistan, O'ZBEKENERGOTA'MIR JSC has begun training personnel to perform maintenance and repair work of wind turbines.",
+      "desc2": "Work has begun on the certification of the training center of OʻZBEKENERGOTA’MIR JSC for training personnel in the maintenance and operation of wind turbines with the subsequent issuance of a certificate according to GWO standards.",
+      "desc3": "Negotiations are underway with leading manufacturers of main equipment to open service centers on the basis of OʻZBEKENERGOTA'MIR JSC, with subsequent localization of spare parts and components."
+    },
+    {
+      "title": "What makes us special?",
+      "desc1": "Innovative technology: We constantly keep abreast of the latest trends and innovations in the field of solar energy. Our solar panels are equipped with advanced technologies to ensure maximum efficiency and reliability.",
+      "desc2": "High quality: We strive for the highest quality in our products. All of our solar panels undergo strict quality controls to ensure they are durable and perform well over time.",
+      "desc3": "Comprehensive solutions: We offer not only the supply of solar panels, but also the development and installation of turnkey solar energy systems. Our team of experts will help you choose the best solution, taking into account your needs and specific project.",
+      "desc4": "Sustainability: We are committed to sustainable development and care for the environment. Using solar energy, we help reduce greenhouse gas emissions and conserve natural resources.",
+      "desc5": "Customer centric approach: We value each of our customers and strive to provide individual attention and a high level of service. We are ready to help you with any questions related to solar energy and offer the best solution for your needs."
     }
   ],
   "divisions": {
@@ -63,6 +71,7 @@
   "local": "Localized Products",
   "description": "Description",
   "partners": "Our partners",
+  "btnDownload": "Download",
   "chart_title": "Financial indicators",
   "btn": "More",
   "calculate": {
@@ -98,16 +107,16 @@
   ],
   "aboutHistory": [
     [
-      "In 1993, PA 'Sredazremenergo' was renamed into PA 'Uzbekenergotamir', which united around itself almost all enterprises for the repair of equipment of thermal power plants and hydroelectric power plants of the energy system of Uzbekistan.",
-      "In 2001, in pursuance of the Decree of the President of the Republic of Uzbekistan “On deepening economic reforms in the energy sector” and the Decree of the Cabinet of Ministers “On measures to denationalize and privatize enterprises,” the enterprise began to transform into an open joint-stock company “Uzbekenergotamir.",
-      "Since 2021, Energyproject Invest Group LLC has been the owner of a controlling stake in Uzbekenergotamir JSC. Today, the total number of personnel of the holding JSC 'Uzbekenergotamir' is more than 2300 highly qualified specialists and workers with extensive experience in the field of energy and construction.",
-      "Holding JSC 'Uzbekenergotamir' has the necessary certificates and licenses to carry out all types of work in the field of energy and construction"
+      "In 1993, PO Sredazremenergo was renamed into PO Uzbekenergotamir, which united around itself almost all enterprises for the repair of equipment of thermal power plants and hydroelectric power plants of the energy system of Uzbekistan.",
+      "In 2001, in pursuance of the Decree of the President of the Republic of Uzbekistan No. 25 dated February 22, 2001 \"On deepening economic reforms in the energy sector\" and the Resolution of the Cabinet of Ministers \"On measures for the denationalization and privatization of enterprises\", the transformation of the enterprise into an open joint-stock company \"Uzbekenergotamir.\"",
+      "Since 2021, the owner of a controlling stake in Uzbekenergotamir JSC is Energyproject Invest Group LLC. \"Uzbekenergotamir\" consists of more than 2300 highly qualified specialists and workers with extensive experience in the field of energy and construction of energy facilities.",
+      "Uzbekenergotamir holding JSC has the necessary certificates and licenses to carry out all types of work in the energy sector and the construction of energy facilities."
     ],
     {
       "title": "Our mission",
       "arr": [
         "Leading our business to the heights of quality and reliability. Providing a professional and high-quality approach to solving problems, increasing the energy efficiency of equipment, and the reliability of its operation. Training, retraining and advanced training of specialists and working personnel.",
-        "To be a leading provider of services for industrial-technological equipment and units for the energy, construction and environmental industries."
+        "To be a leading provider of services for industrial process equipment in the energy, construction and environmental industries."
       ]
     },
     {
@@ -125,11 +134,11 @@
       "title": "Goals",
       "desc": "We strictly follow our goals, providing customers with high-quality work on the repair, adjustment, testing of power equipment and the construction of industrial enterprises. The management of JSC 'O'zbekenergota'mir' makes every effort to achieve the following goals:",
       "arr": [
-        "Conducting business aiming at the highest possible standards of ethics",
-        "Compliance with local and international industry standards",
+        "Doing business to the highest possible standards of ethics",
+        "Compliance with local and international production standards",
         "Ensuring the economic benefit of the customer by improving the methods of repair, adjustment and operation of power equipment parts",
         "Building mutually beneficial long-term business relationships",
-        "Ensuring a safe and accessible work environment and healthy competition",
+        "Ensuring a safe and accessible working environment and healthy competition",
         "Guarantees to the company's personnel, continuous career growth and opportunities for improvement"
       ]
     }
@@ -166,26 +175,69 @@
   "warmEnergy": [
     {
       "title": "Repair of boiler equipment",
-      "desc": "all types of repair of steam and hot water boilers, as well as their reconstruction and modernization, technical re-equipment; - manufacturing, installation and repair of elements of boiler heating surfaces; - repair of the steam separation system, repair of collectors and pipelines for various purposes, repair vessels working under pressure; - repair of rotating mechanisms with vibration diagnostics and balancing; - repair of draft mechanisms; - reconditioning of drums; - ultrasonic examination of welds and the base metal of vessels working under pressure and lifting mechanisms with the issuance of a conclusion; - zonal heat treatment of bends pipes and welds using portable equipment."
+      "desc": "All types of repair of steam and hot water boilers, as well as their reconstruction and modernization, technical re-equipment;  ",
+      "descArr": [
+        "- manufacturing, installation and repair of boiler heating surface elements;",
+        "- repair of steam separation system, repair of manifolds and pipelines for various purposes, repair of pressure vessels;",
+        "- ultrasonic examination of welds and the base metal of pressure vessels and lifting mechanisms with the issuance of a conclusion;",
+        "- repair of draft mechanisms;",
+        "- zonal heat treatment of pipe bends and welds using portable equipment.",
+        "- repair of rotating mechanisms with vibration diagnostics and balancing;",
+        "- refurbishment of drums;"
+      ]
     },
     {
       "title": "Repair of turbine equipment",
-      "desc": "repair and adjustment of control and steam distribution systems; - balancing of rotors in their own bearings and on the machine; - shoveling of working stages of any turbine rotors; coupling halves of the rotors of turbine units, generators, pumps directly at the installation site of the units; - repair of pumps of all types and designs."
+      "desc": "Repair and adjustment of control and steam distribution systems;",
+      "descArr": [
+        "- balancing of rotors in own bearings and on the machine;",
+        "- shoveling of working stages of any turbine rotors;",
+        "- refilling of plain bearing shells with subsequent boring to the required size;",
+        "- high-precision work on the processing of holes in the connecting halves of the rotors of turbine units, turbogenerators, pumps directly at the installation site of the units;",
+        "- repair of pumps of all types and designs."
+      ]
     },
     {
       "title": "Electrical Equipment Repair",
-      "desc": "- Overhaul of generators; - Complete replacement of the generator stator winding; - Repair of active stator steel; - Repair of generator rotors with partial replacement of the winding; - Repair of high-voltage circuit breakers of any type; - Repair of generator hydrogen seals;- Repair of high-voltage electric motors with replacement of winding insulation, restoration of winding sections from old-year copper, production of winding sections from new copper; - Repair of low-voltage electric motors; - Balancing of rotors of generators and electric motors."
+      "descArr": [
+        "- overhaul of generators;",
+        "- complete replacement of the generator stator winding;",
+        "- repair of stator active steel; - Repair of generator rotors with partial winding replacement;",
+        "- repair of high-voltage circuit breakers of any type;",
+        "- repair of generator hydrogen seals;",
+        "- repair of high-voltage electric motors with replacement of winding insulation, restoration of winding sections from old-year copper, production of winding sections from new copper;",
+        "- repair of low-voltage electric motors;",
+        "- balancing of rotors of generators and electric motors."
+      ]
     }
   ],
-  "industrialBase": {
-    "title": "Production base",
-    "arr": [
-      "Manufacturing of parts and spare parts for power units; - Manufacture of metal structures for various purposes; - Refilling of bearing shells of any diameter, followed by boring to the required size; - Repair of high-voltage and low-voltage electric motors of any power with replacement of insulation and restoration of stator winding sections. Carrying out post-repair tests windings of stators in the conditions of own certified.",
-      "Electrical laboratories; - Machining of parts, including large-sized rotors with a maximum diameter of 1600 mm, a maximum length of 8000 mm, a maximum weight of 40 tons; - Repair of non-standard equipment; - Reblading of working stages of turbine rotors.",
-      "For post-repair testing, the enterprise has the following laboratories: - Laboratory for measuring equipment and instrumentation; - Laboratory for metals and welding; - Laboratory for testing high-voltage equipment.",
-      "repair and adjustment of control and steam distribution systems; - balancing of rotors in their own bearings and on the machine; - shoveling of working stages of any turbine rotors; - refilling of plain bearing shells with subsequent boring to the required size; - high-precision work on processing holes in the connecting halves of turbine unit rotors , generators, pumps directly at the installation site of the units; - repair of pumps of all types and designs."
-    ]
-  },
+  "industrialBase": [
+    {
+      "title": "Production Base",
+      "descs": [
+        "- Manufacture of parts and spare parts for power units;",
+        " - Manufacture of metal structures for various purposes;",
+        "- Refilling of plain bearing shells of any diameter, followed by boring to the required size;",
+        "- Repair of high-voltage and low-voltage electric motors of any power with the replacement of insulation and restoration of sections of the stator winding. Conducting post-repair tests of stator windings in the conditions of our own certified."
+      ]
+    },
+    {
+      "title": "Electrolaboratories",
+      "descs": [
+        " - Machining of parts, including large rotors with a maximum diameter of 1600 mm, a maximum length of 8000 mm, a maximum weight of 40 tons; ",
+        "- Repair of non-standard equipment;",
+        "- Reblading the working stages of turbine rotors."
+      ]
+    },
+    {
+      "title": "For post-repair testing, the enterprise has the following laboratories:",
+      "descs": [
+        "- Laboratory of measuring equipment and instrumentation;",
+        "- Laboratory of metals and welding;",
+        "- Laboratory for testing high-voltage equipment."
+      ]
+    }
+  ],
   "energysources": {
     "title": "Legislation in the field of RES",
     "desc1": "First of all, you need to deal with the equipment and select the optimal solar power plant. Batteries are not universal, therefore, before buying and installing, we recommend that you seek the advice of a specialist. He will tell you about the pricing of the 'green' tariff (which is fixed by law) and choose the right model for your home.",
@@ -242,6 +294,70 @@
     ],
     "danger": "Attention to suppliers:",
     "dangerDesc": "Solar Nature provides general contracting services for the construction of solar power plants on the surface of various structures in Uzbekistan and around the world. We carry out turnkey projects that include consulting, project initiation, design and installation of solar panels on the roofs of enterprises , as well as online monitoring and maintenance of the PV installation.Since we started working on projects of all sizes, from tiny industrial solar plants to small commercial solar plants, we have accumulated a lot of experience.The installation of solar panels on the roof will be handled by qualified personnel , with more than five years of experience in implementing significant projects.Solar Nature provides general contracting services for the construction of solar power plants on the surface of various structures in Uzbekistan and around the world.We perform turnkey projects, which include consulting, project initiation, design and installation solar panels on the roofs of enterprises, as well as online monitoring and maintenance of a photovoltaic installation. Since we started working on projects of all sizes, from tiny industrial solar power plants to small commercial solar power plants, we have accumulated a wealth of experience. The installation of solar panels on the roof will be carried out by qualified personnel with more than five years of experience in implementing significant projects."
+  },
+  "renewable": {
+    "title": "Legislation in the field of RES",
+    "desc1": "First of all, you need to deal with the equipment and select the optimal solar power plant. Batteries are not universal, therefore, before buying and installing, we recommend that you seek the advice of a specialist. He will tell you about the pricing of the \"green \" tariff (which is fixed by law ) and select a model that is suitable for your home.",
+    "desc2": "An equally important role is played by a special meter with a GSM/GPRS communication module, which is designed to calculate the generated consumed solar energy. With its help, information about your energy turnover will be transmitted to the Tashoffelektroset."
+  },
+  "certificate": {
+    "title": "Certificates",
+    "descs": [
+      "In the context of the rapid development of wind energy in Uzbekistan, UET has begun training personnel to perform maintenance and repair work on wind turbines.",
+      "Work has begun on certification of the UET training center for training personnel in the maintenance and operation of wind turbines with the subsequent issuance of a certificate of admission in accordance with GWO standards.",
+      "Negotiations are underway with leading manufacturers of basic equipment to open service centers based on UET, with subsequent localization of spare parts and components."
+    ]
+  },
+  "complatedProd": {
+    "title": "Completed Objects",
+    "products": [
+      {
+        "title": "Solar power plant",
+        "descs": ["Address: Tashkent city. Mirzo-Ulugbek district", "Payback: 4 years", "Launch year in 30 days"]
+      },
+      {
+        "title": "Solar power plant",
+        "descs": ["Address: Tashkent city. Mirzo-Ulugbek district", "Payback: 4 years", "Launch year in 30 days"]
+      },
+      {
+        "title": "Solar power plant",
+        "descs": ["Address: Tashkent city. Mirzo-Ulugbek district", "Payback: 4 years", "Launch year in 30 days"]
+      }
+    ]
+  },
+  "services": [
+    {
+      "title": "Puskonaladochnye raboty ustroystv relaynoy zashchit",
+      "description": "After the razgosudarstvleniya, carried out in 2001, the enterprise was reorganized into Open joint-stock company \"UZBEKENERGOTA'MIR\". In accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 According to the Law of the Republic of Uzbekistan \"Ob aktsionernykh obshchestvax i zashchite prav aktsionerov\", the status of the enterprise was changed to Aktsionernoe obshchestvo \"UZBEKENERGOTA'MIR\". After the razgosudarstvleniya, carried out in 2001, the enterprise was transformed into Open joint-stock company \"UZBEKENERGOTA'MIR\". in accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 \"Amendments and Amendments to the Law of the Republic of Uzbekistan \"Ob Aktsionernykh Obshchestvax i Zashchite Prav Aktsionerov\", the status of the enterprise has been changed to the Joint Stock Company \"UZBEKENERGOTA'MIR\". established in 2001, the enterprise was reorganized in the open joint-stock company \"UZBEKENERGOTA'MIR\" in accordance with the Law of the Republic of Uzbekistan on May 6, 2014 No. ZRU-370 \"Amendments and additions to the Law of the Republic of Uzbekistan \"Ob aktsionernyx obshchestvax i zashchite prav aktsionerov\" status predpriyatiya izmenen na Aktionernoe obshchestvo \"UZBEKENERGOTA'MIR\"."
+    },
+    {
+      "title": "Geodezicheskie raboty, vypolnyaeemye na stroitelnyx ploshchadkax",
+      "description": "After the razgosudarstvleniya, carried out in 2001, the enterprise was reorganized into Open joint-stock company \"UZBEKENERGOTA'MIR\". In accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 According to the Law of the Republic of Uzbekistan \"Ob aktsionernykh obshchestvax i zashchite prav aktsionerov\", the status of the enterprise was changed to Aktsionernoe obshchestvo \"UZBEKENERGOTA'MIR\". After the razgosudarstvleniya, carried out in 2001, the enterprise was transformed into Open joint-stock company \"UZBEKENERGOTA'MIR\". in accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 \"Amendments and Amendments to the Law of the Republic of Uzbekistan \"Ob Aktsionernykh Obshchestvax i Zashchite Prav Aktsionerov\", the status of the enterprise has been changed to the Joint Stock Company \"UZBEKENERGOTA'MIR\". established in 2001, the enterprise was reorganized in the open joint-stock company \"UZBEKENERGOTA'MIR\" in accordance with the Law of the Republic of Uzbekistan on May 6, 2014 No. ZRU-370 \"Amendments and additions to the Law of the Republic of Uzbekistan \"Ob aktsionernyx obshchestvax i zashchite prav aktsionerov\" status predpriyatiya izmenen na Aktionernoe obshchestvo \"UZBEKENERGOTA'MIR\"."
+    },
+    {
+      "title": "Montazhnye raboty",
+      "description": "After the razgosudarstvleniya, carried out in 2001, the enterprise was reorganized into Open joint-stock company \"UZBEKENERGOTA'MIR\". In accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 According to the Law of the Republic of Uzbekistan \"Ob aktsionernykh obshchestvax i zashchite prav aktsionerov\", the status of the enterprise was changed to Aktsionernoe obshchestvo \"UZBEKENERGOTA'MIR\". After the razgosudarstvleniya, carried out in 2001, the enterprise was transformed into Open joint-stock company \"UZBEKENERGOTA'MIR\". in accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 \"Amendments and Amendments to the Law of the Republic of Uzbekistan \"Ob Aktsionernykh Obshchestvax i Zashchite Prav Aktsionerov\", the status of the enterprise has been changed to the Joint Stock Company \"UZBEKENERGOTA'MIR\". established in 2001, the enterprise was reorganized in the open joint-stock company \"UZBEKENERGOTA'MIR\" in accordance with the Law of the Republic of Uzbekistan on May 6, 2014 No. ZRU-370 \"Amendments and additions to the Law of the Republic of Uzbekistan \"Ob aktsionernyx obshchestvax i zashchite prav aktsionerov\" status predpriyatiya izmenen na Aktionernoe obshchestvo \"UZBEKENERGOTA'MIR\"."
+    },
+    {
+      "title": "Ustroystvo obektov neftyanoy i gazovoy promyshlennosti",
+      "description": "After the razgosudarstvleniya, carried out in 2001, the enterprise was reorganized into Open joint-stock company \"UZBEKENERGOTA'MIR\". In accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 According to the Law of the Republic of Uzbekistan \"Ob aktsionernykh obshchestvax i zashchite prav aktsionerov\", the status of the enterprise was changed to Aktsionernoe obshchestvo \"UZBEKENERGOTA'MIR\". After the razgosudarstvleniya, carried out in 2001, the enterprise was transformed into Open joint-stock company \"UZBEKENERGOTA'MIR\". in accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 \"Amendments and Amendments to the Law of the Republic of Uzbekistan \"Ob Aktsionernykh Obshchestvax i Zashchite Prav Aktsionerov\", the status of the enterprise has been changed to the Joint Stock Company \"UZBEKENERGOTA'MIR\". established in 2001, the enterprise was reorganized in the open joint-stock company \"UZBEKENERGOTA'MIR\" in accordance with the Law of the Republic of Uzbekistan on May 6, 2014 No. ZRU-370 \"Amendments and additions to the Law of the Republic of Uzbekistan \"Ob aktsionernyx obshchestvax i zashchite prav aktsionerov\" status predpriyatiya izmenen na Aktionernoe obshchestvo \"UZBEKENERGOTA'MIR\"."
+    }
+  ],
+  "education": {
+    "title": "Training Center",
+    "desc": "Education, retraining and advanced training of personnel",
+    "descs": [
+      "Electric and gas welder (manual welding, in the environment of protective gas argon)",
+      "Electrician for the repair of electrical equipment",
+      "Electrical machine element winder",
+      "Mechanic for the repair of boiler houses of thermal power plants and dust and gas cleaning shops",
+      "Mechanic for the repair of steam turbine equipment of thermal power plants",
+      "Machinist of a wide profile",
+      "Mechanic of instrumentation and automation",
+      "Fitter",
+      "CNC Machine Operator",
+      "Energy Equipment Technician"
+    ]
   },
   "footer": [
     {

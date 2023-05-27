@@ -1,8 +1,8 @@
 <template>
   <section class="educational relative py-8 md:py-16">
     <div class="container">
-      <h2 class="text-big">Учебный центр</h2>
-      <p class="text-primary3 pb-6">Обучение, переподготовка и повышение квалификации персонала</p>
+      <h2 class="text-big">{{ t("education.title") }}</h2>
+      <p class="text-primary3 pb-6">{{ t("education.desc") }}</p>
       <div class="cards grid grid-cols-2 md:grid-cols-3 gap-6 py-8">
         <EducationalCard v-for="data in eduArr" :key="data.id" :data="data" />
       </div>
@@ -15,18 +15,20 @@
 
 <script setup>
 import EducationalCard from "/src/components/cards/EduCard.vue";
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 
 const eduArr = [
-  { id: 1, title: "Электрогазосварщик (ручная сварка, в среде защитного газа аргон)", number: "01" },
-  { id: 2, title: "Электромонтер по ремонту электрооборудования", number: "02" },
-  { id: 3, title: "Обмотчик элемента электромашин", number: "03" },
-  { id: 4, title: "Слесарь по ремонту котельных ТЭС и пылегазоочистных цехов", number: "04" },
-  { id: 5, title: "Слесарь по ремонту паротурбинного оборудования тепловых электростанций", number: "05" },
-  { id: 6, title: "Станочник широкого профиля", number: "06" },
-  { id: 7, title: "Слесарь контрольно-измерительных приборов и автоматики", number: "07" },
-  { id: 8, title: "Монтажник", number: "08" },
-  { id: 9, title: "Оператор станков с числовым програмным управлением", number: "09" },
-  { id: 10, title: "Наладчик энергооборудования", number: "10" },
+  { id: 1, title: t("education.descs[0]"), number: "01" },
+  { id: 2, title: t("education.descs[1]"), number: "02" },
+  { id: 3, title: t("education.descs[2]"), number: "03" },
+  { id: 4, title: t("education.descs[3]"), number: "04" },
+  { id: 5, title: t("education.descs[4]"), number: "05" },
+  { id: 6, title: t("education.descs[5]"), number: "06" },
+  { id: 7, title: t("education.descs[6]"), number: "07" },
+  { id: 8, title: t("education.descs[7]"), number: "08" },
+  { id: 9, title: t("education.descs[8]"), number: "09" },
+  { id: 10, title: t("education.descs[9]"), number: "10" },
 ];
 </script>
 

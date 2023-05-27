@@ -8,6 +8,9 @@
           </template>
           <template #title>{{ te.title }}</template>
           <template #desc> {{ te.desc }} </template>
+          <template #descriptions>
+            <li v-for="el in te.descs">{{ el }}</li>
+          </template>
         </BasePhotoText>
       </div>
     </div>
@@ -18,34 +21,58 @@
 <script setup>
 import BasePhotoText from "../components/ui/BasePhotoText.vue";
 import ContactSection from "../components/sections/ContactSection.vue";
-import img1 from "/src/assets/images/thermalEnergy/img1.png";
+import img1 from "/src/assets/images/thermalEnergy/1.png";
+import img2 from "/src/assets/images/thermalEnergy/2.png";
+import img3 from "/src/assets/images/thermalEnergy/3.png";
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 
 const thermalEnergy = [
   {
     id: 1,
     reverce: true,
-    title: "Ремонт котельного оборудования",
+    title: t("warmEnergy[0].title"),
     image: img1,
-    desc: "все виды ремонта паровых и водогрейных котлов, а также их реконструкция и модернизация, работы по техническому перевооружению; - изготовление, монтаж и ремонт элементов поверхностей нагрева котлов; - ремонт системы сепарации пара, ремонт коллекторов и трубопроводов различного назначения, ремонт сосудов, работающих под давлением;- ремонт вращающихся механизмов с вибродиагностикой и балансировкой;- ремонт тягодутьевых механизмов;- восстановительный ремонт барабанов; - ультразвуковое исследование сварных швов и основного металла сосудов, работающих под давлением и грузоподъемных механизмов с выдачей заключения; - зональная термическая обработка гибов труб и сварных швов с использование переносного оборудования.",
+    desc: t("warmEnergy[0].desc"),
+    descs: [
+      t("warmEnergy[0].descArr[0]"),
+      t("warmEnergy[0].descArr[1]"),
+      t("warmEnergy[0].descArr[2]"),
+      t("warmEnergy[0].descArr[3]"),
+      t("warmEnergy[0].descArr[4]"),
+      t("warmEnergy[0].descArr[5]"),
+      t("warmEnergy[0].descArr[6]"),
+    ],
   },
   {
     id: 2,
     reverce: false,
-    title: "Ремонт турбинного оборудования",
-    image: img1,
-    desc: "ремонт и наладка систем регулирования и парораспределения;- балансировка роторов в собственных подшипниках и на станке;- перелопачивание рабочих ступеней любых роторов турбин;- перезаливка вкладышей подшипников скольжения с последующей расточкой под требуемый размер; - высокоточные работы по обработке отверстий в соединительных полумуфтах роторов турбоагрегатов, генераторов, насосов непосредственно на месте установки агрегатов; - ремонт насосов всех типов и исполнений.",
+    title: t("warmEnergy[1].title"),
+    image: img2,
+    desc: t("warmEnergy[1].desc"),
+    descs: [
+      t("warmEnergy[1].descArr[0]"),
+      t("warmEnergy[1].descArr[1]"),
+      t("warmEnergy[1].descArr[2]"),
+      t("warmEnergy[1].descArr[3]"),
+      t("warmEnergy[1].descArr[4]"),
+    ],
   },
   {
     id: 3,
     reverce: true,
-    title: "Ремонт электрооборудования",
-    image: img1,
-    desc: `- Капитальный ремонт генераторов;
-- Полная замена обмотки статора генератора;
-- Ремонт активной стали статора;
-- Ремонт роторов генераторов с частичной заменой обмотки;
-- Ремонт высоковольтных выключателей любых типов;
-- Ремонт водородных уплотнений генератора;- Ремонт высоковольтных электродвигателей с заменой изоляции обмотки, восстановление секций обмотки из старогодной меди, изготовление секций обмотки из новой меди;- Ремонт низковольтных электродвигателей;- Балансировка роторов генераторов и электродвигателей.`,
+    title: t("warmEnergy[2].title"),
+    image: img3,
+    desc: t("warmEnergy[1].desc"),
+    descs: [
+      t("warmEnergy[2].descArr[0]"),
+      t("warmEnergy[2].descArr[1]"),
+      t("warmEnergy[2].descArr[2]"),
+      t("warmEnergy[2].descArr[3]"),
+      t("warmEnergy[2].descArr[4]"),
+      t("warmEnergy[2].descArr[5]"),
+      t("warmEnergy[2].descArr[6]"),
+    ],
   },
 ];
 </script>
