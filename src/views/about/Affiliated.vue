@@ -1,7 +1,7 @@
 <template>
   <section class="affiliated py-6 md:py-12">
     <div class="container">
-      <div class="pb-12">
+      <div class="pb-12 space-y-6">
         <h2 class="text-big">Аффилированные компании</h2>
         <div class="cards grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           <PartnersCard v-for="partner in partners" :key="partner.id" :partner="partner" />
@@ -22,13 +22,11 @@
 
 <script setup>
 import PartnersCard from "../../components/cards/PartnersCard.vue";
-import compImg1 from "/src/assets/images/affiliated/img1.png";
-import compImg2 from "/src/assets/images/affiliated/img2.png";
-import compImg3 from "/src/assets/images/affiliated/img3.png";
-import compImg4 from "/src/assets/images/affiliated/img4.png";
-import compImg5 from "/src/assets/images/affiliated/img5.png";
-import compImg6 from "/src/assets/images/affiliated/img6.png";
-import compImg7 from "/src/assets/images/affiliated/img7.png";
+import compImg1 from "/src/assets/images/affiliated/1.svg";
+import compImg2 from "/src/assets/images/affiliated/2.svg";
+import compImg3 from "/src/assets/images/affiliated/3.svg";
+import compImg4 from "/src/assets/images/affiliated/4.svg";
+import compImg5 from "/src/assets/images/affiliated/5.svg";
 
 const partners = [
   { id: 1, image: { secure_url: compImg1 } },
@@ -36,45 +34,37 @@ const partners = [
   { id: 3, image: { secure_url: compImg3 } },
   { id: 4, image: { secure_url: compImg4 } },
   { id: 5, image: { secure_url: compImg5 } },
-  { id: 6, image: { secure_url: compImg6 } },
-  { id: 7, image: { secure_url: compImg7 } },
 ];
 const partnersAbout = [
   {
     id: 1,
-    title: "Компания Nura group",
+    title: "ООО «Nura Group»",
     image: compImg1,
-    desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
+    desc: "Производство низковольтного и высоковольтного электротехнического оборудования от 0,4 кВ до 110 кВ ",
   },
   {
     id: 2,
-    title: "Компания Nura group",
-    image: compImg1,
-    desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
+    title: "ООО «Узэнергосозлаш»",
+    image: compImg2,
+    desc: "Работы по наладке энергетического оборудования, проектирование, лабораторные исследования ",
   },
   {
     id: 3,
-    title: "Компания Nura group",
-    image: compImg1,
-    desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
+    title: "ООО «Smart Integrity me»",
+    image: compImg3,
+    desc: "Строителство промышленных предпрятий и монтаж энергооборудований ",
   },
   {
     id: 4,
-    title: "Компания Nura group",
-    image: compImg1,
-    desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
+    title: "ООО «Qarshi Energota’mir»",
+    image: compImg4,
+    desc: "Ремонт и обслуживание энергооборудования ",
   },
   {
     id: 5,
-    title: "Компания Nura group",
-    image: compImg1,
-    desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
-  },
-  {
-    id: 6,
-    title: "Компания Nura group",
-    image: compImg1,
-    desc: "Ведение нашего бизнеса к вершинам качества и надежности. Обеспечивая профессиональный и качественный подход к решению проблем, повышения энергоэффективности оборудования, надежности его эксплуатации. Подготовка, переподготовка и повышение квалификации специалистов и рабочего персонала. ",
+    title: "СП «Turbo Energy»",
+    image: compImg5,
+    desc: "Производство запасных частей для турбин и генераторов",
   },
 ];
 </script>
