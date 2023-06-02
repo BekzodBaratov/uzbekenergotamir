@@ -33,7 +33,7 @@
           <div class="max-w-sm p-3 md:p-6 rounded-lg bg-bluer">
             <div class="flex justify-between items-start pb-6">
               <div class="sm:hidden lg:block">
-                <p class="circle-number2">02</p>
+                <p class="circle-number2">03</p>
               </div>
               <img src="/src/assets/images/icons/partnerDoc.svg" alt="search" />
             </div>
@@ -44,7 +44,13 @@
       <div>
         <h3 class="text-primary2 sm:text-center">{{ t("tobePartner.danger") }}</h3>
         <p class="text-secondary sm:text-center sm:px-24">
-          {{ t("tobePartner.dangerDesc") }}
+          {{ t("tobePartner.descs[0]") }}
+        </p>
+        <p class="text-secondary sm:text-center sm:px-24">
+          {{ t("tobePartner.descs[1]") }}
+        </p>
+        <p class="text-secondary sm:text-center sm:px-24">
+          {{ t("tobePartner.descs[2]") }}
         </p>
       </div>
     </div>

@@ -4,7 +4,13 @@
       <div class="about-left">
         <h2 class="text-primary">{{ t("aboutus.title") }}</h2>
         <p class="text-secondary">
-          {{ t("aboutus.desc") }}
+          {{ t("aboutus.descs[0]") }}
+        </p>
+        <p class="text-secondary">
+          {{ t("aboutus.descs[1]") }}
+        </p>
+        <p class="text-secondary">
+          {{ t("aboutus.descs[2]") }}
         </p>
         <RouterLink to="/about/history" class="btn">{{ t("btn") }}</RouterLink>
       </div>
