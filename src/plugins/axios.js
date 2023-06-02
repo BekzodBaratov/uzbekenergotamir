@@ -1,7 +1,7 @@
 import axios from "axios";
 import i18n from "./i18n";
 
-axios.defaults.baseURL = "http://134.209.75.85:3000/api/v1";
+axios.defaults.baseURL = "http://139.59.138.61:80/api/v1";
 
 axios.interceptors.request.use(
   (config) => {
