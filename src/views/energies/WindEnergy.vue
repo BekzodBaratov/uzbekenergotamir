@@ -18,8 +18,8 @@ import Certificates from "/src/components/sections/Certificates.vue";
 import Faq from "/src/components/sections/Faq.vue";
 import { useI18n } from "vue-i18n";
 
-import bannerImg3 from "../../assets/images/banner/banner3.png";
-import bannerBg3 from "../../assets/images/banner/banner_bg3.png";
+import bannerImg3 from "../../assets/images/banner/banner3.webp";
+import bannerBg3 from "../../assets/images/banner/banner_bg3.webp";
 import { reactive } from "vue";
 const { t } = useI18n();
 

@@ -22,7 +22,7 @@
             />
           </div>
           <div class="absolute bottom-0 right-0 -z-10">
-            <img class="md:w-full" src="/src/assets/images/certificate_bg.png" alt="certificate" />
+            <img class="md:w-full" src="/src/assets/images/certificate_bg.webp" alt="certificate" />
           </div>
         </div>
       </div>

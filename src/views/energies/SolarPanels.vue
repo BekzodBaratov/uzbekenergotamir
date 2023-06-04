@@ -30,9 +30,9 @@ import Calculate from "../../components/sections/Calculate.vue";
 import ContactSection from "../../components/sections/ContactSection.vue";
 import { useI18n } from "vue-i18n";
 
-import bannerImg1 from "/src/assets/images/banner/banner4.png";
-import bannerImg2 from "/src/assets/images/banner/banner2.png";
-import bannerBg2 from "/src/assets/images/banner/banner_bg2.png";
+import bannerImg1 from "/src/assets/images/banner/banner4.webp";
+import bannerImg2 from "/src/assets/images/banner/banner2.webp";
+import bannerBg2 from "/src/assets/images/banner/banner_bg2.webp";
 const store = useEnergyProductStore();
 const { t } = useI18n();
 

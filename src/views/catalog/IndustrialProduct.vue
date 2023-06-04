@@ -20,9 +20,9 @@
 <script setup>
 import BasePhotoText from "../../components/ui/BasePhotoText.vue";
 import ContactSection from "../../components/sections/ContactSection.vue";
-import img1 from "/src/assets/images/thermalEnergy/4.png";
-import img2 from "/src/assets/images/thermalEnergy/5.png";
-import img3 from "/src/assets/images/thermalEnergy/6.png";
+import img1 from "/src/assets/images/thermalEnergy/4.webp";
+import img2 from "/src/assets/images/thermalEnergy/5.webp";
+import img3 from "/src/assets/images/thermalEnergy/6.webp";
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 

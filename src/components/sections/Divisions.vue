@@ -14,8 +14,8 @@
 
 <script setup>
 import Card from "../cards/DivisionCard.vue";
-import bgImg from "../../assets/images/divisions/bg_img.png";
-import bgCardImg1 from "../../assets/images/divisions/bg-card-img.png";
+import bgImg from "../../assets/images/divisions/bg_img.webp";
+import bgCardImg1 from "../../assets/images/divisions/bg-card-img.webp";
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 

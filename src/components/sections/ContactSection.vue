@@ -93,7 +93,7 @@ section.contact {
 }
 .shape-left {
   position: absolute;
-  background-image: url("../../assets/images/contact/contact_bg.png");
+  background-image: url("../../assets/images/contact/contact_bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

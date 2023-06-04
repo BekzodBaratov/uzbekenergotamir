@@ -21,9 +21,9 @@
 <script setup>
 import BasePhotoText from "../components/ui/BasePhotoText.vue";
 import ContactSection from "../components/sections/ContactSection.vue";
-import img1 from "/src/assets/images/thermalEnergy/1.png";
-import img2 from "/src/assets/images/thermalEnergy/2.png";
-import img3 from "/src/assets/images/thermalEnergy/3.png";
+import img1 from "/src/assets/images/thermalEnergy/1.webp";
+import img2 from "/src/assets/images/thermalEnergy/2.webp";
+import img3 from "/src/assets/images/thermalEnergy/3.webp";
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 

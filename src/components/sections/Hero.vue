@@ -7,8 +7,8 @@
 <script setup>
 import { ref } from "vue";
 import Swiper from "./hero-swiper.vue";
-import img from "../../assets/images/hero/bg_img.png";
-import subImg from "../../assets/images/hero/subImg.png";
+import img from "../../assets/images/hero/bg_img.webp";
+import subImg from "../../assets/images/hero/subImg.webp";
 import logoImg from "../../assets/images/hero/logoImg.svg";
 
 const heroContnet = ref([

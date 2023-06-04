@@ -7,7 +7,7 @@
           <div :class="`imageBgLine-${pr.reverse ? 'right' : 'left'}`">
             <img
               class="rounded-lg w-full object-cover object-center aspect-video"
-              src="/src/assets/images/thermalEnergy/img1.png"
+              src="/src/assets/images/thermalEnergy/img1.jpg"
               alt="image1"
             />
           </div>
@@ -40,7 +40,7 @@ const { t } = useI18n();
 const ComplatedProjects = [
   {
     id: 1,
-    image: "/src/assets/images/thermalEnergy/img1.png",
+    image: "/src/assets/images/thermalEnergy/img1.jpg",
     title: t("complatedProd.products[0].title"),
     titleKw: "15 кВт",
     descs: [
@@ -61,7 +61,7 @@ const ComplatedProjects = [
   },
   {
     id: 2,
-    image: "/src/assets/images/thermalEnergy/img1.png",
+    image: "/src/assets/images/thermalEnergy/img1.jpg",
     title: t("complatedProd.products[1].title"),
     titleKw: "30 кВт",
     descs: [
@@ -82,7 +82,7 @@ const ComplatedProjects = [
   },
   {
     id: 3,
-    image: "/src/assets/images/thermalEnergy/img1.png",
+    image: "/src/assets/images/thermalEnergy/img1.jpg",
     title: t("complatedProd.products[2].title"),
     titleKw: "120 кВт",
     descs: [

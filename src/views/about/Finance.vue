@@ -14,7 +14,7 @@ import Chart from "../../components/DashboardChart.vue";
 <style scoped>
 .chart {
   padding: 5rem 0;
-  background-image: url("../../assets/images/about/solar_diagram_bg.png");
+  background-image: url("../../assets/images/about/solar_diagram_bg.webp");
   background-position: center;
   background-size: cover;
 }

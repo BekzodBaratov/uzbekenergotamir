@@ -22,11 +22,11 @@
 
 <script setup>
 import PartnersCard from "../../components/cards/PartnersCard.vue";
-import compImg1 from "/src/assets/images/affiliated/1.svg";
-import compImg2 from "/src/assets/images/affiliated/2.svg";
-import compImg3 from "/src/assets/images/affiliated/3.svg";
-import compImg4 from "/src/assets/images/affiliated/4.svg";
-import compImg5 from "/src/assets/images/affiliated/5.svg";
+import compImg1 from "/src/assets/images/affiliated/1.webp";
+import compImg2 from "/src/assets/images/affiliated/2.webp";
+import compImg3 from "/src/assets/images/affiliated/3.webp";
+import compImg4 from "/src/assets/images/affiliated/4.webp";
+import compImg5 from "/src/assets/images/affiliated/5.webp";
 
 const partners = [
   { id: 1, image: { secure_url: compImg1 } },

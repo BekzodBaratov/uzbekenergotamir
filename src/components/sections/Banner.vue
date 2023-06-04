@@ -12,12 +12,12 @@
 import BannerCard from "../cards/BannerCard.vue";
 import { useI18n } from "vue-i18n";
 
-import bannerImg1 from "../../assets/images/banner/banner1.png";
-import bannerImg2 from "../../assets/images/banner/banner2.png";
-import bannerImg3 from "../../assets/images/banner/banner3.png";
-import bannerBg1 from "../../assets/images/banner/banner_bg1.png";
-import bannerBg2 from "../../assets/images/banner/banner_bg2.png";
-import bannerBg3 from "../../assets/images/banner/banner_bg3.png";
+import bannerImg1 from "../../assets/images/banner/banner1.webp";
+import bannerImg2 from "../../assets/images/banner/banner2.webp";
+import bannerImg3 from "../../assets/images/banner/banner3.webp";
+import bannerBg1 from "../../assets/images/banner/banner_bg1.webp";
+import bannerBg2 from "../../assets/images/banner/banner_bg2.webp";
+import bannerBg3 from "../../assets/images/banner/banner_bg3.webp";
 import { reactive } from "vue";
 const { t } = useI18n();
 

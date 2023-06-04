@@ -4,7 +4,7 @@
       <div class="grid lg:grid-cols-2 md:gap-8">
         <div class="flex justify-center items-start pb-6">
           <div class="imageBefore">
-            <img class="w-full" src="../../assets/images/about/about-photo.png" alt="image" />
+            <img class="w-full" src="../../assets/images/about/about-photo.webp" alt="image" />
           </div>
         </div>
         <div class="space-y-4">
