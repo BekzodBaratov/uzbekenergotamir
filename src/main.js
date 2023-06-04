@@ -1,6 +1,5 @@
 import { createApp } from "vue";
 import { createPinia } from "pinia";
-import { MotionPlugin } from "@vueuse/motion";
 import VueApexCharts from "vue3-apexcharts";
 import ApexCharts from "apexcharts";
 import Toast from "vue-toastification";
@@ -8,7 +7,6 @@ import router from "./routes";
 import i18n from "./plugins/i18n";
 
 import App from "./App.vue";
-1
 import "./plugins/axios";
 import "./style.css";
 import "vue-toastification/dist/index.css";
