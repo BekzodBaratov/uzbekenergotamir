@@ -7,7 +7,7 @@
           <div :class="`imageBgLine-${pr.reverse ? 'right' : 'left'}`">
             <img
               class="rounded-lg w-full object-cover object-center aspect-video"
-              src="/src/assets/images/thermalEnergy/img1.jpg"
+              :src="pr.image"
               alt="image1"
             />
           </div>
@@ -32,74 +32,9 @@
 <script setup>
 import BasePhotoText from "/src/components/ui/BasePhotoText.vue";
 import { useI18n } from "vue-i18n";
-import DescIcon1 from "/src/assets/images/icons/wallet.svg";
-import DescIcon2 from "/src/assets/images/icons/energy_power.svg";
-import DescIcon3 from "/src/assets/images/icons/location.svg";
+import { computed } from "vue";
 const { t } = useI18n();
 
-const ComplatedProjects = [
-  {
-    id: 1,
-    image: "/src/assets/images/thermalEnergy/img1.jpg",
-    title: t("complatedProd.products[0].title"),
-    titleKw: "15 кВт",
-    descs: [
-      {
-        desc: t("complatedProd.products[0].descs[0]"),
-        descIcon: DescIcon1,
-      },
-      {
-        desc: t("complatedProd.products[0].descs[1]"),
-        descIcon: DescIcon2,
-      },
-      {
-        desc: t("complatedProd.products[0].descs[2]"),
-        descIcon: DescIcon3,
-      },
-    ],
-    reverse: false,
-  },
-  {
-    id: 2,
-    image: "/src/assets/images/thermalEnergy/img1.jpg",
-    title: t("complatedProd.products[1].title"),
-    titleKw: "30 кВт",
-    descs: [
-      {
-        desc: t("complatedProd.products[1].descs[0]"),
-        descIcon: DescIcon1,
-      },
-      {
-        desc: t("complatedProd.products[1].descs[1]"),
-        descIcon: DescIcon2,
-      },
-      {
-        desc: t("complatedProd.products[1].descs[2]"),
-        descIcon: DescIcon3,
-      },
-    ],
-    reverse: true,
-  },
-  {
-    id: 3,
-    image: "/src/assets/images/thermalEnergy/img1.jpg",
-    title: t("complatedProd.products[2].title"),
-    titleKw: "120 кВт",
-    descs: [
-      {
-        desc: t("complatedProd.products[2].descs[0]"),
-        descIcon: DescIcon1,
-      },
-      {
-        desc: t("complatedProd.products[2].descs[1]"),
-        descIcon: DescIcon2,
-      },
-      {
-        desc: t("complatedProd.products[2].descs[2]"),
-        descIcon: DescIcon3,
-      },
-    ],
-    reverse: false,
-  },
-];
+const props = defineProps(['projects'])
+const ComplatedProjects = computed(() => props.projects)
 </script>

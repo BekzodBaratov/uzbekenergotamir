@@ -23,7 +23,7 @@ export default {
       },
       backgroundImage: {
         yellowish: "linear-gradient(92.63deg, #F3C140 0%, #FBEA74 53.27%, #F6D251 116.73%)",
-        bluer: "linear-gradient(95.77deg, #067AF2 -46.87%, #07ABCF 146.46%)",
+        bluer: "linear-gradient(95.77deg, #707980 -46.87%, #707980 146.46%)",
         bgAbout: "url('/src/assets/images/about/about_bg.webp')",
         bgAbout2: "url('/src/assets/images/about/bg2.webp')",
         bgContact: "url('/src/assets/images/contact/contact_bg.webp')",

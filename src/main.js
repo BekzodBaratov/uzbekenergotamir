@@ -23,6 +23,5 @@ app.use(router);
 app.use(createPinia());
 app.use(VueApexCharts);
 app.use(Toast);
-app.use(MotionPlugin);
 
 app.mount("#app");

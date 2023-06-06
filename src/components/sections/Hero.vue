@@ -1,25 +1,11 @@
 <template>
-  <section>
-    <Swiper :content="heroContnet" class="hero-swiper" />
+  <section class="hero">
+    <video class="hero-video" src="/src/assets/video_hero_bg.mp4" autoplay loop ></video>
   </section>
 </template>
 
-<script setup>
-import { ref } from "vue";
-import Swiper from "./hero-swiper.vue";
-import img from "../../assets/images/hero/bg_img.webp";
-import subImg from "../../assets/images/hero/subImg.webp";
-import logoImg from "../../assets/images/hero/logoImg.svg";
-
-const heroContnet = ref([
-  { id: 0, image: img, href: "/", subImage: subImg, logoImg: logoImg },
-  { id: 0, image: img, href: "/", subImage: subImg, logoImg: logoImg },
-  { id: 0, image: img, href: "/", subImage: subImg, logoImg: logoImg },
-]);
-</script>
-
 <style scoped>
-.hero-swiper {
-  @apply h-[85vh];
+.hero-video{
+  @apply w-full min-h-max
 }
 </style>

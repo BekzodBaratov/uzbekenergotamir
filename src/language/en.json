@@ -321,15 +321,27 @@
     "products": [
       {
         "title": "Solar power plant",
-        "descs": ["Address: Tashkent city. Mirzo-Ulugbek district", "Payback: 4 years", "Launch year in 30 days"]
+        "descs": ["Address: Tashkent TPP", "Payback: 4 years", "Launch year: 2020"]
       },
       {
         "title": "Solar power plant",
-        "descs": ["Address: Tashkent city. Mirzo-Ulugbek district", "Payback: 4 years", "Launch year in 30 days"]
+        "descs": ["Address: Mubarek TPP", "Payback: 3 years", "Launch year: 2019"]
       },
       {
         "title": "Solar power plant",
-        "descs": ["Address: Tashkent city. Mirzo-Ulugbek district", "Payback: 4 years", "Launch year in 30 days"]
+        "descs": ["Address: Ferghana TPP", "Payback: 5 years", "Launch year: 2021"]
+      },
+      {
+        "title": "Solar power plant",
+        "descs": ["Address : Fergana CHP", "Payback : 3 years", "Launch year : 2022"]
+      },
+      {
+        "title": "Solar power plant",
+        "descs": ["Address: Navainskaya TPP", "Payback: 4 years", "Launch year: 2022"]
+      },
+      {
+        "title": "Solar power plant",
+        "descs": ["Address: Takhiatash TPP", "Payback: 4 years", "Launch year: 2022"]
       }
     ]
   },
@@ -367,6 +379,32 @@
       "Energy Equipment Technician"
     ]
   },
+  "faq":[
+    {
+      "title":"Preparing site for installation",
+      "content":"Our experts will analyze the area and carry out the necessary work to prepare the site for the installation of the windmill, including foundation work and power supply connection."
+    },
+    {
+      "title":"Troubleshooting",
+      "content":"We will conduct a thorough diagnosis of the windmill to identify possible problems and malfunctions. This includes checking the electrical systems, mechanical components and other key elements."
+    },
+    {
+      "title":"Replacing and Rebuilding Components",
+      "content":"If necessary, we will replace or repair damaged or worn windmill components to restore efficiency and reliability."
+    },
+    {
+      "title":"Maintenance and maintenance",
+      "content":" We offer scheduled maintenance for windmills, including cleaning, lubricating, adjusting and checking the operation of the system. This will help prevent problems and ensure continuous operation of the mill."
+    },
+    {
+      "title":"Advice on the selection and installation of windmills",
+      "content":"Our experts will advise you in choosing the most suitable windmill for your needs and help you determine the best place to install it."
+    },
+    {
+      "title":"Expert opinion and analysis",
+      "content":"We provide expert opinion and analysis of the condition of the windmill, its efficiency and improvement opportunities. We will help you optimize the operation of the windmill and increase its energy efficiency."
+    }
+  ],
   "footer": [
     {
       "title": "On the site",

@@ -6,6 +6,9 @@
       <div class="cards grid grid-cols-2 md:grid-cols-3 gap-6 py-8">
         <EducationalCard v-for="data in eduArr" :key="data.id" :data="data" />
       </div>
+      <div class="flex justify-center items-end">
+        <a href="/src/assets/Хисобот-2023(январ-май).docx" class="btn" download>Download</a>
+      </div>
     </div>
 
     <div class="eduClipPath1 absolute inset-0 bg-yellowish -z-50"></div>

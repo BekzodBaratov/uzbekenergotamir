@@ -321,15 +321,27 @@
     "products": [
       {
         "title": "Quyosh elektr stansiyasi",
-        "descs": ["Manzil: Toshkent shahri. Mirzo-Ulug'bek tumani", "To'lov: 4 yil", "30 kunda ishga tushiriladi"]
+        "descs": ["Manzil: Toshkent IES", "To'lov: 4 yil", "Ishga chiqarilgan yili: 2020"]
       },
       {
         "title": "Quyosh elektr stansiyasi",
-        "descs": ["Manzil: Toshkent shahri. Mirzo-Ulug'bek tumani", "To'lov: 4 yil", "30 kunda ishga tushiriladi"]
+        "descs": ["Manzil: Muborak IES", "To'lov: 3 yil", "Ishga chiqarilgan yili: 2019"]
       },
       {
         "title": "Quyosh elektr stansiyasi",
-        "descs": ["Manzil: Toshkent shahri. Mirzo-Ulug'bek tumani", "To'lov: 4 yil", "30 kunda ishga tushiriladi"]
+        "descs": ["Manzil: Farg'ona IES", "To'lov: 5 yil", "Ishga chiqarilgan yili: 2021"]
+      },
+      {
+        "title": "Quyosh elektr stansiyasi",
+        "descs": ["Manzil : Farg'ona CHP", "To'lov muddati: 3 yil", "Ishga chiqarilgan yili: 2022"]
+      },
+      {
+        "title": "Quyosh elektr stansiyasi",
+        "descs": ["Manzil: Navainskaya IES", "To'lov: 4 yil", "Ishga chiqarilgan yili: 2022"]
+      },
+      {
+        "title": "Quyosh elektr stansiyasi",
+        "descs": ["Manzil: Taxiatosh IES", "To'lov: 4 yil", "Ishga chiqarilgan yili: 2022"]
       }
     ]
   },
@@ -367,6 +379,32 @@
       "Energetika uskunalari bo'yicha texnik"
     ]
   },
+  "faq":[
+    {
+      "title":"O'rnatish uchun sayt tayyorlanmoqda",
+      "content":"Mutaxassislarimiz hududni tahlil qiladilar va shamol tegirmonini o'rnatish uchun joyni tayyorlash uchun zarur ishlarni amalga oshiradilar, shu jumladan poydevor ishlari va elektr ta'minotiga ulanish."
+    },
+    {
+      "title":"Muammolarni bartaraf etish",
+      "content":"Biz mumkin bo'lgan muammolar va nosozliklarni aniqlash uchun shamol tegirmonining to'liq tashxisini o'tkazamiz. Bunga elektr tizimlari, mexanik komponentlar va boshqa asosiy elementlarni tekshirish kiradi."
+    },
+    {
+      "title":"Komponentlarni almashtirish va qayta qurish",
+      "content":"Agar kerak bo'lsa, samaradorlik va ishonchlilikni tiklash uchun shamol tegirmonining shikastlangan yoki eskirgan qismlarini almashtiramiz yoki ta'mirlaymiz."
+    },
+    {
+      "title":"Xizmat va texnik xizmat ko'rsatish",
+      "kontent":" Biz shamol tegirmonlariga rejali texnik xizmat ko'rsatishni taklif qilamiz, jumladan tozalash, moylash, sozlash va tizimning ishlashini tekshirish. Bu muammolarni oldini olishga va tegirmonning uzluksiz ishlashini ta'minlashga yordam beradi."
+    },
+    {
+      "title":"Shamol tegirmonlarini tanlash va o'rnatish bo'yicha maslahat",
+      "content":"Mutaxassislarimiz sizning ehtiyojlaringiz uchun eng mos shamol tegirmonini tanlashda sizga maslahat beradilar va uni o'rnatish uchun eng yaxshi joyni aniqlashga yordam beradi."
+    },
+    {
+      "title":"Mutaxassis fikri va tahlili",
+      "content":"Biz shamol tegirmonining holati, uning samaradorligi va takomillashtirish imkoniyatlari bo'yicha ekspert xulosasi va tahlilini taqdim etamiz. Biz sizga shamol tegirmonining ishlashini optimallashtirish va uning energiya samaradorligini oshirishga yordam beramiz."
+    }
+  ],
   "footer": [
     {
       "title": "Saytda",

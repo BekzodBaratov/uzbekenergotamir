@@ -8,7 +8,7 @@
         <OfferedProducts :products="store.getWaterHeater" />
       </div>
       <div>
-        <ComplatedProjects />
+        <ComplatedProjects :projects="complatedProjects" />
       </div>
     </div>
     <div class="py-12 md:py-20">
@@ -36,6 +36,15 @@ import bannerBg2 from "/src/assets/images/banner/banner_bg2.webp";
 import { reactive } from "vue";
 import { useI18n } from "vue-i18n";
 import { useEnergyProductStore } from "../../stores/energyProduct";
+
+import DescIcon1 from "/src/assets/images/icons/wallet.svg";
+import DescIcon2 from "/src/assets/images/icons/energy_power.svg";
+import DescIcon3 from "/src/assets/images/icons/location.svg";
+
+import compProj4 from "/src/assets/images/complatedProjects/4.webp"
+import compProj5 from "/src/assets/images/complatedProjects/5.webp"
+import compProj6 from "/src/assets/images/complatedProjects/6.webp"
+
 const store = useEnergyProductStore();
 const { t } = useI18n();
 
@@ -53,4 +62,70 @@ const banner = reactive({
   bgImg: bannerBg2,
   hasBtn: false,
 });
+
+const complatedProjects = [
+  {
+    id: 1,
+    image: compProj4,
+    title: t("complatedProd.products[3].title"),
+    titleKw: "2800 л",
+    descs: [
+      {
+        desc: t("complatedProd.products[3].descs[0]"),
+        descIcon: DescIcon1,
+      },
+      {
+        desc: t("complatedProd.products[3].descs[1]"),
+        descIcon: DescIcon2,
+      },
+      {
+        desc: t("complatedProd.products[3].descs[2]"),
+        descIcon: DescIcon3,
+      },
+    ],
+    reverse: false,
+  },
+  {
+    id: 2,
+    image: compProj5,
+    title: t("complatedProd.products[4].title"),
+    titleKw: "5200 л",
+    descs: [
+      {
+        desc: t("complatedProd.products[4].descs[0]"),
+        descIcon: DescIcon1,
+      },
+      {
+        desc: t("complatedProd.products[4].descs[1]"),
+        descIcon: DescIcon2,
+      },
+      {
+        desc: t("complatedProd.products[4].descs[2]"),
+        descIcon: DescIcon3,
+      },
+    ],
+    reverse: true,
+  },
+  {
+    id: 3,
+    image: compProj6,
+    title: t("complatedProd.products[5].title"),
+    titleKw: "2000 л",
+    descs: [
+      {
+        desc: t("complatedProd.products[5].descs[0]"),
+        descIcon: DescIcon1,
+      },
+      {
+        desc: t("complatedProd.products[5].descs[1]"),
+        descIcon: DescIcon2,
+      },
+      {
+        desc: t("complatedProd.products[5].descs[2]"),
+        descIcon: DescIcon3,
+      },
+    ],
+    reverse: false,
+  },
+];
 </script>
