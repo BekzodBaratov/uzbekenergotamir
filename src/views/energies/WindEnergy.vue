@@ -4,7 +4,6 @@
       <BannerCard :banner="banner" />
     </div>
     <Faq />
-    <Certificates />
     <Calculate />
     <ContactSection />
   </section>
@@ -14,7 +13,6 @@
 import BannerCard from "/src/components/cards/BannerCard.vue";
 import ContactSection from "/src/components/sections/ContactSection.vue";
 import Calculate from "/src/components/sections/Calculate.vue";
-import Certificates from "/src/components/sections/Certificates.vue";
 import Faq from "/src/components/sections/Faq.vue";
 import { useI18n } from "vue-i18n";
 

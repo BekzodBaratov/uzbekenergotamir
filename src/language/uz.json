@@ -13,7 +13,7 @@
     },
     { "name": "Issiqlik energetikasi" },
     {
-      "name": "Katalog",
+      "name": "Ishlab chiqarish",
       "submenu": ["Mahalliylashtirilgan mahsulotlar", "Sanoat bazasi"]
     },
     {
@@ -102,7 +102,7 @@
     {
       "title": "Bizning kontaktlarimiz",
       "arr": [
-        { "title": "Manzil", "desc": "Toshkent shahar Fmpra IMPpa ko'chasi 432-uy" },
+        { "title": "Manzil", "desc": "Toshkent viloyati Qibray tumani, Salar shaharchasi, “O‘zbekenergota’mir” AJ" },
         { "title": "71 818 88 88", "desc": "Biz har doim sizga yordam berishdan xursandmiz" },
         { "title": "info@sitename.ru", "desc": "Orzular bilan bog'lanishning muqobil usuli" },
         { "title": "Bizni ijtimoiy tarmoqlarda kuzatib boring" }
@@ -311,9 +311,8 @@
   "certificate": {
     "title": "Sertifikatlar",
     "descs": [
-      "O‘zbekistonda shamol energetikasining jadal rivojlanishi sharoitida UET shamol turbinalariga texnik xizmat ko‘rsatish va ta’mirlash ishlarini bajarish uchun kadrlar tayyorlashni boshladi.",
-      "UET o'quv markazini shamol turbinalariga texnik xizmat ko'rsatish va ulardan foydalanish bo'yicha kadrlar tayyorlash bo'yicha sertifikatlash, keyinchalik GWO standartlariga muvofiq qabul qilish sertifikatini berish bo'yicha ishlar boshlandi.",
-      "Asosiy asbob-uskunalar ishlab chiqaruvchi yetakchi kompaniyalar bilan UET negizida xizmat ko‘rsatish markazlarini ochish, keyinchalik ehtiyot qismlar va butlovchi qismlarni mahalliylashtirish bo‘yicha muzokaralar olib borilmoqda."
+      "Biz quyosh panellari yuqori standartlarga javob berishini tasdiqlovchi ta'sirchan sertifikatlar to'plamimiz bilan faxrlanamiz. Bu sertifikatlar bizning sifat, xavfsizlik, samaradorlik va mas'uliyatga sodiqligimizni tasdiqlaydi. Ular ishlab chiqarish jarayonlarimizni takomillashtirish va yuqori sifatli mahsulotlarni yetkazib berish bo'yicha doimiy majburiyatimizni tasdiqlaydi. Biz xalqaro standartlar va sanoat me’yorlariga sodiqligimizni tasdiqlovchi bir qator sertifikatlar bilan taqdirlandik.",
+      "Biz suv isitgichlarimiz yuqori standartlarga javob berishini tasdiqlovchi ta'sirchan sertifikatlar to'plamimiz bilan faxrlanamiz. Ushbu sertifikatlar bizning sifat, xavfsizlik, samaradorlik va ishonchlilikka sodiqligimizni tasdiqlaydi. Ular bizning ishlab chiqarish jarayonlarimizni takomillashtirish va yuqori sifatli mahsulotlarni yetkazib berish bo'yicha doimiy majburiyatimizni tasdiqlaydi. Biz xalqaro standartlar va sanoat me’yorlariga sodiqligimizni tasdiqlovchi bir qator sertifikatlar bilan taqdirlandik."
     ]
   },
   "complatedProd": {
@@ -347,20 +346,56 @@
   },
   "services": [
     {
-      "title": "O'rni himoyasi qurilmalarini ishga tushirish",
-      "description": "2001 yilda o'tkazilgan davlat tasarrufidan chiqarishdan so'ng korxona \"O'ZBEKENERGOTA'MIR\" ochiq aksiyadorlik jamiyatiga aylantirildi. O'zbekiston Respublikasining 2014 yil 6 maydagi 6-sonli Qonuniga muvofiq O‘zbekiston Respublikasining “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori O‘zbekiston Respublikasining 2014-yil 6-maydagi O‘RQ-son Qonuniga muvofiq korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyatiga o‘zgartirildi. -370-sonli “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartish va qo‘shimchalar kiritish haqida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati deb o‘zgartirildi.Davlat tasarrufidan chiqarilgach, 2001-yilda oʻtkazilgan korxona Oʻzbekiston Respublikasining 2014-yil 6-maydagi OʻRQ-370-son “Oʻzbekiston Respublikasi Qonuniga oʻzgartish va qoʻshimchalar kiritish toʻgʻrisida”gi Qonuniga muvofiq “OʻZBEKENERGOTAʼMIR” ochiq aksiyadorlik jamiyatiga aylantirildi. O‘zbekiston Respublikasi “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati etib o‘zgartirildi."
+      "title": "Har qanday turdagi bug 'va issiq suv qozonlarini ta'mirlash va sozlash",
+      "description": "shu jumladan, isitish sirtlarini ommaviy almashtirish va rekuperativ havo isitgichini qadoqlash, quvurli havo isitgichi qismlarini almashtirish, bug 'quvurlari va boshqa muhim uskunalar komponentlarini almashtirish bo'yicha standartdan yuqori ishlarni bajarish."
     },
     {
-      "title": "Qurilish maydonlarida bajarilgan geodeziya ishlari",
-      "description": "2001 yilda o'tkazilgan davlat tasarrufidan chiqarishdan so'ng korxona \"O'ZBEKENERGOTA'MIR\" ochiq aksiyadorlik jamiyatiga aylantirildi. O'zbekiston Respublikasining 2014 yil 6 maydagi 6-sonli Qonuniga muvofiq O‘zbekiston Respublikasining “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori O‘zbekiston Respublikasining 2014-yil 6-maydagi O‘RQ-son Qonuniga muvofiq korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyatiga o‘zgartirildi. -370-sonli “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartish va qo‘shimchalar kiritish haqida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati deb o‘zgartirildi.Davlat tasarrufidan chiqarilgach, 2001-yilda oʻtkazilgan korxona Oʻzbekiston Respublikasining 2014-yil 6-maydagi OʻRQ-370-son “Oʻzbekiston Respublikasi Qonuniga oʻzgartish va qoʻshimchalar kiritish toʻgʻrisida”gi Qonuniga muvofiq “OʻZBEKENERGOTAʼMIR” ochiq aksiyadorlik jamiyatiga aylantirildi. O‘zbekiston Respublikasi “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati etib o‘zgartirildi."
+      "title": "800 MVt gacha bo'lgan bug' turbinalarini ta'mirlash va sozlash",
+      "description": "shu jumladan, rotorlarni ta'mirlash va ish bosqichlari disklarini belkuraklash bo'yicha maxsus ishlarni bajarish. Rotorlardan olinadigan qismlarni olib tashlash va o'rnatish. Fitting murvatlarini almashtirish va podshipniklarni to'ldirish bilan birlashma yarmining teshiklarini tozalash."
     },
     {
-      "title": "O'rnatish ishlari",
-      "description": "2001 yilda o'tkazilgan davlat tasarrufidan chiqarishdan so'ng korxona \"O'ZBEKENERGOTA'MIR\" ochiq aksiyadorlik jamiyatiga aylantirildi. O'zbekiston Respublikasining 2014 yil 6 maydagi 6-sonli Qonuniga muvofiq O‘zbekiston Respublikasining “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori O‘zbekiston Respublikasining 2014-yil 6-maydagi O‘RQ-son Qonuniga muvofiq korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyatiga o‘zgartirildi. -370-sonli “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartish va qo‘shimchalar kiritish haqida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati deb o‘zgartirildi.Davlat tasarrufidan chiqarilgach, 2001-yilda oʻtkazilgan korxona Oʻzbekiston Respublikasining 2014-yil 6-maydagi OʻRQ-370-son “Oʻzbekiston Respublikasi Qonuniga oʻzgartish va qoʻshimchalar kiritish toʻgʻrisida”gi Qonuniga muvofiq “OʻZBEKENERGOTAʼMIR” ochiq aksiyadorlik jamiyatiga aylantirildi. O‘zbekiston Respublikasi “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati etib o‘zgartirildi."
+      "title": "800 MVt gacha generatorlarni ta'mirlash",
+      "description": "shu jumladan rotorni tortib olish va stator o'rashini to'liq almashtirish bilan."
     },
     {
-      "title": "Neft va gaz sanoati ob'ektlarini tartibga solish",
-      "description": "2001 yilda o'tkazilgan davlat tasarrufidan chiqarishdan so'ng korxona \"O'ZBEKENERGOTA'MIR\" ochiq aksiyadorlik jamiyatiga aylantirildi. O'zbekiston Respublikasining 2014 yil 6 maydagi 6-sonli Qonuniga muvofiq O‘zbekiston Respublikasining “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori O‘zbekiston Respublikasining 2014-yil 6-maydagi O‘RQ-son Qonuniga muvofiq korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyatiga o‘zgartirildi. -370-sonli “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartish va qo‘shimchalar kiritish haqida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati deb o‘zgartirildi.Davlat tasarrufidan chiqarilgach, 2001-yilda oʻtkazilgan korxona Oʻzbekiston Respublikasining 2014-yil 6-maydagi OʻRQ-370-son “Oʻzbekiston Respublikasi Qonuniga oʻzgartish va qoʻshimchalar kiritish toʻgʻrisida”gi Qonuniga muvofiq “OʻZBEKENERGOTAʼMIR” ochiq aksiyadorlik jamiyatiga aylantirildi. O‘zbekiston Respublikasi “Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida”gi qarori bilan korxona maqomi “O‘ZBEKENERGOTA’MIR” aksiyadorlik jamiyati etib o‘zgartirildi."
+      "title": "past va yuqori voltli elektr motorlarini ta'mirlash",
+      "description": "izolyatsiyani almashtirish va stator sarg'ish qismlarini tiklash bilan har qanday quvvat."
+    },
+    {
+      "title": "Har qanday nasos uskunasini ta'mirlash.",
+      "description": "Har qanday nasos uskunasini ta'mirlash."
+    },
+    {
+      "title": "Yuqori aniqlikdagi teshik ochish",
+      "description": "har qanday dizayndagi turbinalar, generatorlar va nasoslarning rotorlarining birlashma yarmida, to'g'ridan-to'g'ri uskunani o'rnatish joyida."
+    },
+    {
+      "title": "Idishlarning choklari va asosiy metalllarini ultratovush tekshiruvi",
+      "description": "tegishli xulosani berish bilan bosim va ko'tarish mexanizmlari."
+    },
+    {
+      "title": "Tebranish diagnostikasi va balansi",
+      "description": "haddan tashqari tebranishlarni yo'q qilish bilan aylanadigan mexanizmlar."
+    },
+    {
+      "title": "Kondensatorni ta'mirlash",
+      "description": "100% trubka to'plamini almashtirish va oxirgi quvur varag'ini almashtirish bilan turbo birliklar."
+    },
+    {
+      "title": "Ta'mirlash va kalibrlash",
+      "description": "asboblar, termal avtomatlashtirish va fizik-kimyoviy o'lchovlar."
+    },
+    {
+      "title": "Past va yuqori kuchlanish ishlab chiqarish",
+      "description": "0,4 kV dan 110 kV gacha bo'lgan elektrotexnika uskunalari."
+    },
+    {
+      "title": "Tebranish diagnostikasi va balansi",
+      "description": "haddan tashqari tebranishlarni yo'q qilish bilan aylanadigan mexanizmlar."
+    },
+    {
+      "title": "Tebranish diagnostikasi va balansi",
+      "description": "haddan tashqari tebranishlarni yo'q qilish bilan aylanadigan mexanizmlar."
     }
   ],
   "education": {
@@ -377,32 +412,33 @@
       "Motor",
       "CNC mashinasi operatori",
       "Energetika uskunalari bo'yicha texnik"
-    ]
+    ],
+    "other": ["ishchilar", "sana"]
   },
-  "faq":[
+  "faq": [
     {
-      "title":"O'rnatish uchun sayt tayyorlanmoqda",
-      "content":"Mutaxassislarimiz hududni tahlil qiladilar va shamol tegirmonini o'rnatish uchun joyni tayyorlash uchun zarur ishlarni amalga oshiradilar, shu jumladan poydevor ishlari va elektr ta'minotiga ulanish."
+      "title": "O'rnatish uchun sayt tayyorlanmoqda",
+      "content": "Mutaxassislarimiz hududni tahlil qiladilar va shamol tegirmonini o'rnatish uchun joyni tayyorlash uchun zarur ishlarni amalga oshiradilar, shu jumladan poydevor ishlari va elektr ta'minotiga ulanish."
     },
     {
-      "title":"Muammolarni bartaraf etish",
-      "content":"Biz mumkin bo'lgan muammolar va nosozliklarni aniqlash uchun shamol tegirmonining to'liq tashxisini o'tkazamiz. Bunga elektr tizimlari, mexanik komponentlar va boshqa asosiy elementlarni tekshirish kiradi."
+      "title": "Muammolarni bartaraf etish",
+      "content": "Biz mumkin bo'lgan muammolar va nosozliklarni aniqlash uchun shamol tegirmonining to'liq tashxisini o'tkazamiz. Bunga elektr tizimlari, mexanik komponentlar va boshqa asosiy elementlarni tekshirish kiradi."
     },
     {
-      "title":"Komponentlarni almashtirish va qayta qurish",
-      "content":"Agar kerak bo'lsa, samaradorlik va ishonchlilikni tiklash uchun shamol tegirmonining shikastlangan yoki eskirgan qismlarini almashtiramiz yoki ta'mirlaymiz."
+      "title": "Komponentlarni almashtirish va qayta qurish",
+      "content": "Agar kerak bo'lsa, samaradorlik va ishonchlilikni tiklash uchun shamol tegirmonining shikastlangan yoki eskirgan qismlarini almashtiramiz yoki ta'mirlaymiz."
     },
     {
-      "title":"Xizmat va texnik xizmat ko'rsatish",
-      "kontent":" Biz shamol tegirmonlariga rejali texnik xizmat ko'rsatishni taklif qilamiz, jumladan tozalash, moylash, sozlash va tizimning ishlashini tekshirish. Bu muammolarni oldini olishga va tegirmonning uzluksiz ishlashini ta'minlashga yordam beradi."
+      "title": "Xizmat va texnik xizmat ko'rsatish",
+      "kontent": " Biz shamol tegirmonlariga rejali texnik xizmat ko'rsatishni taklif qilamiz, jumladan tozalash, moylash, sozlash va tizimning ishlashini tekshirish. Bu muammolarni oldini olishga va tegirmonning uzluksiz ishlashini ta'minlashga yordam beradi."
     },
     {
-      "title":"Shamol tegirmonlarini tanlash va o'rnatish bo'yicha maslahat",
-      "content":"Mutaxassislarimiz sizning ehtiyojlaringiz uchun eng mos shamol tegirmonini tanlashda sizga maslahat beradilar va uni o'rnatish uchun eng yaxshi joyni aniqlashga yordam beradi."
+      "title": "Shamol tegirmonlarini tanlash va o'rnatish bo'yicha maslahat",
+      "content": "Mutaxassislarimiz sizning ehtiyojlaringiz uchun eng mos shamol tegirmonini tanlashda sizga maslahat beradilar va uni o'rnatish uchun eng yaxshi joyni aniqlashga yordam beradi."
     },
     {
-      "title":"Mutaxassis fikri va tahlili",
-      "content":"Biz shamol tegirmonining holati, uning samaradorligi va takomillashtirish imkoniyatlari bo'yicha ekspert xulosasi va tahlilini taqdim etamiz. Biz sizga shamol tegirmonining ishlashini optimallashtirish va uning energiya samaradorligini oshirishga yordam beramiz."
+      "title": "Mutaxassis fikri va tahlili",
+      "content": "Biz shamol tegirmonining holati, uning samaradorligi va takomillashtirish imkoniyatlari bo'yicha ekspert xulosasi va tahlilini taqdim etamiz. Biz sizga shamol tegirmonining ishlashini optimallashtirish va uning energiya samaradorligini oshirishga yordam beramiz."
     }
   ],
   "footer": [
@@ -429,7 +465,7 @@
     },
     {
       "title": "Bizning kontaktlarimiz",
-      "arr": ["103445, Toshkent sh. Sh.Oripar, 96A"]
+      "arr": ["Toshkent viloyati Qibray tumani, Fidokor MSG, ToshGRES ko‘chasi, 296-uy"]
     },
     ["Barcha huquqlar IES.uz tomonidan himoyalangan", "", "Supersite"]
   ]

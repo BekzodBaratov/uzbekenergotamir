@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="py-12 md:py-20">
-      <Certificates />
+      <Certificates :images="certificates" :desc="t('certificate.descs[1]')" />
     </div>
     <div>
       <Calculate />
@@ -41,9 +41,14 @@ import DescIcon1 from "/src/assets/images/icons/wallet.svg";
 import DescIcon2 from "/src/assets/images/icons/energy_power.svg";
 import DescIcon3 from "/src/assets/images/icons/location.svg";
 
-import compProj4 from "/src/assets/images/complatedProjects/4.webp"
-import compProj5 from "/src/assets/images/complatedProjects/5.webp"
-import compProj6 from "/src/assets/images/complatedProjects/6.webp"
+import compProj4 from "/src/assets/images/complatedProjects/4.webp";
+import compProj5 from "/src/assets/images/complatedProjects/5.webp";
+import compProj6 from "/src/assets/images/complatedProjects/6.webp";
+
+import certifiacteImg1 from "/src/assets/images/waterHeaterCertificate1.webp";
+import certifiacteImg2 from "/src/assets/images/waterHeaterCertificate2.webp";
+import certifiacteImg3 from "/src/assets/images/waterHeaterCertificate3.webp";
+import certifiacteImg4 from "/src/assets/images/waterHeaterCertificate4-1.webp";
 
 const store = useEnergyProductStore();
 const { t } = useI18n();
@@ -128,4 +133,6 @@ const complatedProjects = [
     reverse: false,
   },
 ];
+
+const certificates = [certifiacteImg1, certifiacteImg2, certifiacteImg3, certifiacteImg4];
 </script>

@@ -5,7 +5,7 @@
     </div>
 
     <p class="circle-number">{{ division.number }}</p>
-    <p class="text-primary2">{{ division.title }}</p>
+    <p class="text-base md:text-xl font-bold">{{ division.title }}</p>
   </div>
 </template>
 
@@ -17,7 +17,7 @@ const division = computed(() => props.division);
 
 <style>
 .card {
-  @apply rounded-lg bg-white px-2 md:px-6 pt-8 pb-16 relative;
+  @apply rounded-lg bg-white px-4 md:px-6 pt-8 pb-16 relative;
 }
 .bg-image {
   @apply absolute inset-0 opacity-0 duration-200;

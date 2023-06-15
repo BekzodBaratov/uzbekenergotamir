@@ -17,21 +17,20 @@
         <div class="flex flex-col gap-2">
           <h3 class="text-primary-white">{{ t("footer[3].title") }}</h3>
           <p>{{ t("footer[3].arr[0]") }}</p>
-          <a class="footer-link" href="tel:+998-71-778-78-78">+998-71-778-78-78</a>
-          <a class="footer-link" href="tel:+998-71-778-78-78">+998-71-778-78-78</a>
+          <a class="footer-link" href="tel:+998952550302">+998 (95) 255-03-02</a>
           <a class="footer-link" href="mailto:info@ies.uz">info@ies.uz</a>
           <div class="flex gap-2 py-3">
-            <a href="#">
+            <a href="https://www.instagram.com/uetsolaruz">
               <img class="footer-icon" src="../assets/images/footer/Vector.svg" alt="footer-icon" />
             </a>
-            <a href="#">
+            <a href="https://t.me/ozbekenergotamir">
               <img class="footer-icon" src="../assets/images/footer/Vector-1.svg" alt="footer-icon" />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/ies.uzbekistan/?ref=pages_you_manage">
               <img class="footer-icon" src="../assets/images/footer/Vector-3.svg" alt="footer-icon" />
             </a>
-            <a href="#">
-              <img class="footer-icon" src="../assets/images/footer/Vector-2.svg" alt="footer-icon" />
+            <a href="https://www.youtube.com/channel/UCeaR2jJNnRM7fGR2hUWPGFA">
+              <img class="footer-icon" src="../assets/images/footer/Vector-4.svg" alt="footer-icon" />
             </a>
           </div>
         </div>
@@ -58,8 +57,6 @@ const footerData = [
       { id: 0, name: "uzbekenergotamir.uz", href: "https://uzbekenergotamir.uz" },
       { id: 1, name: "uzenergosozlash.uz", href: "https://uzenergosozlash.uz" },
       { id: 2, name: "tpp.uz", href: "https://tpp.uz" },
-      { id: 3, name: "www.dhkjs.uz", href: "https://dhkjs.uz" },
-      { id: 4, name: "www.dhkjs.uz", href: "https://dhkjs.uz" },
       { id: 5, name: "minenergy.uz", href: "https://minenergy.uz" },
     ],
   },

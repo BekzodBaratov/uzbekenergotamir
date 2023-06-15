@@ -11,6 +11,7 @@
         <ComplatedProjects :projects="complatedProjects" />
       </div>
     </div>
+    <Certificates :images="certificates" :desc="t('certificate.descs[0]')" />
     <div>
       <Calculate />
     </div>
@@ -28,6 +29,7 @@ import OfferedProducts from "/src/components/sections/OfferedProducts.vue";
 import ComplatedProjects from "/src/components/sections/ComplatedProjects.vue";
 import Calculate from "../../components/sections/Calculate.vue";
 import ContactSection from "../../components/sections/ContactSection.vue";
+import Certificates from "../../components/sections/Certificates.vue";
 import { useI18n } from "vue-i18n";
 
 import bannerImg1 from "/src/assets/images/banner/banner4.webp";
@@ -38,9 +40,11 @@ import DescIcon1 from "/src/assets/images/icons/wallet.svg";
 import DescIcon2 from "/src/assets/images/icons/energy_power.svg";
 import DescIcon3 from "/src/assets/images/icons/location.svg";
 
-import compProj1 from "/src/assets/images/complatedProjects/1.webp"
-import compProj2 from "/src/assets/images/complatedProjects/2.webp"
-import compProj3 from "/src/assets/images/complatedProjects/3.webp"
+import compProj1 from "/src/assets/images/complatedProjects/1.webp";
+import compProj2 from "/src/assets/images/complatedProjects/2.webp";
+import compProj3 from "/src/assets/images/complatedProjects/3.webp";
+
+import certificateImg from "/src/assets/images/solarPanelCertificate1.webp";
 const store = useEnergyProductStore();
 const { t } = useI18n();
 
@@ -139,4 +143,5 @@ const complatedProjects = [
     reverse: false,
   },
 ];
+const certificates = [certificateImg];
 </script>

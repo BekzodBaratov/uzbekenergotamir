@@ -13,7 +13,7 @@
     },
     { "name": "Thermal power engineering" },
     {
-      "name": "Catalog",
+      "name": "Production",
       "submenu": ["Localized Products", "Industrial base"]
     },
     {
@@ -102,7 +102,10 @@
     {
       "title": "Our contacts",
       "arr": [
-        { "title": "Address", "desc": "Tashkent city Fmpra IMPpa street 432" },
+        {
+          "title": "Address",
+          "desc": "Tashkent region Kibray district, urban-type settlement Salar, JSC “O’zbekenergota’mir”"
+        },
         { "title": "71 818 88 88", "desc": "We are always happy to help you" },
         { "title": "info@sitename.ru", "desc": "An alternative way to contact dreams" },
         { "title": "Follow us on social networks" }
@@ -311,9 +314,8 @@
   "certificate": {
     "title": "Certificates",
     "descs": [
-      "In the context of the rapid development of wind energy in Uzbekistan, UET has begun training personnel to perform maintenance and repair work on wind turbines.",
-      "Work has begun on certification of the UET training center for training personnel in the maintenance and operation of wind turbines with the subsequent issuance of a certificate of admission in accordance with GWO standards.",
-      "Negotiations are underway with leading manufacturers of basic equipment to open service centers based on UET, with subsequent localization of spare parts and components."
+      "We are proud of our impressive collection of certifications that confirm the high standards our solar panels meet. These certifications confirm our commitment to quality, safety, efficiency and responsibility. They confirm our ongoing commitment to improving our manufacturing processes and delivering high quality products. We are recognized and have been awarded a number of certificates that confirm our commitment to international standards and industry norms.",
+      "We are proud of our impressive collection of certifications that confirm the high standards our water heaters meet. These certifications confirm our commitment to quality, safety, efficiency and reliability. They confirm our ongoing commitment to improving our manufacturing processes and delivering high quality products. We are recognized and have been awarded a number of certifications that confirm our commitment to international standards and industry norms."
     ]
   },
   "complatedProd": {
@@ -347,20 +349,56 @@
   },
   "services": [
     {
-      "title": "Puskonaladochnye raboty ustroystv relaynoy zashchit",
-      "description": "After the razgosudarstvleniya, carried out in 2001, the enterprise was reorganized into Open joint-stock company \"UZBEKENERGOTA'MIR\". In accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 According to the Law of the Republic of Uzbekistan \"Ob aktsionernykh obshchestvax i zashchite prav aktsionerov\", the status of the enterprise was changed to Aktsionernoe obshchestvo \"UZBEKENERGOTA'MIR\". After the razgosudarstvleniya, carried out in 2001, the enterprise was transformed into Open joint-stock company \"UZBEKENERGOTA'MIR\". in accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 \"Amendments and Amendments to the Law of the Republic of Uzbekistan \"Ob Aktsionernykh Obshchestvax i Zashchite Prav Aktsionerov\", the status of the enterprise has been changed to the Joint Stock Company \"UZBEKENERGOTA'MIR\". established in 2001, the enterprise was reorganized in the open joint-stock company \"UZBEKENERGOTA'MIR\" in accordance with the Law of the Republic of Uzbekistan on May 6, 2014 No. ZRU-370 \"Amendments and additions to the Law of the Republic of Uzbekistan \"Ob aktsionernyx obshchestvax i zashchite prav aktsionerov\" status predpriyatiya izmenen na Aktionernoe obshchestvo \"UZBEKENERGOTA'MIR\"."
+      "title": "Repair and adjustment of steam and hot water boilers of any type",
+      "description": "including the performance of above-standard work on the mass replacement of heating surfaces and packing of a recuperative air heater, replacement of tubular air heater sections, replacement of steam pipelines and other critical equipment components."
     },
     {
-      "title": "Geodezicheskie raboty, vypolnyaeemye na stroitelnyx ploshchadkax",
-      "description": "After the razgosudarstvleniya, carried out in 2001, the enterprise was reorganized into Open joint-stock company \"UZBEKENERGOTA'MIR\". In accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 According to the Law of the Republic of Uzbekistan \"Ob aktsionernykh obshchestvax i zashchite prav aktsionerov\", the status of the enterprise was changed to Aktsionernoe obshchestvo \"UZBEKENERGOTA'MIR\". After the razgosudarstvleniya, carried out in 2001, the enterprise was transformed into Open joint-stock company \"UZBEKENERGOTA'MIR\". in accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 \"Amendments and Amendments to the Law of the Republic of Uzbekistan \"Ob Aktsionernykh Obshchestvax i Zashchite Prav Aktsionerov\", the status of the enterprise has been changed to the Joint Stock Company \"UZBEKENERGOTA'MIR\". established in 2001, the enterprise was reorganized in the open joint-stock company \"UZBEKENERGOTA'MIR\" in accordance with the Law of the Republic of Uzbekistan on May 6, 2014 No. ZRU-370 \"Amendments and additions to the Law of the Republic of Uzbekistan \"Ob aktsionernyx obshchestvax i zashchite prav aktsionerov\" status predpriyatiya izmenen na Aktionernoe obshchestvo \"UZBEKENERGOTA'MIR\"."
+      "title": "Repair and adjustment of steam turbines up to 800 MW",
+      "description": "including performance of special works on repair of rotors and shoveling of disks of working stages. Removal and mounting of removable parts from rotors. Refining of holes of coupling halves with replacement of fitting bolts and refilling of bearings."
     },
     {
-      "title": "Montazhnye raboty",
-      "description": "After the razgosudarstvleniya, carried out in 2001, the enterprise was reorganized into Open joint-stock company \"UZBEKENERGOTA'MIR\". In accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 According to the Law of the Republic of Uzbekistan \"Ob aktsionernykh obshchestvax i zashchite prav aktsionerov\", the status of the enterprise was changed to Aktsionernoe obshchestvo \"UZBEKENERGOTA'MIR\". After the razgosudarstvleniya, carried out in 2001, the enterprise was transformed into Open joint-stock company \"UZBEKENERGOTA'MIR\". in accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 \"Amendments and Amendments to the Law of the Republic of Uzbekistan \"Ob Aktsionernykh Obshchestvax i Zashchite Prav Aktsionerov\", the status of the enterprise has been changed to the Joint Stock Company \"UZBEKENERGOTA'MIR\". established in 2001, the enterprise was reorganized in the open joint-stock company \"UZBEKENERGOTA'MIR\" in accordance with the Law of the Republic of Uzbekistan on May 6, 2014 No. ZRU-370 \"Amendments and additions to the Law of the Republic of Uzbekistan \"Ob aktsionernyx obshchestvax i zashchite prav aktsionerov\" status predpriyatiya izmenen na Aktionernoe obshchestvo \"UZBEKENERGOTA'MIR\"."
+      "title": "Repair of generators up to 800 MW",
+      "description": "including with the withdrawal of the rotor and the complete replacement of the stator winding."
     },
     {
-      "title": "Ustroystvo obektov neftyanoy i gazovoy promyshlennosti",
-      "description": "After the razgosudarstvleniya, carried out in 2001, the enterprise was reorganized into Open joint-stock company \"UZBEKENERGOTA'MIR\". In accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 According to the Law of the Republic of Uzbekistan \"Ob aktsionernykh obshchestvax i zashchite prav aktsionerov\", the status of the enterprise was changed to Aktsionernoe obshchestvo \"UZBEKENERGOTA'MIR\". After the razgosudarstvleniya, carried out in 2001, the enterprise was transformed into Open joint-stock company \"UZBEKENERGOTA'MIR\". in accordance with the Law of the Republic of Uzbekistan dated May 6, 2014 No. ZRU-370 \"Amendments and Amendments to the Law of the Republic of Uzbekistan \"Ob Aktsionernykh Obshchestvax i Zashchite Prav Aktsionerov\", the status of the enterprise has been changed to the Joint Stock Company \"UZBEKENERGOTA'MIR\". established in 2001, the enterprise was reorganized in the open joint-stock company \"UZBEKENERGOTA'MIR\" in accordance with the Law of the Republic of Uzbekistan on May 6, 2014 No. ZRU-370 \"Amendments and additions to the Law of the Republic of Uzbekistan \"Ob aktsionernyx obshchestvax i zashchite prav aktsionerov\" status predpriyatiya izmenen na Aktionernoe obshchestvo \"UZBEKENERGOTA'MIR\"."
+      "title": "Repair of low-voltage and high-voltage electric motors",
+      "description": "any power with insulation replacement and restoration of stator winding sections."
+    },
+    {
+      "title": "Repair of any pumping equipment.",
+      "description": "Repair of any pumping equipment."
+    },
+    {
+      "title": "High Precision Holemaking",
+      "description": "in the coupling halves of the rotors of turbine sets, generators and pumps of any design, directly at the installation site of the equipment."
+    },
+    {
+      "title": "Ultrasonic examination of welds and base metal of vessels",
+      "description": "pressure and hoisting mechanisms with the issuance of the corresponding conclusion."
+    },
+    {
+      "title": "Vibration diagnostics and balancing",
+      "description": "rotating mechanisms with the elimination of excessive vibration."
+    },
+    {
+      "title": "Capacitor Repair",
+      "description": "turbo units with 100% tube bundle replacement and end tubesheet replacement."
+    },
+    {
+      "title": "Repair and Calibration",
+      "description": "instruments, thermal automation and physical and chemical measurements."
+    },
+    {
+      "title": "Production of low and high voltage",
+      "description": "electrotechnical equipment from 0.4 kV to 110 kV."
+    },
+    {
+      "title": "Vibration diagnostics and balancing",
+      "description": "rotating mechanisms with the elimination of excessive vibration."
+    },
+    {
+      "title": "Vibration diagnostics and balancing",
+      "description": "rotating mechanisms with the elimination of excessive vibration."
     }
   ],
   "education": {
@@ -377,32 +415,33 @@
       "Fitter",
       "CNC Machine Operator",
       "Energy Equipment Technician"
-    ]
+    ],
+    "other": ["workers", "date"]
   },
-  "faq":[
+  "faq": [
     {
-      "title":"Preparing site for installation",
-      "content":"Our experts will analyze the area and carry out the necessary work to prepare the site for the installation of the windmill, including foundation work and power supply connection."
+      "title": "Preparing site for installation",
+      "content": "Our experts will analyze the area and carry out the necessary work to prepare the site for the installation of the windmill, including foundation work and power supply connection."
     },
     {
-      "title":"Troubleshooting",
-      "content":"We will conduct a thorough diagnosis of the windmill to identify possible problems and malfunctions. This includes checking the electrical systems, mechanical components and other key elements."
+      "title": "Troubleshooting",
+      "content": "We will conduct a thorough diagnosis of the windmill to identify possible problems and malfunctions. This includes checking the electrical systems, mechanical components and other key elements."
     },
     {
-      "title":"Replacing and Rebuilding Components",
-      "content":"If necessary, we will replace or repair damaged or worn windmill components to restore efficiency and reliability."
+      "title": "Replacing and Rebuilding Components",
+      "content": "If necessary, we will replace or repair damaged or worn windmill components to restore efficiency and reliability."
     },
     {
-      "title":"Maintenance and maintenance",
-      "content":" We offer scheduled maintenance for windmills, including cleaning, lubricating, adjusting and checking the operation of the system. This will help prevent problems and ensure continuous operation of the mill."
+      "title": "Maintenance and maintenance",
+      "content": " We offer scheduled maintenance for windmills, including cleaning, lubricating, adjusting and checking the operation of the system. This will help prevent problems and ensure continuous operation of the mill."
     },
     {
-      "title":"Advice on the selection and installation of windmills",
-      "content":"Our experts will advise you in choosing the most suitable windmill for your needs and help you determine the best place to install it."
+      "title": "Advice on the selection and installation of windmills",
+      "content": "Our experts will advise you in choosing the most suitable windmill for your needs and help you determine the best place to install it."
     },
     {
-      "title":"Expert opinion and analysis",
-      "content":"We provide expert opinion and analysis of the condition of the windmill, its efficiency and improvement opportunities. We will help you optimize the operation of the windmill and increase its energy efficiency."
+      "title": "Expert opinion and analysis",
+      "content": "We provide expert opinion and analysis of the condition of the windmill, its efficiency and improvement opportunities. We will help you optimize the operation of the windmill and increase its energy efficiency."
     }
   ],
   "footer": [
@@ -429,7 +468,7 @@
     },
     {
       "title": "Our contacts",
-      "arr": ["103445, Tashkent, st. Sh.Aripar, 96A"]
+      "arr": ["Tashkent region Kibray district, Fidokor MSG, TashGRES street, house 296"]
     },
     ["All rights reserved by IES.uz", "Creating a ", "Supersite"]
   ]

@@ -25,14 +25,16 @@
                 <img :src="icon2" alt="71 818 88 88" />
               </div>
               <div>
-                <a href="tel:71 818 88 88" class="text-xl font-semibold underline">71 818 88 88</a>
+                <a href="tel:+998952550302" class="text-xl font-semibold underline">+998 (95) 255-03-02</a>
                 <div class="font-medium">{{ t("contact[1].arr[1].desc") }}</div>
               </div>
             </div>
             <div class="flex gap-4 items-center bg-yellowish rounded-md py-3 px-4 shadow-md">
               <div><img :src="icon3" alt="info@sitename.ru" /></div>
               <div>
-                <a href="mailto:info@sitename.ru" class="text-xl font-semibold underline">info@sitename.ru</a>
+                <a href="mailto:info@uzbekenergotamir.uz" class="text-xl font-semibold underline"
+                  >info@uzbekenergotamir.uz</a
+                >
                 <div class="font-medium">{{ t("contact[1].arr[2].desc") }}</div>
               </div>
             </div>
@@ -50,7 +52,7 @@
           </div>
           <div class="map-card">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19564.88443146655!2d69.2689881804652!3d41.36776190195615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1682914007596!5m2!1sru!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4685.629881827129!2d69.36663282037938!3d41.37813792228644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef37afa712475%3A0xfc395f9c3d6abe16!2zSlNDIOKAnE_igJl6YmVrZW5lcmdvdGHigJltaXLigJ0!5e1!3m2!1sru!2s!4v1686308450713!5m2!1sru!2s"
               class="w-full rounded-md shadow-lg"
               height="450"
               style="border: 0"
@@ -75,14 +77,14 @@ import icon4 from "../../assets/images/contact/contact-icon4.svg";
 import frame1 from "../../assets/images/contact/Frame1.svg";
 import frame2 from "../../assets/images/contact/Frame2.svg";
 import frame3 from "../../assets/images/contact/Frame3.svg";
-import frame4 from "../../assets/images/contact/Frame4.svg";
+import frame4 from "../../assets/images/contact/Frame-youtube.svg";
 const { t } = useI18n();
 
 const data = [
-  { id: 0, image: frame1, href: "https://github.com/BekzodBaratov" },
-  { id: 1, image: frame2, href: "https://github.com/BekzodBaratov" },
-  { id: 2, image: frame3, href: "https://github.com/BekzodBaratov" },
-  { id: 3, image: frame4, href: "https://github.com/BekzodBaratov" },
+  { id: 0, image: frame1, href: "https://www.instagram.com/uetsolaruz" },
+  { id: 1, image: frame2, href: "https://t.me/ozbekenergotamir" },
+  { id: 2, image: frame3, href: "https://www.facebook.com/ies.uzbekistan/?ref=pages_you_manage" },
+  { id: 2, image: frame4, href: "https://www.youtube.com/channel/UCeaR2jJNnRM7fGR2hUWPGFA" },
 ];
 </script>
 

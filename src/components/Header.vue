@@ -7,6 +7,7 @@
             <img class="w-20 md:w-24" :src="header_logo" alt="header_logo" />
           </RouterLink>
         </li>
+        
         <li class="hidden lg:block">
           <ul class="flex gap-4">
             <li class="link group relative text-sm font-semibold" v-for="link in headerNav" :key="link.id">
@@ -48,7 +49,7 @@
             {{ link.name }} <img v-if="link?.submenu" src="../assets/images/header/Arrow-down.svg" alt="Arrow-down" />
           </RouterLink>
 
-          <ul v-if="link?.submenu" class="submenu pl-12">
+          <ul v-if="link?.submenu" class="submenu group-focus-within:block pl-12">
             <li v-for="subLink in link.submenu">
               <RouterLink :to="subLink.href">{{ subLink.name }}</RouterLink>
             </li>
@@ -86,6 +87,7 @@ import { ref } from "vue";
 const { t, locale } = useI18n();
 
 const mobileMenu = ref(false);
+const activeSubMenu = ref(false)
 
 const headerNav = [
   {
@@ -156,7 +158,7 @@ function changeLangHandle(langName) {
   @apply max-w-[16rem] text-center relative font-medium duration-200 hover:text-green-primary;
 }
 .submenu {
-  @apply hidden z-50 group-focus-within:block group-hover:block bg-white rounded-md p-4 min-w-max;
+  @apply hidden z-50 group-hover:block bg-white rounded-md p-4 min-w-max;
 }
 .submenu li {
   @apply duration-200  py-2 px-3 rounded-md text-black-primary text-start hover:text-green-600;

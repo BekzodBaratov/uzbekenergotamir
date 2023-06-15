@@ -22,16 +22,16 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 const eduArr = [
-  { id: 1, title: t("education.descs[0]"), number: "01" },
-  { id: 2, title: t("education.descs[1]"), number: "02" },
-  { id: 3, title: t("education.descs[2]"), number: "03" },
-  { id: 4, title: t("education.descs[3]"), number: "04" },
-  { id: 5, title: t("education.descs[4]"), number: "05" },
-  { id: 6, title: t("education.descs[5]"), number: "06" },
-  { id: 7, title: t("education.descs[6]"), number: "07" },
-  { id: 8, title: t("education.descs[7]"), number: "08" },
-  { id: 9, title: t("education.descs[8]"), number: "09" },
-  { id: 10, title: t("education.descs[9]"), number: "10" },
+  { id: 1, title: t("education.descs[0]"), number: "01", workers: 25, date: "15.02.2023 – 15.03.2023" },
+  { id: 2, title: t("education.descs[1]"), number: "02", workers: 26, date: "03.04.2023 – 14.04.2023" },
+  { id: 3, title: t("education.descs[2]"), number: "03", workers: 5, date: "15.05.2023-17.05.2023" },
+  { id: 4, title: t("education.descs[3]"), number: "04", workers: 0, date: "" },
+  { id: 5, title: t("education.descs[4]"), number: "05", workers: 30, date: "20.02.2023 – 17.03.2023" },
+  { id: 6, title: t("education.descs[5]"), number: "06", workers: 0, date: "" },
+  { id: 7, title: t("education.descs[6]"), number: "07", workers: 12, date: "01.05.2023 – 15.05.2023" },
+  { id: 8, title: t("education.descs[7]"), number: "08", workers: 0, date: "" },
+  { id: 9, title: t("education.descs[8]"), number: "09", workers: 0, date: "" },
+  { id: 10, title: t("education.descs[9]"), number: "10", workers: 56, date: "20.02.2023 – 17.03.2023" },
 ];
 </script>
 

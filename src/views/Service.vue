@@ -41,5 +41,50 @@ const services = [
     title: t("services[3].title"),
     description: t("services[3].description"),
   },
+  {
+    _id: 5,
+    title: t("services[4].title"),
+    description: t("services[4].description"),
+  },
+  {
+    _id: 6,
+    title: t("services[5].title"),
+    description: t("services[5].description"),
+  },
+  {
+    _id: 7,
+    title: t("services[6].title"),
+    description: t("services[6].description"),
+  },
+  {
+    _id: 8,
+    title: t("services[7].title"),
+    description: t("services[7].description"),
+  },
+  {
+    _id: 9,
+    title: t("services[8].title"),
+    description: t("services[8].description"),
+  },
+  {
+    _id: 10,
+    title: t("services[9].title"),
+    description: t("services[9].description"),
+  },
+  {
+    _id: 11,
+    title: t("services[10].title"),
+    description: t("services[10].description"),
+  },
+  {
+    _id: 12,
+    title: t("services[11].title"),
+    description: t("services[11].description"),
+  },
+  {
+    _id: 13,
+    title: t("services[12].title"),
+    description: t("services[12].description"),
+  },
 ];
 </script>
